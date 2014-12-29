@@ -10,12 +10,12 @@ public class Main {
 
     public static void main(String[] args) {
         Map<String, Integer> frequency = new HashMap<String, Integer>();
-        String text = "Your text goes here, actual mileage may vary";
-    	int maxNGramSize = 1;
+        String text = "Your text goes here, actual mileage may varyry";
+    	int maxNGramSize = 3;
     	
     	long start = System.currentTimeMillis();
-    	for (int beginIndex=0; beginIndex + maxNGramSize < text.length()+1; beginIndex++) {
-    		for (int actualNGramSize=1; actualNGramSize<=maxNGramSize || beginIndex+maxNGramSize > text.length();actualNGramSize++){
+    	for (int beginIndex=0; beginIndex < text.length(); beginIndex++) {
+    		for (int actualNGramSize=1; actualNGramSize<=maxNGramSize && beginIndex+actualNGramSize <= text.length();actualNGramSize++){
     			String ngram = text.substring(beginIndex, beginIndex+actualNGramSize);
     			frequency.put(ngram, frequency.getOrDefault(ngram, 0)+1);
     		}
@@ -23,7 +23,7 @@ public class Main {
 
     	
     	
-        int numOfMostFrequent = 10;
+        int numOfMostFrequent = 100;
         List<NGram> mostFreqList = new ArrayList<NGram>(numOfMostFrequent);
         
         //System.out.println(mostFreqList.get(0));
