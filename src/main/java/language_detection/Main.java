@@ -47,12 +47,9 @@ public class Main {
     			correct++;
     		} else {
     			wrong++;
-    			/*System.out.println("Distance: " + distance + ", lang: " + langId);
     			Language lang = languages.get(file.getName().substring(0, 2));
-    			
-    			System.out.println("LANG: " + lang + "fileprefix: " + file.getName().substring(0, 2));
         		int realDistance = lang.getDistance(doc);
-    			System.out.println("Distance from real: " + realDistance + ",  real lang: " + lang.getId());*/
+    			System.out.println("Distance: " + distance + " from lang: " + langId + ", but should be: " + lang.getId() +" ("+ realDistance+") DIFF: " + Math.abs(realDistance-distance) );
     		}
     	}
     	System.out.println("correct: " + new Double(correct)/(correct+wrong) + "% (" + correct + "/"+(correct+wrong)+")");
