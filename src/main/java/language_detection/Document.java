@@ -1,7 +1,3 @@
-/**
- * Copyright 2009 Zero Technologies OÜ. All rights reserved.
- * Use is subject to license terms.
- */
 package language_detection;
 
 import java.util.ArrayList;
