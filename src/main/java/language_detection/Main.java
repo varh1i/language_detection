@@ -17,9 +17,13 @@ public class Main {
     public static void main(String[] args) throws IOException {
     	long start = System.currentTimeMillis();
     	createLanguageProfiles();
+    	long profileTime = System.currentTimeMillis() - start;
+    	System.out.println("Created " + languages.size() + " profiles");
+    	System.out.println("Time for creating profiles: " + profileTime + " ms");
+    	start = System.currentTimeMillis();
     	makePredictions();
-    	
-    	System.out.println(System.currentTimeMillis() - start);
+    	long predictionTime = System.currentTimeMillis() - start;
+    	System.out.println("Time for making predictions: " + predictionTime + " ms");
     }
     
     private static void makePredictions(){
@@ -43,9 +47,15 @@ public class Main {
     			correct++;
     		} else {
     			wrong++;
+    			/*System.out.println("Distance: " + distance + ", lang: " + langId);
+    			Language lang = languages.get(file.getName().substring(0, 2));
+    			
+    			System.out.println("LANG: " + lang + "fileprefix: " + file.getName().substring(0, 2));
+        		int realDistance = lang.getDistance(doc);
+    			System.out.println("Distance from real: " + realDistance + ",  real lang: " + lang.getId());*/
     		}
     	}
-    	System.out.println("correct: " + correct + ", wrong:" + wrong);
+    	System.out.println("correct: " + new Double(correct)/(correct+wrong) + "% (" + correct + "/"+(correct+wrong)+")");
     }
     
     private static void createLanguageProfiles(){
@@ -53,18 +63,19 @@ public class Main {
     	File[] files = directory.listFiles();
     	String id = files[0].getName().substring(0, 2);
     	String text = "";
-    	for(File file : files){
-    		if(file.getName().substring(0, 2).equals(id)){
-    	        text += readFile(file);
-    	        
+    	for(int i=0; i<files.length; i++){
+    		if(files[i].getName().substring(0, 2).equals(id)){
+    	        //System.out.println("prefix: " + files[i].getName().substring(0, 2) + "name:" + files[i].getName());
+    	        i++;
+    			text += readFile(files[i]);
     		}else{
     			createLanguage(id, text);
     			text = "";
-    			id = file.getName().substring(0, 2); 
-    			readFile(file);
+    			id=files[i].getName().substring(0, 2);
     		}
     		
     	}
+    	createLanguage(id, text);
     }
     
     private static String readFile(File file){
@@ -86,16 +97,19 @@ public class Main {
 			e.printStackTrace();
 		}
         
-        return buffer.toString();
+		String result = buffer.toString(); 
+        result = result.toLowerCase();
+        //result = result.replaceAll("[^a-zA-Z0-9\\s]", "");
+        return result;
     }
     
     public static void createLanguage(String id, String text){
     	Document doc = new Document(text);
         List<NGram> mostFreqList = doc.getMostFrequentTerms(MAX_NGRAM_SIZE, NUM_OF_MOST_FREQ_TERMS);
-        System.out.println("\nID: " + id);
-        for(NGram ngram:mostFreqList){
+        //System.out.println("\nID: " + id);
+        /*for(NGram ngram:mostFreqList){
         	System.out.println("term:\"" + ngram.getText() + "\", occur:" + ngram.getFrequency());
-        }
+        }*/
         
         languages.put(id, new Language(id, mostFreqList));
         
