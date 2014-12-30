@@ -3,4 +3,13 @@
   <groupId>bme</groupId>
   <artifactId>language_detection</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  
+  <dependencies>
+  	<dependency>
+  		<groupId>org.jsoup</groupId>
+  		<artifactId>jsoup</artifactId>
+  		<version>1.7.2</version>
+  	</dependency>
+  </dependencies>
 </project>

@@ -4,9 +4,12 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
+import org.jsoup.Jsoup;
 
 /**
  * @author varh1i
@@ -34,6 +37,52 @@ public class ReaderUtil {
     	}
     	createLanguage(id, text);
     	return languages;
+    }
+	
+	public static Map<String, Language> createLanguageProfilesEurGov(Map<String, List<String>> filesByLanguage){
+    	
+    	for(String lang: filesByLanguage.keySet()){
+    		List<String> files = filesByLanguage.get(lang);
+    		String text = "";
+    		for(String file: files){
+    			File tmpFile = new File("src/main/resources/naacl2010-langid/EuroGOV/"+file);
+    			text += readFile(tmpFile);
+    		}
+    		text = Jsoup.parse(text).text();
+    		createLanguage(lang, text);
+    	}
+    	return languages;
+    }
+	
+	public static Map<String, List<String>> readEurGovMetaFile(){
+    	Map<String, List<String>> filesByLanguage = new HashMap<String,List<String> >();
+    	
+    	FileReader fr;
+		BufferedReader br;
+		try {
+			fr = new FileReader(new File("src/main/resources/naacl2010-langid/EuroGOV.meta"));
+			br = new BufferedReader(fr);
+	        String line;
+	        
+	        while((line = br.readLine()) != null){
+	        		String[] tokens = line.split("\t");
+	        		String lang = tokens[2];
+	        		String filename = tokens[0];
+	        		List<String> list = filesByLanguage.get(lang);
+	        		if(list == null){
+	        			list = new ArrayList<String>();
+	        		}
+	        		list.add(filename);
+	        		filesByLanguage.put(lang, list);
+	        }
+	        br.close();
+	        fr.close();
+		} catch (IOException e) {
+			System.err.println("Couldn't read files");
+			e.printStackTrace();
+		}
+        
+        return filesByLanguage;
     }
 	
 	public static String readFile(File file){
