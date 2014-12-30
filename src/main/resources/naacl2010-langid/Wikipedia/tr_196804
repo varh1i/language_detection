@@ -1,0 +1,9 @@
+'''Ticari Marka Genişletilebilir Biçimlendirme Dili''' (XML), ticari marka faaliyetlerine ve Sınai Mülkiyet Ofisleri ile bunların ortakları veya kullanıcıları arasındaki ticari marka bilgisi alışverişine yönelik bir açık XML standardıdır.
+Başlangıçtaki hedef ticari marka bilgisi alışverişine yönelik XML Standardının belirlenmesiydi. Teknik özelliklerin belirlenmesi sırasında ve WIPO Standardı ST.66’nın oluşturulmasından sonra, aşağıdaki gibi diğer hedefler eklenmiştir:
+TM-XML, İç Pazarda Uyumlaştırma Ofisi’nin Haziran 2003’te oluşturduğu bir çalışma grubu tarafından tanımlanmıştır. 
+26 Mayıs 2006’da web sitesi TM-XML.org’da 1.0 Final sürümü yayımlanmadan önce, yorum için sekiz taslak sürüm yayımlanmıştır (sürüm 0.1’den 0.7’ye ve 1.0 Taslak). 
+TM-XML 1.0 Final Sürümü, Bilgi Teknolojileri Daimi Komitesi / Standartlar ve Belgelendirme Çalışma Grubunun (BTDK/SBÇG) 19-22 Mart 2007’de Cenevre’de gerçekleştirdiği 8. Oturumu sırasında kabul edilen ST.66 isimli bir WIPO Standardının oluşturulması için taban olarak önerilmiştir.
+! Sürüm!! Planlanan!! İçerik
+!TM-XML Sürümü 2.0
+!TM-XML Sürümü 3.0
+ : Tasarım / Endüstriyel Tasarım için XML Standardı

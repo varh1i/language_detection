@@ -1,0 +1,21 @@
+<noinclude>
+<!--
+  N'insérer AUCUN blanc ou saut de ligne avant < noinclude > ou après < /noinclude >.
+-->
+Ce modèle permet de présenter une tribu ou un village de Nouvelle-Calédonie sous forme d'un tableau apparaissant verticalement sur la droite d'un article.
+Vous pouvez placer ce modèle dans un article, généralement au début, en utilisant la syntaxe suivante et en remplissant chaque champ connu (après le signe « = ») avec la valeur adaptée :
+ <nowiki>{{</nowiki>Tribu NC
+ |nom=
+ |province=
+ |commune=
+ |district=
+ |statut=
+ |chef=
+ |lat=
+ |long=
+ |pop=
+ <nowiki>}}</nowiki>
+</noinclude><div>
+! colspan="2" style="background-color: #ddffdd" | <font size="3"> '''{{{nom}}}'''
+</div><noinclude>
+</noinclude>

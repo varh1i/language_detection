@@ -1,0 +1,36 @@
+'''Plescop''' is een gemeente in het  departement  (regio ) en telt 4166 inwoners (2004). De plaats maakt deel uit van het arrondissement .
+De oppervlakte van Plescop bedraagt 23,4 km², de bevolkingsdichtheid is 178,0 inwoners per km². 
+Onderstaande figuur toont het verloop van het inwonertal (bron: ).
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:5100 color:gray1 width:1       
+  from:start till:end             
+  bar:3400 color:gray1              
+  from:start till:end            
+  bar:1700 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,56)(84,60) color:blue  width:2 #1962 tot 1968. Inwonertal 1962: 1089 1968: 1209
+  points:(84,60)(100,82)    color:blue    width:2 #1975: 1857
+  points:(100,82)(128,109)   color:blue    width:2 #1982: 2678
+  points:(128,109)(160,119)   color:blue    width:2 #1990: 2966
+  points:(160,119)(196,142)   color:blue    width:2 #1999: 3671
+  points:(196,142)(228,159)     color:blue    width:2 #2004/5 
+  
+</timeline>     
+<!-- Bron: Frans bureau voor statistiek. Cijfers inwoneraantal volgens de definitie "population sans doubles comptes" --> 

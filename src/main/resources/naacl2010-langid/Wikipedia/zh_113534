@@ -1,0 +1,25 @@
+ImageSize  = width:200 height:50
+PlotArea   = width:180 height:30 left:10 bottom:20
+TimeAxis   = orientation:horizontal
+DateFormat = yyyy
+Period     = from:304 till:589
+AlignBars  = early
+ScaleMajor = increment:135 start:304
+Colors =
+  id:canvas value:rgb(1,1,0.85)
+BackgroundColors = canvas:canvas
+PlotData =
+  width:15 color:black
+  bar:era from:start till:end
+  bar:era from:304 till:439 color:yellow
+  bar:era from:420 till:589 color:orange
+  bar:era from:439 till:581 color:red
+  bar:era from:386 till:534 color:black
+  bar:era from:409 till:423 color:green
+  bar:era from:416 till:423 color:blue
+</timeline>
+'''泰常'''（四月-十二月）是明元帝的年號，歷時7年餘。
+泰常八年十一月太武帝即位沿用。
+!泰常!!元年!!二年!!三年!!四年!!五年!!六年!!七年!!八年
+!
+!

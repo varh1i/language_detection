@@ -1,0 +1,5 @@
+ <small class="plainlinks"><nowiki>[</nowiki>&nbsp;·&nbsp;{{#ifexist:Wikipédia:Pages à supprimer/Catégorie:{{ucfirst:{{{1}}}}}|&nbsp;·&nbsp;}}<!--
+-->{{#ifexist:Wikipédia:Liste des articles non neutres/Catégorie:{{ucfirst:{{{1}}}}}|&nbsp;·&nbsp;}}<nowiki>]</nowiki></small><noinclude>
+----
+Similaire à {{m|L}} mais pour le suivi de catégories en sous-pages.
+</noinclude>

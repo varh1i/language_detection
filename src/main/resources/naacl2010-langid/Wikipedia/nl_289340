@@ -1,0 +1,36 @@
+'''Beaurieux''' is een gemeente in het  departement  (regio ) en telt 175 inwoners (2005). De plaats maakt deel uit van het arrondissement .
+De oppervlakte van Beaurieux bedraagt 7,3 km², de bevolkingsdichtheid is 24,0 inwoners per km². 
+Onderstaande figuur toont het verloop van het inwonertal (bron: ).
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:300 color:gray1 width:1       
+  from:start till:end             
+  bar:200 color:gray1              
+  from:start till:end            
+  bar:100 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,142)(84,137) color:blue  width:2 #1962 tot 1968. Inwonertal 1962: 215 1968: 207
+  points:(84,137)(100,128)    color:blue    width:2 #1975: 191
+  points:(100,128)(128,120)   color:blue    width:2 #1982: 176
+  points:(128,120)(160,123)   color:blue    width:2 #1990: 182
+  points:(160,123)(196,121)   color:blue    width:2 #1999: 178
+  points:(196,121)(228,119)     color:blue    width:2 #2004/5 
+  
+</timeline>     
+<!-- Bron: Frans bureau voor statistiek. Cijfers inwoneraantal volgens de definitie "population sans doubles comptes" --> 

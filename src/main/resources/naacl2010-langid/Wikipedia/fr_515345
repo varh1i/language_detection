@@ -1,0 +1,77 @@
+Si vous souhaitez discuter de l''''évaluation''' d'un article, veuillez consulter .
+Si vous souhaitez au contraire discuter du contenu d'un article particulier, vous pouvez le faire en ajoutant un message ; les participants du projet promettent de réagir rapidement à votre demande. 
+<center><big>'''[http://fr.wikipedia.org/w/index.php?title=Projet:Mathématiques/problème_sur_un_article&action=edit&section=new Ajouter une discussion]'''</big><br /> Mettez pour titre le titre de l'article concerné.</center>
+Peut-être un petit approfondissement comportant notamment les preuves et schémas de raisonnement concernant ces sujets de la théorie des ensembles serait-il approprié.
+PS: j'ai commencé par ajouter les démonstrations (boites déroulantes) manquantes des propriétés relatives aux '''s''' cf. [http://fr.wikipedia.org/wiki/Discuter:Surjection discussion].
+Cordialement.
+Cette page de discussion n'a pas l'air d'attirer les foules, mais je tente... L'article  prétend qu' « Aucun nombre rationnel n'est normal dans aucune base, puisque la suite de chiffres dans le développement des nombres rationnels est périodique à partir d'un certain rang. »
+Or, le rationnel 1234567890/9999999999 = 0,1234567890123456789... me semble tout ce qu'il y a de plus normal en base 10.
+En fait, je penche pour une mauvaise traduction de (en) « No rational number is normal to any base, since the digit sequences of rational numbers are eventually periodic. »
+Voilà, j'ose pas toucher moi-même les articles de maths, donc si quelqu'un a 5 minutes pour jeter un coup d'œil... ;)--  <sup></sup> 16 mars 2007 à 09:09 (CET)
+Ça commence mal : il n'y a pas accord sur la définition ! L'article était endormi et laissé dans un état proche de l'ébauche ; suite à la discussion  qui en a fait mention, on pourrait réveiller un peu tout ça (voir en page de discussion de l'article). -- 2 janvier 2007 à 15:44 (CET)
+Je ne comprends pas cet article : en l'état, il propose de calculer les dérivées du polynôme d'interpolation de Lagrange aux points d'interpolation. Calculer les dérivées d'un polynôme sans application, ce n'est pas exaltant. Je me demande toutefois s'il ne pourrait pas exister des applications en analyse numérique, en lien avec les . Si personne ne sait qu'en faire, je proposerai en PàS. 10 novembre 2006 à 09:06 (CET)
+Bonjour,
+je viens de compléter un petit peu l'article  en ajoutant un raisonnement logique, mais je ne suis pas sur de ça validité, si quelqu'un pouver vérifier. meci.
+&nbsp;-  <small> - 11 février 2006 à 11:17 (CET)</small>
+J'ai fait rapidement le tour du portail et de catégories comme  et  sans trouver d'articles sur le calcul du temps. Par exemple comment additionner ou soustraire deux heures ? Seul l'article  aborde un peu le sujet mais on s'éloigne des maths élémentaires.  1 juin 2006 à 21:14 (CEST)
+Bonjour,
+il y a un problème sur l'article schéma qui confond le concept habituel et le concept mathématique... Je pense qu'il faudrait créer plusieurs articles (dont un du genre schéma (au sens de la géométrie algébrique)).  27 mars 2006 à 01:02 (CEST)
+C'est aussi en analyse numérique un remplacement d'une dérivé par des différences finies  mais la page d'homonymie ne donne pas cette page quand on tombe dessus et je ne sais pas comment faire pour qu'elle apparaisse 
+A l'accueil de Wikipédia, on trouvait hier une invite pour l'article sur .  Il n'y avait rien dans cet article sur la  démontrée très récemment par Thomas C. Hales.   Je note qu'il n'y a pas d'article sur cette actualité de math (l'empilement optimal des sphères) pourtant facilemement vulgarisable.  Je n'ai hélas ni la compéténce, ni le temps pour le faire. 11 avril 2006 à 08:15 (CEST)
+J'ai crée il y a qq temps la catégorie Mathématicien anglais, car j'avais vu que la catégorie mathématicien irlandais existait. Mais je n'avais pas vu qu'il existait également une catégorie mathématicien britannique. Comment trier et homogénéiser cela, sans faire double emploi?  2 mai 2006 à 22:05 (CEST)
+Cet article semble se résumer à une citation, puis à une courte explication fumeuse sur Matrix. Bon, c'est vrai, le film est génial (ça explose pas mal). Mais je n'y vois aucune réflexion philosophique, encore moins un rapprochement avec Platon. (Ne pas tomber dans les pièges des publicités.)
+Non, sérieusement, il y a plus intéressant à dire. Je ne me prétends pas philosophe mais je lis l'allégorie de deux façons supplémentaires :
+Euh ... Par pitié, si quelqu'un développe la seconde position, qui est centrale,
+Personnellement, j'inverserais les titres :  et .
+, 23h49, bonne nuit tt le monde !
+Les probas, c'est pas trop mon truc. Est-ce que cet article dit des choses différentes de ? -  18 janvier 2007 à 11:23 (CET)
+Une IP en page de discussion vient de signaler que l'exemple numérique n'est pas cohérent. J'ai refait les calculs. il me semble que l'IP a raison et que les calculs sont faux. Cette page est quasi abandonnée: créé par {{u|Thomasimov}} peu présent et complétée par {{u|Jspierre}} qui a fait une courte apparition. Je connais trop peu de choses sur le sujet et Fisher est une connaissance (?) trop éloignée pour que je puisse relire et corriger l'article. Une bonne âme peut-elle s'en charger? Merci.  16 avril 2007 à 10:32 (CEST)
+Je sais pas trop quoi faire de cet article orphelin. Une redirection vers  (où le critère est en partie formulé, mais dans une forme beaucoup plus obscure pour le non-inité) ? vers ? Le laissez tel quel? -  4 août 2007 à 18:33 (CEST)
+Bonjour à toutes et tous,
+Une fusion a été demandée entre les deux articles cités en titre (). N'étant absolument pas compétent dans ce domaine et sachant que  a subi de vives critiques (négatives) de la part de l'un participant du projet Mathématiques (cf le Bistro du 24 janvier 2007), je demande l'aide de toute bonne volonté pour déterminer le devenir de ces deux articles. Faites vos propositions sur . D'avance, un grand merci pour votre aide. &#124; 8 août 2007 à 12:53 (CEST)
+L'intervention d'un mathématicien est requise pour corriger la formule, actuellement en rouge, qui se trouve dans le paragraphe "Analyse complexe" de l'article sur Cauchy -:)  27 août 2007 à 10:13 (CEST)
+Ce théorème existe-t-il vraiment ? Peut-on alors ajouter au moins une référence ? Merci.  10 septembre 2007 à 13:54 (CEST)
+Mêmes questions.  10 septembre 2007 à 14:51 (CEST)
+Article sans catégorie. Je ne fais que le signaler au passage pour vérification / validation par un spécialiste. -  10 septembre 2007 à 21:54 (CEST)
+Coucou à tous. Voilà, je ne sais pas trop quoi penser de cet article, en dehors qu'il n'est pas du tout rédigé dans un style encyclopédique. Cela semble concerner les mathématiques ou quelque chose s'en rapprochant. Je pense que vous saurez quoi en faire {{sourire}}&nbsp;  <sup><small> &#91;&#93;</small></sup> 18 septembre 2007 à 00:51 (CEST)
+Existe-t-il une référence où le théorème de Bézout est appelé ainsi ? Dans ce cas, il faudrait le préciser dans l'article, ou sinon supprimer les redirects ...  31 octobre 2007 à 19:14 (CET)
+Même question concernant la formule de Brahmagupta...  31 octobre 2007 à 19:20 (CET)
+Je suis surpris de constater que l'article , après plus de 3 ans d'exitence et des dizianes de contributions, n'ait toujours pas de page de discussion. Pourtant les motifs de discussion sur cette page ne manquent pas. Exemples :
+Bon, j'arrête, sinon je m'énerve. Quelqu'un trouve-t-il mon intervention pertinente, ou nage-t-on dans l'autosatisfaction ? --  () 14 janvier 2008 à 22:16 (CET)
+Je ne parle pas le français comme angue maternelle. Qu'est-ce qui est un ?
+C'est cool, si tu crées un article. --&nbsp;&nbsp; 15 janvier 2008 à 14:58 (CET)
+bonjour
+j'ai besoin d'un renseignement sur le calcul de charge d'une grange dont le plancher est en fer I qui date de 1896
+je veux mettre des ballots de paille de 350kg sur le chant je voulais savoir si vous pouvez m'aider ou qq'un d'autre
+si oui je vous envoi les infos lxLxS mon@ <small>adresse mail supprimée</small> mettre le sujet dans objet
+Bonjour
+Je souhaite vous proposer un jeu sur la mathématique litteraire dont le contenu se trouve dans mon jeu de société qui s'appelle "Bamba"(lettre mathématique)sur un chronos.
+le jeu peut aussi etre utilisé pour la codification litteraire pour plusieurs services d'utilité publique.
+Un petit jeu de société ,tres simple à jouer et facile à exploiter dans le cadre de Nintendo DS.
+Mon soucie est de vous le presenter parmi mes jeu de société et pour servir dans le console de Nintendo ds;Voici mon mail <small>adresse mail supprimée</small>
+Esperant que ma demande sera lit et une suite favorable me sera reservé.
+ JeanSukama Bamba Artiste createur
+Serait-il possible que quelqu'un m'aide a mettre au point les articles sur les  classiques?
+Je m'attarde sur les  mais les autres polynômes plus compliqués sont a revoir et a parfaire car il subsiste un trop grand nombre de lacunes sur leurs articles respectifs.
+Sorry for using English, but my French is not good enough.
+Most Wikipedias use the Weierstrass version for the definition of the limit of a function. In your article , however, you use a slightly different version; the Weierstrass definition is called "limite pointée". What is the reason for this?
+Feel free to answer in French; I will try to understand. -- () 7 mars 2008 à 09:16 (CET)
+Maths de 6°, rien sous Google...  () 8 mars 2008 à 02:17 (CET)
+Créé par IP, c'est du chinois pour moi. Si quelqu'un peut vérifier si c'est sérieux (et mettre quelques mots intelligibles en ce cas) ou un canular, merci !  <sup><small></small></sup> 22 mars 2008 à 22:10 (CET)
+(déplacé depuis  au cas où cet article serait supprimé)
+Comment faire pour qu'un mathématicien vérifie ça ?? -- () 19 mars 2008 à 11:37 (CET)
+Bonjour,
+J'ai un problème sur l'article {{a|Loto}} avec {{u|Popoh l'indien}} qui a [http://fr.wikipedia.org/w/index.php?title=Loto&diff=27665775&oldid=27611623 ajouté] un paragraphe incompréhensible concernant le calcul de la probabilité de gain au Loto sur n tirages.  J'ai vérifié le calcul précédent, [http://fr.wikipedia.org/w/index.php?title=Loto&diff=27676162&oldid=27676049 ajouté] le détail du calcul et tenté longuement de convaincre mon interlocuteur que des principes de base du calcul des probabilités lui échappent sur  et que l'article est correct, mais il [http://fr.wikipedia.org/w/index.php?title=Loto&diff=27678819&oldid=27676270 s'obstine] a indiquer que le calcul est contesté et à [http://fr.wikipedia.org/w/index.php?title=Loto&diff=27709861&oldid=27708097 renvoyer] vers la pdd. Si quelqu'un peu jeter un œil à ceci et suivre l'article, je lui en serais reconnaissant. —  <sup><small>&#91;&#93;</small></sup> 23 mars 2008 à 12:58 (CET)
+Dans l'article sur  on écrit (pour l'exemple donné par calculatrice) que "M et n sont parfaitement identifiables". Or, nul part dans l'article on n'indique ce qu'est "M" ou "n" (bon, "n" on s'en doute, mais "m"???) 
+Je ne connais absolument rien à ces trucs de  (et pas grand chose en mathématiques, j'en ai bien peur), mais ça n'apparaît pas clair pour le néophyte... Quelqu'un peu faire quelque chose??? J'ajoute qu'il m'a semblé pertinent d'inclure la mention du portail des mathématiques, mais je n'irai pas plus loin (je ferais des gaffes, de toute façon...). Merci de la part de tous les s en maths!!  () 26 mars 2008 à 01:05 (CET)
+Bonjour. J'ai laissé  de l'article. Je vous invite à aller y jeter un oeil.  <sup><small> &#91;&#93;</small></sup>
+Bonjour à tous!
+En passant sur l'article de la conjecture de Goldbach, j'ai vu que celui-ci présentait la version faible et la version forte de la conjecture, en disant que la forte impliquait la faible. Mais j'ai l'impression que la faible implique aussi la forte, qu'en gros, elles sont équivalentes, non? Je crois même l'avir démontré (mais j'ai pu me tromper, hein, je ne suis pas infaillible):
+Si tout nombre peut s'écrire comme somme au plus de trois nombres premiers, alors a fortiori tout nombre pair peut s'écrire comme somme de trois nombres premiers.
+Si le nombre pair est égal à 4, il peut s'écrire 2+2, s'il est égal à 6, c'est 3+3, le problème est réglé.
+On a donc 2n=a+b+c, a,b,c premiers, cas où n>3
+Bien entendu, a, b, et c ne peuvent pas être tous égaux à 2.
+Supposons qu'aucun d'entre eux ne soit égal à deux.
+On sait que 4=2+2, 6=3+3, et pour tout nombre supérieur à 8, au moins a,b, ou c est strictement supérieur à 2, et comme il est premier il est impair. Supposons que ce soit c qui est impair, on a 2n-c=a+b, avec a et b premiers, et 2n-c est impair, et donc a+b impair, et donc soit a soit b est impair, et comme a et b sont premiers, cela veut dire que a ou b vaut 2, on va considérer que c'est a qui vaut 2 (et donc cela veut dire que notre supposition est forcément fausse, il y en a toujours un qui est égal à 2 pour tout nombre pair supérieur à 8), et donc 2n=2+b+c, et donc 2(n-1)=b+c, et donc le nombre pair 2(n-1) s'écrit comme somme de deux nombres premiers.
+Toute mon estime à celui qui découvrira la faute dans le raisonnement ci-dessus. () 14 mai 2008 à 10:35 (CEST)
+Comme je l'ai écrit sur la page de discussion, la correction ne règle pas le problème. () 14 mai 2008 à 16:01 (CEST)

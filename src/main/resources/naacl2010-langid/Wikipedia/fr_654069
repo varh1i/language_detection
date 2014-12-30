@@ -1,0 +1,31 @@
+En  et en , la '''transformée de Hilbert''', ici noté <math>\mathcal{H}</math>, d'une fonction à variable réelle, <math>s(t)\,</math>, est obtenue par  du signal <math>s(t)\,</math> avec <math>1/(\pi t)\,</math>, ce qui donne <math>\widehat s(t)</math>. De plus, la transformée de Hilbert <math>\widehat s(t)</math> peut être interprétée comme la sortie d'un système linéaire invariant avec comme entrée <math>s(t)\,</math>, qui est un système de réponse impulsionnelle <math>1/(\pi t)\,</math>. C'est un outil mathématique très utilisé en théorie du signal pour décrire l'enveloppe complexe d'une grandeur réelle modulée par un signal (voir plus loin pour plus d'explications).
+La transformée de Hilbert tient son nom du mathématicien .
+Voici la définition exacte de la transformée de Hilbert :
+où
+en considérant l'intégrale comme une intégrale de Cauchy (ce qui revient à enlever les points de singularité à <math>\tau = t\,</math> et <math>\tau=\pm \infty\,</math>).
+On peut montrer que si <math> s\in L^p(\mathbb{R})</math>, alors <math> \mathcal{H}(s)</math> est bien définie et dans <math>L^p(\mathbb{R})</math> pour <math> 1<p<\infty </math>.
+Il s'ensuit que la transformation de Hilbert d'un signal fréquentiel donné par la transformée de Fourier :
+où
+\ \ 1, & \mbox{for } \omega > 0,\\
+\ \ 0, & \mbox{for } \omega = 0,\\
+-1, & \mbox{for } \omega < 0,
+\end{cases}</math> qui est souvent appelé fonction de signe.
+Ainsi :
+La transformée de Hilbert a pour effet de tourner de +90° la composante de fréquence négative de <math>s(t)\,</math> et de &minus;90° la composante de fréquence positive.
+On peut remarquer que <math>H^2(\omega ) = -1\,</math>. Donc si on multiplie l'équation précédente par <math>-H(\omega )\,</math> on obtient :
+où la '''transformée de Hilbert inverse''' apparait clairement :
+! Signal<br /><math>s(t)\,</math>
+! transformée de Hilbert<br /><math>\mathcal{H}\{s\}(t)</math>
+De nombreux signaux peuvent être modélisés par le produit d'un signal harmonique à support borné, <math>s_m(t)\,</math>, et d'une "porteuse" sinusoïdale :
+s(t) = s_m(t) \cdot \cos(\omega t + \varphi)\,
+</math>
+Lorsque <math>s_m(t)\,</math> n'a pas de composante fréquentielle au delà de la fréquence de la porteuse, <math>\frac{\omega}{2\pi}</math> Hz, alors :
+Donc, la transformée de Hilbert peut être simplement vue comme un circuit qui produit un déphasage de 90° de la fréquence de la porteuse. De plus :
+d'où on peut reconstruire la porteuse. Puis le message peut être extrait de &nbsp;<math>s(t)\,</math> par une démodulation cohérente.
+Une représentation analytique d'un signal est définie ainsi à l'aide de la transformée de Hilbert :
+Par exemple pour le modèle à bandes étroites, la représentation analytique est :
+Cette opération complexe  enlève les composantes de fréquence négative de <math>s_m(t)\,</math>. Dans ce cas, la partie imaginaire du résultat est la transformée de Hilbert de la partie réelle. C'est donc une manière indirecte de former une transformée de Hilbert.
+Alors que la représentation analytique d'un signal n'est pas nécessairement analytique, il existe un lien avec les fonctions analytiques, qui est en fait la façon dont la transformée de Hibert est apparue historiquement. L'idée est la suivante. Commençons avec une fonction
+on peut l'étendre à une fonction harmonique sur <math> \mathbb{R}^2_+ </math>, le demi-plan de  (demi-plan supérieur du plan complexe), à l'aide d'une convolution avec le noyau de . Toute fonction harmonique est la partie réelle d'une fonction analytique. Maintenant on considère la partie imaginaire d'une fonction analytique, en particulier sa valeur à la frontière. Il apparaît que les valeurs à la frontière sont <math> \mathcal{H}(f) </math>. Il s'en suit donc que la fonction analytique peut être décrite à l'aide de l'intégrale de Poisson de <math> f+i\mathcal{H}(f) </math>.
+La fonction ''h'' avec ''h''(''t'') = 1/(π&nbsp;''t'') est un filtre non causal et donc ne peut pas être faite telle quelle, si <math>s</math> est un signal dépendant du temps. Si <math>s</math> est une fonction à variable non temporelle, par exemple des variables spatiales, la non-causalité ne doit pas être un problème. Le filtre est de plus à support non borné, ce qui peut être un problème dans certaines applications. Un autre problème peut apparaître du fait du comportement à fréquence nulle, ce qui peut être évité en s'assurant que <math>s</math> ne contient pas de composante continue.
+Une implémentation pratique implique dans de nombreux cas qu'un filtre à support fini, qui peut de plus être rendu causal grâce à un délai raisonnable, est utilisé pour approximer une simulation informatique. Cette approximation peut aussi impliquer que seule une plage de fréquence spécifique est sujette au changement de phase dû à la transformation de Hilbert.

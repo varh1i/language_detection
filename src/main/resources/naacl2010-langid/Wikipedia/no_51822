@@ -1,0 +1,52 @@
+ImageSize  = width:160 height:670
+PlotArea   = width: 26 height:530 left:50 bottom:110 # alignment is wrong when plotarea width (25) equals bar width (25)
+                                                    # will be fixed in next EasyTimeline update  
+AlignBars  = early
+DateFormat = yyyy
+Period     = from:1969 till:2007
+TimeAxis   = orientation:vertical
+ScaleMajor = unit:year increment:4 start:1969
+Define $dx = 25 # shift text to right side of bar
+Legend     = columns:1 left:20 top:90 columnwidth:300
+Colors =
+ id:AP value:red legend:DNA
+ id:H value:blue legend:H
+ id:KRF value:yellow legend:KrF
+ id:SP value:green legend:SP
+ id:V value:orange legend:V
+ id:SV value:pink legend:SV
+PlotData=
+  bar:Leaders width:25 mark:(line,white) align:left fontsize:S
+  from:1971  till:1972 shift:($dx,-6)   color:AP text:
+  from:1972  till:1973 shift:($dx,-5)   color:SP  text:
+  from:1973  till:1973 shift:($dx,-4)   color:SP text:
+  from:1973  till:1974 shift:($dx,0)   color:AP text:
+  from:1974  till:1979 shift:($dx,-5)   color:AP  text:
+  from:1979  till:1981 shift:($dx,-3)   color:AP text:
+  from:1981  till:1983 shift:($dx,-3)   color:H text:
+  from:1983  till:1986 shift:($dx,-3)   color:SP  text:
+  from:1986  till:1989 shift:($dx,-3)   color:AP  text:
+  from:1989  till:1990 shift:($dx,-3)   color:SP  text:
+  from:1990  till:1997 shift:($dx,-3)   color:AP  text:
+  from:1997  till:2000 shift:($dx,-3)   color:V  text:
+  from:2000  till:2001  shift:($dx,-3)   color:AP text:
+  from:2001  till:2004  shift:($dx,-3)   color:H text:
+  from:2004  till:2005  shift:($dx,-3)   color:KRF text:
+  from:2005  till:2007 shift:($dx,-3)   color:SV  text:
+  from:2007  till:end shift:($dx,-3)   color:SV  text:
+</timeline>
+'''Liste over norske miljøvernministre'''.  ble opprettet  .
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

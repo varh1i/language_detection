@@ -1,0 +1,13 @@
+'''Độ cảm từ''' là đại lượng  đặc trưng cho khả năng  của , hay nói lên khả năng phản ứng của chất dưới tác dụng của  ngoài. Độ cảm từ còn có tên gọi khác là '''hệ số từ hóa''' (không nhầm với ). Độ cảm từ thể hiện mối quan hệ giữa  (là đại lượng nội tại) và  ngoài, nên thường mang nhiều ý nghĩa vật lý gắn với các tính chất nội tại của vật liệu.
+Độ cảm từ, thường được ký hiệu là <math>\chi</math>, hay <math>\chi_m</math> (để phân biệt với <math>\chi_e</math> - ) được định nghĩa là tỉ số giữa  và độ lớn của :
+<math>\chi = \frac{M}{H}</math>
+với '''M''' là , '''H''' là .  '''M''' và từ trường '''H''' có cùng  do đó <math>\chi</math> là đại lượng không có .
+, '''B''' quan hệ với  và  theo biểu thức:
+<math>B = \mu_0(H + M)</math>
+với <math>\mu_0</math> là hằng số từ, hay độ từ thẩm của , có độ lớn <math>\mu_0 = 4.\pi 10^{-7} T.m/A</math>. Như vậy:
+<math>B = \mu_0(1 + \chi).H</math>
+Đại lượng <math>\mu = \mu_0(1 + \chi) </math> được gọi là . Độ từ thẩm có cùng ý nghĩa với độ cảm từ, đều nói lên khả năng phản ứng của các vật liệu dưới tác dụng của từ trường ngoài.
+Trong , người ta thường quan tâm đến giá trị  được định nghĩa bởi: <math>\mu_r = \mu/\mu_0 = (1 + \chi) </math>.
+Trong các  , độ cảm từ không phải là một hằng số, mà có giá trị biến thiên phụ thuộc vào từ trường ngoài và phụ thuộc cả vào tiền sử từ (tức là phụ thuộc cả vào các quá trình từ diễn ra trước đó), nên người ta sử dụng khái niệm độ cảm từ :
+<math>\chi_{ij} = \frac{\part M_j}{\part H_i}</math>
+Hay là hệ số từ hóa xoay chiều, là độ cảm từ tạo ra khi vật liệu được đặt trong từ trường xoay chiều. Các phép đo độ cảm từ xoay chiều phụ thuộc vào nhiệt độ rất quan trọng trong các nghiên cứu chuyển pha từ trong các vật liệu sắt từ. Độ cảm từ xoay chiều thường được ký hiệu là <math>\chi_{AC}</math> (chữ AC là ký hiệu của ).

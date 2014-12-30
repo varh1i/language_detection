@@ -1,0 +1,8 @@
+'''SNNS''' (Abkürzung für "Stuttgart Neural Network Simulator") ist ein Softwarepaket für  das zunächst an der Universität  entwickelt wurde und zur Zeit (2005) an der Universität  gepflegt wird. Das Projekt wurde 1991 mit dem Deutschen Hochschulpreis für Lehrsoftware im Fach Informatik ausgezeichnet.
+Der Kern ist in der   geschrieben. Die von ihm zur Verfügung gestellten Funktionen werden von zahlreichen Werkzeugen für die , einer  für das - und einer alternativen Bedienoberfläche unter  namens JNNS verwendet.
+Das Softwarepaket lässt sich ohne größere Anpassungen unter -artigen  verwenden und implementiert eine Vielzahl verschiedener Algorithmen. Die Benutzung unter  ist durch  möglich.
+SNNS steht unter einer Lizenz die zwar Zugang zum  erlaubt, aber nicht  ist. Daher sind veränderte Versionen nur in Form von  zugänglich.
+Eine aktive Pflege oder Weiterentwicklung findet seitens der Rechteinhaber momentan (2005) nicht statt.
+Selbst die Lösungen für seit Jahren bekannte Probleme werden nicht in einem neuen Release verarbeitet oder veröffentlicht.
+Dennoch ist SNNS wegen der Möglichkeit den Quelltext einzusehen, des großen Funktionsumfangs und des Preises (zu vielen Zwecken kostenlos) eine interessanter Einstieg in das Thema künstliche neuronale Netze.
+Es existieren Patches zu folgenden Zwecken:

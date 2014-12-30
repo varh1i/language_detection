@@ -1,0 +1,18 @@
+'''HP OpenView''' ist ein Softwareportfolio von  zum Verwalten und Überwachen der  großer Unternehmen. Dazu gehören u.&nbsp;a. auch Lösungen für die zentrale Verteilung von  auf Clients und Servern. 
+Seit der Übernahme (Anfang 2007) der Softwarefirma Mercury [http://www.mercury.com/de/] durch HP soll der Name OpenView mit der Zeit obsolet werden.
+OpenView deckt verschiedene Bereiche des s ab und besteht aus einer Reihe integrierter Module:
+für das .
+Der NNM ist derzeit in der Version 7.51 (Stand Oktober 2006) erhältlich. Es gibt zwei Ausführungen: Die Standard- und die Advanced Edition. Beide Versionen werden nach der Anzahl der zu überwachenden Knoten lizenziert. Der NNM dient zur -Überwachung der IP-Ebene von Netzwerkkomponenten. Dies sind typischerweise Switches, Router und Firewalls. In der Advanced Edition ist mit Layer2-Management ein Blick eine OSI-Schicht tiefer möglich. Hierfür gibt es eine neue GUI "Dynamic Views". Es können weitere Smart Plugins (SPIs) für die Überwachung von Routing-Protokollen, HSRP, Multicasting usw. integriert werden. Neben der grafischen Darstellung der Knoten gibt es einen Alarmbrowser, in dem Events und SNMP-Traps angezeigt werden. Durch das Verknüpfen mit Skripten können ereignisabhängig Aktionen ausgelöst werden.
+Neben dem Überwachen der Erreichbarkeit der Netzwerkkomponenten werden typischerweise Bandbreitenkapazitäten, der Status von Interfaces, Leitungsfehler, Router-CPUs und Backups überwacht.
+für Applikations- und Systemmanagement. Von einem Management-Server aus können zentral gesteuert z.B. Monitor-Skripte an die Agenten auf den einzelnen Systemen verteilt werden, welche Meldungen über den System- und Applikationsstatus an den Management-Server melden. Über eine GUI können Administratoren diese Meldungen ansehen und ggf. hinterlegte Aktionen starten. 
+Seit der Version 8 sind in OVOU Agenten enthalten, die über HTTPS verschlüsselt mit dem Management-Server kommunizieren.
+<!-- ==== OpenView Operations for Windows (OVOW) ==== -->
+für  nach  für Asset Management und .
+für  nach 
+Das Produkt wurde nach Übernahme der Firma Peregrine Systems Inc. (im Dezember 2005) in HP OV integriert. Die 6.x-Serie ist die erste Ausgabe von ServiceCenter unter HP-Flagge.
+für Asset Management
+für  zur Adressierung einer -Strategie.
+für , sowohl lokal, als auch über  oder . Es sind Plug-Ins für einige Applikationen (z.B. ), en (z.B.  und ) und s (z.B. , HP XP) verfügbar, um ein integriertes ''Hot-Backup'' ausführen zu können. Bis inklusive Version 4.1 hieß das Produkt ''OmniBack''.
+zum Sammeln von -Daten wie Speicherbelegung, Festplattendurchsatz, CPU-Belastung.
+zum Auswerten von Performance-Daten, z.B. grafische Darstellung historischer Daten.
+Anders als etwa  ist OpenView auch geeignet, um sehr heterogene IT-Landschaften mit , , s und  zu verwalten.

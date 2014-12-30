@@ -1,0 +1,4 @@
+En   ''f'' av en variabel är '''Lipschitzkontinuerlig''' (eller bara '''Lipschitz''') om det finns ett tal ''k''>0 sådant att | ''f''(''x'')-''f''(''y'') | < ''k'' |''x'' - ''y'' | för alla ''x'' och ''y'' i definitionsmängden.
+Varje Lipschitzkontinuerlig funktion är kontinuerlig, dock finns kontinuerliga funktioner som inte är Lipschitz, till exempel ''f''(''x'') = ''x'' <sup>2/3</sup>.
+Varje kontinuerligt  funktion är Lipschitz, och varje Lipschitzfunktion är  , ett exempel är ''f''(''x'') = |''x''|. Denna är Lipschitz (se ) och är deriverbar överallt utom i ''x'' = 0. 
+Begreppet är mycket användbart i , speciellt teorin för er, där  säger att en differentialekvation ''x''&prime;(''t'') = ''f''(''t'',''x''), ''x''(t<sub>0</sub>) = ''x''<sub>0</sub> har en lokal lösning om ''f'' är  i ett slutet område och är Lipschitz i den andra variabeln.

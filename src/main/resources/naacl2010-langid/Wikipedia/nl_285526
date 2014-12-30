@@ -1,0 +1,36 @@
+'''Saint-Haon-le-Châtel''' is een gemeente in het  departement  (regio ) en telt 568 inwoners (2004). De plaats maakt deel uit van het arrondissement .
+De oppervlakte van Saint-Haon-le-Châtel bedraagt 0,9 km², de bevolkingsdichtheid is 631,1 inwoners per km². 
+Onderstaande figuur toont het verloop van het inwonertal (bron: ).
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:900 color:gray1 width:1       
+  from:start till:end             
+  bar:600 color:gray1              
+  from:start till:end            
+  bar:300 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,97)(84,94) color:blue  width:2 #1962 tot 1968. Inwonertal 1962: 407 1968: 392
+  points:(84,94)(100,97)    color:blue    width:2 #1975: 410
+  points:(100,97)(128,103)   color:blue    width:2 #1982: 439
+  points:(128,103)(160,121)   color:blue    width:2 #1990: 535
+  points:(160,121)(196,128)   color:blue    width:2 #1999: 570
+  points:(196,128)(228,127)     color:blue    width:2 #2004/5 
+  
+</timeline>     
+<!-- Bron: Frans bureau voor statistiek. Cijfers inwoneraantal volgens de definitie "population sans doubles comptes" --> 

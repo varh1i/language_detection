@@ -1,0 +1,2 @@
+'''XMLBeans''' é um '''' para '''' de  com . Ele é parte do  da .
+O ''framework'' XMLBeans permite que um programador da linguagem Java acesse informações em XML através de objetos Java. Esses objetos são obtidos de classes geradas pela pela ferramenta e que mapeiam diretamente a hierarquia de um determinado documento XML. Isto pode ser feito das seguintes maneiras:

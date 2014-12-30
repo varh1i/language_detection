@@ -1,0 +1,29 @@
+'''固定価格買い取り制度'''(こていかかくかいとりせいど、Feed-in Tariff, FiT, Feed-in Law, FiL)とは、エネルギーの買い取り価格（タリフ）を法律で定める方式の助成制度である。'''固定価格制度'''、'''フィードインタリフ制度'''、Minimum Price Standard、電力買い取り補償制<ref name="Ohshima"/>などとも呼ばれる。への対策やの確保、への対処などの一環として、主に（もしくは、日本における）の普及拡大と価格低減の目的で用いられる。設備導入時に一定期間の助成水準が法的に保証されるほか、生産コストの変化や技術の発達段階に応じて助成水準を柔軟に調節できる制度である。適切に運用することにより、費用当たりの普及促進効果が最も高くなるとされる。各国における実績が評価され、採用する国が増加している。
+固定価格買い取り制度は1978年、米国において導入されたPublic Utility Regulatory Policies Act(PURPA)法がその走りとされる。PURPA法は特にカリフォルニア州などにおける風力発電の立ち上げに貢献した<ref name="FIT">Feed-In Tariffs: Accelerating the Deployment of Renewable Energy, Miguel Mendonca, World Future Council, ISBN 978-1-84407-466-2</ref>。しかし現在のように国家レベルで顕著な効果を挙げられる制度は1990年にが採用したのが最初とされる。再生可能エネルギーの普及促進政策としては他にも固定枠(クォータ)制や入札制などもあり、既存市場との整合性や安さを根拠として固定価格買い取り制度以外の方式を採る国も多かった。しかし固定枠制や入札制では、その主張に反して、いずれもその効果は固定価格買い取り制度に劣るものとなった<ref name="FIT"/><ref name="Iida">[http://www.isep.or.jp/library/iida080422.pdf 地球温暖化対策の推進に関する法律の一部を改正する法律案]、飯田哲也、2008年4月、P.13</ref>。その一方でドイツは固定価格買い取り制度によってを大量に普及させると同時に生産コストを下げ、電力総需要に対するシェアを2000年の6.3%から2007年末には14%（見込み）に倍増させる<ref name="BMU_share">[http://www.bmu.de/english/current_press_releases/pm/39839.php Renewable energies even stronger than expected]（ドイツ環境省）</ref>など、他の方式より大幅に勝る成果を挙げてみせた。この結果を踏まえ、現在では多くの学術的報告や公的機関がその優位性を認めている（を参照）。採用数も増加し、2007年時点では46の国や地域が導入している<ref name="Martinot_SUMMARY">[http://www.isep.or.jp/event/080603sympoGEN_ISEP/Eric%20Martinot080603.pdf Global Renewable Energy Trends, Policies, and Scenarios, Eric Martinot, June 3, 2008]</ref>。
+やの確保のため、枯渇性燃料への依存度を下げてを導入する際は、価格的競争力が大きな障害となる。この価格が下がるためには、大量普及によって生産コストや流通コストを低減させると同時に、技術開発を促すのが望ましい<ref name="FIT"/>。これまでの実績から、、、などの価格は（もしくは）に従い、普及量の増大と共に、法則性を持って低減することが知られており、そこから将来の価格低減速度を予測できる<ref name="FIT"/>。固定価格買い取り制度はこの経験則に基づき、電気料金に少額の上乗せをして得られた資金を用いて普及を助成する方式の１つである。固定価格買い取り制度の特徴は、個々の発電所に対するエネルギーの売り渡し価格（タリフ）を設置時点で長期間固定する一方、発電所の設置時期が後になるほど、（価格低減に従って）助成額を減らすことである<ref name="FIT"/>。
+固定価格買い取り制度では、エネルギーの売り渡し価格（'''タリフ'''）を法律で決定する<ref name="FIT"/>。再生可能エネルギー源の事業者は、タリフを決まった期間（20年など）にわたり、法律で保証される（これが「固定価格買取制度」とも呼ばれる理由である）。この価格は、普及量や生産コストの推移に従って定期的に見直され、計画的に逓減していくが、既に導入された分についてはこの見直しは影響しない。定期的な見直しを通じたタリフの逓減により、国や地域全体でみた電力量あたりの助成費用は抑えられる。一方、既存の発電事業者のタリフは変更されないため、個々の事業者の投資リスクは低く保たれる。固定価格買い取り制度はこの点において、分散型電源の特徴を利用している<ref name="FIT"/>。
+一般的に固定価格買い取り制度においては、対象技術の普及の初期に導入した事業者ほど高いタリフが設定される。普及が拡大してエネルギーの生産コスト（設備価格や運転費）が経験則に従って低減するのに合わせ、後期に導入した事業者ほど助成額は減らされる。この助成に必要な費用は多くの場合、電気料金に上乗せして全ての電力消費者から電力の利用量に応じて徴収され、国は直接金銭の収受を行わない<ref name="FIT"/>。ドイツの場合、徴収額は標準的な家一軒当たり2～3ユーロである<ref name="Germany_EEGDevelopment">[http://www.bmu.de/files/english/renewable_energy/downloads/application/pdf/broschuere_ee_zahlen_en.pdf Renewable energy sources in figures – national and international development Status:June 2007]</ref>。タリフの額が過大もしくは過少にならないよう、対象となる技術ごとに、普及量や生産コストの低減状況に応じて定期的に調整される<ref name="FIT"/><ref name="Arne"/><ref name="Ohshima"/>。
+固定価格買い取り制度における、発電所ごとのタリフの決め方には大きく分けて２通りある<ref name="Arne">Feed-in Tariff Designs, Arne Klein, VDM Verlag Dr. Mualler, 2008, ISBN 978-3-8364-6238-9</ref>。スペインのように、発電事業者が複数の方式を選択できる国もある<ref name="FIT"/><ref name="Arne"/>。
+'''fixed tariff'''と呼ばれる。発電所が導入された時期によって、その後一定期間（たとえば10～20年間）のタリフの額が決定される。発電事業者にとっての投資リスクが低く、また助成費用も最小に済む。多くの国がこの方式である<ref name="Arne"/>。
+'''premium tariff''' (premium option, 太陽光発電の場合はSolar Premiumと呼ばれる場合もある）と呼ばれる。需要が逼迫する時間帯の給電を促す効果がある。その一方、電力料金によって買い取り額が変動し、また購入が義務づけられないため、発電事業者にとってのリスクが高い。このため、fixed tariffに比較して助成費用が高くなりやすい<ref name="Arne"/>。
+タリフを定期的に調整する際は、下記のような事柄を考慮する必要があるとされる<ref name="Arne"/>。
+また、枯渇性燃料の利用に伴う下記のような外部コストの削減分も考慮される場合がある<ref name="Arne"/>。
+固定価格買い取り制度においては、買い取り価格が長期にわたって保証される。また、普及の速度や最終的な普及量が目標に達するようにタリフの額などの調整が行われるが、固定価格買い取り制度はこの普及量の調整力が強い。このためそのエネルギーの供給者だけでなく、設備の生産やメンテナンスなどの関連事業者や電力会社にとっても投資（融資）のリスクが低くなる。これは特にやなど、初期投資が投資額の大部分を占める方式において、生産コストを下げる効果をもたらす。個々の要素でみると、固定価格買い取り制度には下記のような特徴があるとされる（<ref name="FIT"/>P.13、<ref name="Enshu">[http://www.osaka-ue.ac.jp/gp2006/doc/att_3.pdf ドイツの固定価格買取制度]、遠州 尋美、2006年</ref><ref name="Sakurai">[http://ksakurai.nwr.jp/R/slides/WhyFIT/WhyFIT.pdf FIT入門]、櫻井啓一郎、2008年</ref><ref name="Ohshima">[http://www.ritsumei.ac.jp/acd/re/k-rsc/hss/book/pdf/no88_04.pdf 再生可能エネルギー普及に関するドイツの経験－電力買い取り補償制の枠組みと実際－]、大島堅一、[http://www.ritsumei.ac.jp/acd/re/k-rsc/hss/book/ki_088.html 立命館大学人文科学研究所紀要（88号）]、P.65</ref>。
+'''利点：'''
+'''欠点：'''
+総じて、固定価格買い取り制度の優位性は多くの学術的報告<ref name="DomesticCDM">[http://envsys.k.u-tokyo.ac.jp/info/thesis17/46739.pdf 金融工学的手法による国内におけるGHG削減技術の普及促進制度に関する研究]、池田 敏之、2006年</ref>や国際的な公的機関によって認められている（<ref name="FIT"/>P.17）。へのの政策の一環として、、などでもその有効性が指摘されている。
+固定価格買い取り制度はただ導入すれば良いというものではなく、タリフの額以外にも、他の様々な施策によって効力は大きく変わる。下記のような制度が組み合わせて用いられる（<ref name="Ohshima"/>、<ref name="FIT"/>9章、<ref name="Arne"/>、<ref name="NEDO1011">[http://www.nedo.go.jp/kankobutsu/report/1011/1011-03.pdf NEDO海外レポートNo.1011], NEDO、2007年11月、P.44</ref>）。
+これらは固定価格買い取り制度を採用する殆どの国や地域が導入している：
+また、下記のようなオプションもある。
+! 国 !! 買取義務 !! Stepped Tariff !! Tariff Degression !! Premium Option !! Equal Burden Sharing !! 出力予測義務
+! オーストリア
+! チェコ
+! デンマーク
+! フランス
+! ドイツ
+! ギリシャ
+! ハンガリー
+! イタリア
+! スペイン
+固定価格買い取り制度は下記のような制度との併用も可能である<ref name="DomesticCDM"/><ref name="Martinot_SUMMARY">[http://www.isep.or.jp/event/080603sympoGEN_ISEP/Eric%20Martinot080603.pdf Global Renewable Energy Trends, Policies, and Scenarios, Eric Martinot, June 3, 2008]</ref>。
+<references/>

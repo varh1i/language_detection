@@ -1,0 +1,20 @@
+ | modèle      = Communauté de communes Cœur de Maurienne
+ | étatboîte   = collapsed
+ | styletitre  = 
+ | titre       = 
+ | sous-titre  = 
+ | image       =
+ | stylecorps = background:white;
+ | stylegroupe = vertical-align:middle; background:#DDDDFF;
+ | styleliste = text-align:justify;
+ | stylepair = background:#FFFFFF;
+ | styleimpair = background:#FFFFFF;
+ | groupe1 = '''Plus de {{formatnum:8900}} habitants'''
+ | liste1 = {{nobr|}}
+ | groupe2 = '''Moins de {{formatnum:1800}} habitants'''
+ | liste2 = {{nobr| •}} {{nobr| •}} {{nobr| •}} {{nobr| •}} {{nobr|}}
+ | styledessous=background:#ECECFF;
+ | dessous = <small>''''</small>
+Ce modèle permet de présenter une '''palette de navigation pour les communes adhérentes à la Communauté de communes Cœur de Maurienne'''.<br />
+Vous pouvez l'utiliser, généralement à la fin d'un article, en indiquant : {{m|Communauté de communes Cœur de Maurienne}}
+</noinclude>

@@ -1,0 +1,17 @@
+<includeonly>{{Infobox Plaats
+ |1={{{mapname|Ecuador}}}
+ |lat_deg={{{lat_deg}}}
+ |lat_min={{{lat_min}}}
+ |lat_dir={{{lat_dir}}}
+ |lon_deg={{{lon_deg}}}
+ |lon_min={{{lon_min}}}
+ |lon_dir=W
+ |position=top
+ |width=250
+ |label={{{naam|{{PAGENAME}}}}}
+ |float=center
+ |caption=
+ }}|{{{kaart|}}} }}
+<pre>
+</pre>
+</noinclude><noinclude></noinclude>

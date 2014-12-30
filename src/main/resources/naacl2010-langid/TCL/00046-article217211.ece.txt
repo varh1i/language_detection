@@ -1,0 +1,36 @@
+RSS-lesere
+Du kan bruke et dataprogram som leser Aftenpostens nettnyheter fortløpende. Her er et par slike gratis programmer, som du kan laste ned fra internett.
+CleverCactus. Et program som fungerer i de fleste operativsystemer. 
+Abilon , er et rent Windows program.
+Aftenposten sine nyheter i RSS-format kan du laste ned her.. 
+RSS-Feed
+Du kan også legge inn en XML-feed direkte på dine hjemmesider. Dette krever litt mer teknisk kunnskap, men her er de feedene vi har tilgjengelige. 
+Generelle nyheter.
+http://www.aftenposten.no/eksport/rss-1_0/
+Kun innenriks
+http://www.aftenposten.no/eksport/rss-1_0/?seksjon=nyheter_iriks 
+Kun utenriks
+http://www.aftenposten.no/eksport/rss-1_0/?seksjon=nyheter_uriks
+Kun oslo
+http://www.aftenposten.no/eksport/rss-1_0/?seksjon=nyheter_iriks_oslo
+Oslopuls
+http://www.aftenposten.no/eksport/rss-1_0/?seksjon=oslo
+Kun vitenskap
+http://www.aftenposten.no/eksport/rss-1_0/?seksjon=viten
+Kun økonomi
+http://www.aftenposten.no/eksport/rss-1_0/?seksjon=nyheter_okonomi
+Kun sport
+http://www.aftenposten.no/eksport/rss-1_0/?seksjon=nyheter_sport
+Kun eliteserien
+http://www.aftenposten.no/eksport/rss-1_0/?seksjon=nyheter_sport_eliteserien
+Kun premier league
+http://www.aftenposten.no/eksport/rss-1_0/?seksjon=nyheter_sport_premierleague
+Kun nett & it
+http://www.aftenposten.no/eksport/rss-1_0/?seksjon=nyheter_nett 
+Kun news in english
+http://www.aftenposten.no/eksport/rss-1_0/?seksjon=english
+Send gjerne en epost til webmaster@aftenposten.no, hvis du har lagt inn nyheter fra Aftenposten.no på din hjemmeside. 
+ 
+ Tips en venn Skriv ut  Bli abonnent 
+  
+ Søk i våre artikler

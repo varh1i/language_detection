@@ -1,0 +1,15 @@
+'''Collapsed Backbone''' is sort of enterprise . In collapsed backbone, the entire  collapses into a central  or  which can be located at a central management building. Typically, the backbone is star-configured. It means the network has several branches. In case the backbone is based on router as a central point, the backbone's role is to interconnect other sub networks. In case a switch is used as a central point, the backbone is not clear since the switch just acts as an intersection which will forward data to the right node. 
+This kind of network structure allows the administrator to easily monitor and maintain the entire network. However, the drawback is that if the central connection device crashes, the entire network will crash too.
+  | last = Sheldon
+  | first = Tom
+  | authorlink =
+  | coauthors =
+  | title = Encyclopedia of Networking & Telecommunications
+  | publisher = McGraw-Hill Companies
+  | date = 2001
+  | location =
+  | pages =
+  | url =
+  | doi =
+  | id =  
+  | isbn = 0072120053}}

@@ -1,0 +1,13 @@
+<div title="{{((}}subst:Bienvenue/vous{{))}}">{{début cadre|bleu|fond=white}}
+<div style="padding:5px;font-size:small"><center style="word-spacing:1ex"><small>            </small></center></div>
+<center><big>Bienvenue sur , '''{{BASEPAGENAME}} !'''</big></center>
+N’hésitez pas à consulter les premières indications pour  et  des articles dans Wikipédia avec la  appropriée. Le  est tout spécialement destiné à accueillir vos essais.
+Je vous conseille un petit tour dans les  et les  (, , , , , etc.) et les pages , où il y a sans doute un sujet qui vous intéressera. La communauté a progressivement développé un  qu’il vous serez peut-être aussi nécessaire de parcourir. 
+Si vous avez d’autres questions, vous pouvez voir  ou bien me contacter. &nbsp;
+<noinclude>{{documentation modèle}}
+;Utilisation :
+Sur les pages de discussion des nouveaux inscrits.
+;Syntaxe :
+<nowiki>{{Bienvenue/vous}}</nowiki> &#126;&#126;&#126;&#126;
+;Voir aussi :
+</noinclude>

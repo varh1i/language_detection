@@ -1,0 +1,35 @@
+'''Le Plessis-Grammoire''' is een gemeente in het  departement  (regio ) en telt 2013 inwoners (1999). De plaats maakt deel uit van het arrondissement .
+De oppervlakte van Le Plessis-Grammoire bedraagt 9,1 km², de bevolkingsdichtheid is 221,2 inwoners per km². 
+Onderstaande figuur toont het verloop van het inwonertal (bron: ).
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:2700 color:gray1 width:1       
+  from:start till:end             
+  bar:1800 color:gray1              
+  from:start till:end            
+  bar:900 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,70)(84,69) color:blue  width:2 #1962 tot 1968. Inwonertal 1962: 790 1968: 780
+  points:(84,69)(100,93)    color:blue    width:2 #1975: 1157
+  points:(100,93)(128,117)   color:blue    width:2 #1982: 1545
+  points:(128,117)(160,128)   color:blue    width:2 #1990: 1718
+  points:(160,128)(196,147)   color:blue    width:2 #1999: 2013
+  
+</timeline>     
+<!-- Bron: Frans bureau voor statistiek. Cijfers inwoneraantal volgens de definitie "population sans doubles comptes" --> 

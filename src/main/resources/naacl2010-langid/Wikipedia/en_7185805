@@ -1,0 +1,37 @@
+ | image =  
+ | image_source =  
+ | PDB = 
+ | Name = Regulator of G-protein signalling 12
+ | HGNCid = 9994
+ | Symbol = RGS12
+ | AltSymbols =; DKFZp761K1617; DKFZp761K1817
+ | OMIM = 602512
+ | ECnumber =  
+ | Homologene = 2195
+ | MGIid = 1918979
+ | GeneAtlas_image1 = PBB_GE_RGS12_209637_s_at_tn.png
+ | GeneAtlas_image2 = PBB_GE_RGS12_205823_at_tn.png
+ | GeneAtlas_image3 = PBB_GE_RGS12_214361_s_at_tn.png
+ | Function = {{GNF_GO|id=GO:0005057 |text = receptor signaling protein activity}} {{GNF_GO|id=GO:0005096 |text = GTPase activator activity}} {{GNF_GO|id=GO:0005515 |text = protein binding}} 
+ | Component = {{GNF_GO|id=GO:0000794 |text = condensed nuclear chromosome}} {{GNF_GO|id=GO:0005634 |text = nucleus}} 
+ | Process = {{GNF_GO|id=GO:0007165 |text = signal transduction}} {{GNF_GO|id=GO:0008277 |text = regulation of G-protein coupled receptor protein signaling pathway}} {{GNF_GO|id=GO:0009968 |text = negative regulation of signal transduction}} 
+ | Orthologs = {{GNF_Ortholog_box
+    | Hs_EntrezGene = 6002
+    | Hs_Ensembl = ENSG00000159788
+    | Hs_RefseqProtein = NP_002917
+    | Hs_RefseqmRNA = NM_002926
+    | Hs_GenLoc_db =  
+    | Hs_GenLoc_chr = 4
+    | Hs_GenLoc_start = 3285672
+    | Hs_GenLoc_end = 3411436
+    | Hs_Uniprot = O14924
+    | Mm_EntrezGene = 71729
+    | Mm_Ensembl = ENSMUSG00000029101
+    | Mm_RefseqmRNA = NM_173402
+    | Mm_RefseqProtein = NP_775578
+    | Mm_GenLoc_db =  
+    | Mm_GenLoc_chr = 5
+    | Mm_GenLoc_start = 35266308
+    | Mm_GenLoc_end = 35350456
+    | Mm_Uniprot =  
+  }}

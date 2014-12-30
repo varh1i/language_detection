@@ -1,0 +1,226 @@
+In , the '''Hunter–Saxton equation'''<ref name="HS91">Hunter & Saxton 1991</ref>
+(u_t + u u_x)_x = \frac{1}{2} \, u_x^2
+</math>
+is an   that arises in the theoretical study of . If the molecules in the liquid crystal are initially all aligned, and some of them are then wiggled slightly, this disturbance in orientation will propagate through the crystal, and the Hunter–Saxton equation describes certain aspects of such '''orientation waves'''.
+In the models for liquid crystals considered here, it is assumed that there is no fluid flow, so that only the ''orientation'' of the molecules is of interest.
+Within the , the orientation is described by a field of unit vectors '''n'''(''x'',''y'',''z'',''t''). For nematic liquid crystals, there is no difference between orienting a molecule in the '''n''' direction or in the &minus;'''n''' direction, and the vector field '''n''' is then called a ''director field''.
+The potential energy density of a director field is usually assumed to be given by the – energy functional <ref>de Gennes & Prost 1994 (Ch.&nbsp;3)</ref>
+W(\mathbf{n},\nabla\mathbf{n})
+  \alpha (\nabla \cdot \mathbf{n})^2
+  + \beta (\mathbf{n} \cdot (\nabla \times \mathbf{n}))^2
+  + \gamma | \mathbf{n} \times (\nabla \times \mathbf{n})|^2
+\right),
+</math>
+where the positive coefficients <math>\alpha</math>, <math>\beta</math>, <math>\gamma</math> are known as the elastic coefficients of splay, twist, and bend, respectively. The kinetic energy is often neglected because of the high viscosity of liquid crystals.
+Hunter and Saxton<ref name="HS91"/> investigated the case when viscous damping is ignored and a kinetic energy term is included in the model. Then the governing equations for the dynamics of the director field are the  for the 
+\mathcal{L} =
+\frac{1}{2} \left| \frac{\partial\mathbf{n}}{\partial t} \right|^2
+- W(\mathbf{n},\nabla\mathbf{n})
+- \frac{\lambda}{2} (1-|\mathbf{n}|^2),
+</math>
+where <math>\lambda</math> is a  corresponding to the constraint |'''n'''|=1.
+They restricted their attention to "splay waves" where the director field takes the special form
+\mathbf{n}(x,y,z,t) = (\cos\varphi(x,t), \sin\varphi(x,t), 0).
+</math>
+This assumption reduces the Lagrangian to
+\mathcal{L} = \frac{1}{2} \left(
+  \varphi_t^2 - a^2(\varphi) \varphi_x^2
+\right),
+\qquad
+a(\varphi) := \sqrt{\alpha \sin^2 \varphi + \gamma \cos^2 \varphi},
+</math>
+and then the Euler–Lagrange equation for the angle &phi; becomes
+  \varphi_{tt} = a(\varphi) [a(\varphi) \varphi_x]_x.
+</math>
+There are trivial constant solutions &phi;=&phi;<sub>0</sub>
+corresponding to states where the molecules in the liquid crystal are
+perfectly aligned.
+Linearization around such an equilibrium leads to the linear wave equation
+which allows wave propagation in both directions with speed
+<math>a_0 := a(\varphi_0)</math>,
+so the nonlinear equation can be expected to behave similarly.
+In order to study right-moving waves for large ''t'',
+one looks for asymptotic solutions of the form
+  \varphi(x,t;\epsilon) =
+  \varphi_0 + \epsilon \varphi_1(\theta,\tau) + O(\epsilon^2),
+</math>
+where
+  \theta := x-a_0 t, \qquad \tau := \epsilon t.
+</math>
+Inserting this into the equation, one finds at the order <math>\epsilon^2</math> that
+  (\varphi_{1\tau} + a'(\varphi_0) \varphi_1 \varphi_{1\theta})_{\theta}
+  = \frac{1}{2} a'(\varphi_0) \varphi_{1\theta}^2.
+</math>
+A simple renaming and rescaling of the variables
+(assuming that <math>a'(\varphi_0) \neq 0</math>)
+transforms this into the Hunter–Saxton equation.
+The analysis was later generalized by Alì and Hunter<ref name="AH06">Alì & Hunter 2006</ref>, who allowed the director field to point in any direction, but with the spatial dependence still only in the ''x'' direction:
+\mathbf{n}(x,y,z,t) = (\cos\varphi(x,t), \sin\varphi(x,t) \cos\psi(x,t), \sin\varphi(x,t) \sin\psi(x,t)).
+</math>
+Then the Lagrangian is
+\mathcal{L} = \frac{1}{2} \left(
+  \varphi_t^2 - a^2(\varphi) \varphi_x^2
+  + \sin^2 \varphi \left[ \psi_t^2 - b^2(\varphi) \psi_x^2 \right]
+\right),
+\qquad
+a(\varphi) := \sqrt{\alpha \sin^2 \varphi + \gamma \cos^2 \varphi},
+\quad
+b(\varphi) := \sqrt{\beta \sin^2 \varphi + \gamma \cos^2 \varphi}.
+</math>
+The corresponding Euler–Lagrange equations are coupled nonlinear wave equations for the angles &phi; and &psi;, with &phi; corresponding to "splay waves" and &psi; to "twist waves". The previous Hunter–Saxton case (pure splay waves) is recovered by taking &psi; constant, but one can also consider coupled splay-twist waves where both &phi; and &psi; vary. Asymptotic expansions similar to that above lead to a system of equations, which, after renaming and rescaling the variables, takes the form
+  (v_t + u v_x)_x = 0, \qquad u_{xx} = v_x^2,
+</math>
+where ''u'' is related to &phi; and ''v'' to &psi;.
+This system implies<ref>Differentiate the second equation with respect to ''t'', substitute ''v''<sub>''xt''</sub> from the first equation, and eliminate ''v'' using the second equation again.</ref> that ''u'' satisfies
+\left[ (u_t + u u_x)_x - \frac{1}{2} \, u_x^2 \right]_x = 0,
+</math>
+so (rather remarkably) the Hunter–Saxton equation arises in this context too, but in a different way.
+The  of the Hunter–Saxton equation, or, more precisely, that of its ''x'' derivative
+(u_t + u u_x)_{xx} = u_x u_{xx},
+</math>
+was shown by Hunter and Zheng<ref name="HZ94">Hunter & Zheng 1994</ref>, who exploited that this equation is obtained from the 
+u_t - u_{xxt} + 3 u u_x = 2 u_x u_{xx} + u u_{xxx}
+</math>
+in the "high frequency limit"
+(x,t) \mapsto (\epsilon x, \epsilon t), \qquad \epsilon \to 0.
+</math>
+Applying this limiting procedure to a Lagrangian for the Camassa–Holm equation, they obtained a Lagrangian
+\mathcal{L}_2 = \frac{1}{2} u_x^2 + w (v_t + u v_x)
+</math>
+which produces the Hunter–Saxton equation after elimination of ''v'' and ''w'' from the Euler–Lagrange equations for ''u'', ''v'', ''w''. Since there is also the more obvious Lagrangian
+\mathcal{L}_1 = u_x u_t + u u_x^2,
+</math>
+the Hunter–Saxton has two inequivalent variational structures. Hunter and Zheng also obtained a bihamiltonian formulation and a  from the corresponding structures for the Camassa–Holm equation in a similar way.
+The fact that the Hunter–Saxton equation arises physically in two different ways (as shown above) was used by Alì and Hunter<ref name="AH06"/> to explain why it has this bivariational (or bihamiltonian) structure.
+ | last = Alì
+ | first = Giuseppe
+ | author-link =
+ | last2 = Hunter
+ | first2 = John K.
+ | year = 2006
+ | title = Orientation waves in a director field with rotational inertia
+ | periodical = Preprint arXiv:math/0609189v1 [math.AP]
+ | volume =
+ | issue =
+ | pages =
+ | url = http://arxiv.org/abs/math.AP/0609189
+ | doi =
+ | last = Beals
+ | first = Richard
+ | author-link =
+ | last2 = Sattinger
+ | first2 = David H.
+ | last3 = Szmigielski
+ | first3 = Jacek
+ | year = 2001
+ | title = Inverse scattering solutions of the Hunter–Saxton equation
+ | periodical = Applicable Analysis
+ | volume = 78
+ | issue = 3–4
+ | pages = 255–269
+ | url = http://www.math.usu.edu/~dhs/hunter209.ps
+ | doi = 10.1080/00036810108840938
+ | last = Bressan
+ | first = Alberto
+ | author-link =
+ | last2 = Constantin
+ | first2 = Adrian
+ | year = 2005
+ | title = Global solutions of the Hunter–Saxton equation
+ | periodical = SIAM J. Math. Anal.
+ | volume = 37
+ | issue = 3
+ | pages = 996–1026
+ | url =
+ | doi = 10.1137/050623036
+ | last = de Gennes
+ | first = Pierre-Gilles
+ | author-link = Pierre-Gilles de Gennes
+ | last2 = Prost
+ | first2 = Jacques
+ | author2-link =
+ | year = 1994
+ | title = The Physics of Liquid Crystals
+ | edition = 2nd
+ | volume =
+ | series = International Series of Monographs on Physics
+ | place =
+ | publisher = Oxford University Press
+ | isbn = 0-19-852024-7
+ | last = Holden
+ | first = Helge
+ | author-link =
+ | last2 = Karlsen
+ | first2 = Kenneth Hvistendahl
+ | last3 = Risebro
+ | first3 = Nils Henrik
+ | year = 2007
+ | title = Convergent difference schemes for the Hunter–Saxton equation
+ | periodical = Math. Comp.
+ | volume = 76
+ | issue = 258
+ | pages = 699–744 
+ | url =
+ | doi = 10.1090/S0025-5718-07-01919-9
+ | last = Hunter
+ | first = John K.
+ | last2 = Saxton
+ | first2 = Ralph
+ | year = 1991
+ | title = Dynamics of director fields
+ | periodical = SIAM J. Appl. Math.
+ | volume = 51
+ | issue = 6
+ | pages = 1498–1521
+ | url = 
+ | doi = 10.1137/0151075
+ | last = Hunter
+ | first = John K.
+ | author-link =
+ | last2 = Zheng
+ | first2 = Yuxi
+ | year = 1994
+ | title = On a completely integrable nonlinear hyperbolic variational equation
+ | periodical = Physica D
+ | volume = 79
+ | issue = 2–4
+ | pages = 361–386
+ | url =
+ | doi = 10.1016/S0167-2789(05)80015-6
+ | last = Hunter
+ | first = John K.
+ | author-link =
+ | last2 = Zheng
+ | first2 = Yuxi
+ | year = 1995
+ | title = On a nonlinear hyperbolic variational equation. I. Global existence of weak solutions
+ | periodical = Arch. Rational Mech. Anal.
+ | volume = 129
+ | issue = 4
+ | pages = 305–353
+ | url =
+ | doi = 10.1007/BF00379259
+ | last = Hunter
+ | first = John K.
+ | author-link =
+ | last2 = Zheng
+ | first2 = Yuxi
+ | year = 1995
+ | title = On a nonlinear hyperbolic variational equation. II. The zero-viscosity and dispersion limits
+ | periodical = Arch. Rational Mech. Anal.
+ | volume = 129
+ | issue = 4
+ | pages = 355–383
+ | url =
+ | doi = 10.1007/BF00379260
+ | last = Lenells
+ | first = Jonatan
+ | author-link =
+ | year = 2007
+ | title = The Hunter–Saxton equation describes the geodesic flow on a sphere
+ | periodical = J. Geom. Phys.
+ | volume = 57
+ | issue = 10
+ | pages = 2049–2064
+ | url =
+ | doi = 10.1016/j.geomphys.2007.05.003

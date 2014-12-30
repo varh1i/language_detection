@@ -1,0 +1,120 @@
+1) (1) Tiger Woods, USA 17,61 poeng, 
+2) (2) Vijay Singh, Fiji 11,39, 
+3) (3) Phil Mickelson, USA 9,38, 
+4) (4) Retief Goosen, Sør-Afrika 8,76, 
+5) (5) Ernie Els, Sør-Afrika 8,23,
+6) (6) Sergio Garcia, Spania 7,69, 
+7) (7) Jim Furyk, USA 5,96, 
+8) (8) Adam Scott, Australia 5,45, 
+9) (9) Chris DiMarco, USA 5,36, 
+10) (10) David Toms, USA 5,14, 
+11) (12) Angel Cabrera, Argentina 5,05, 
+12) (11) Kenny Perry, USA 5,01, 
+13) (14) Padraig Harrington, Irland 4,71, 
+14) (13) Luke Donald, Storbritannia 4,70, 
+15) (16) Colin Montgomerie, Storbritannia 4,58, 
+16) (15) Michael Campbell, New Zealand 4,57, 
+17) (17) Davis Love III, USA 4,20, 
+18) (20) David Howell, Storbritannia 4,12, 
+19) (19) Tim Clark, Sør-Afrika 4,08, 
+20) (18) Darren Clarke, Storbritannia 4,07.
+((c) NTB)
+ 
+  
+ Søk i våre artikler
+Flere søkemuligheter     
+ 
+ 
+ Tips en venn Skriv ut 
+ 
+ 
+OAS_RICH('Middle1');
+ 
+ 
+Dagens mest tipsede
+Leser i hvert sitt tempoBonus for å være friskIBM krever at studentene kan altNæringslivet vil åpne privatskolerKvinner endrer kroppsformFlere døde i bussulykke på TenerifeKammerjazz for folketMen du skal ha fryktelig uflaks . .Siem vil kjøpe smårederierFire rømmer i uken 
+Dagens mest leste
+- Glad i pengerSvensker døde i bussulykkeKvinner går fra pære- til epleform- Ville kapre Elektron- Bringer skam over volleyballen- Akkurat som i en skrekkfilmHoppet fra 2. etasje under brannBonus for å være friskGigantisk passasjerfly i luftenPrøver å selge tyvegods til forsikringsselskaper
+ 
+ 
+ PÅ FORSIDEN AKKURAT NÅ
+ 
+- Uhyrlige påstander
+Psykolog John Sandstrøm avviser alle påstander om at han skal ha solgt falske legeerklæringer til kriminelle.
+Sandstrøm: - Uhyrlige påstanderHerlofsen og Sandstrøm får fortsettePolitilegen: - Herlofsen glad i penger[Oppdatert kl.13:47]
+ 
+Lover 15 prosent priskutt
+Forbruker.no: Med sine nye Fri-abonnementer vil Telenor være med i kampen om prisbevisste mobilkunder.
+Les mer   Tele og Internett[Oppdatert kl.13:56]
+ 
+ 
+SPØR OM WINDOWS
+Fredrik Gørrissen i Microsoft svarer om Windows, Xbox 360 og annet du måtte lure på.
+AKKURAT NÅ
+ 
+OAS_RICH('Top'); 
+OAS_RICH('x01');OAS_RICH('x02');OAS_RICH('x03');OAS_RICH('x04');OAS_RICH('x05');
+ Golf: Siste saker 
+ 31.10 12:48:
+Hole in one 2005
+31.10 09:34:
+Svensk seier i USA
+30.10 21:00:
+McGinleys største triumf
+26.10 20:57:
+Vant interncup
+25.10 20:02:
+Prest jukset på golfbanen
+24.10 16:48:
+Verdensrankingen golf mandag
+ 100 siste golfsaker
+function openwindow(url) {window.open( url,'bilde','resizable=yes,scrollbars=yes,width=650,height=650');}
+  GOLFGUIDEN 2005
+ Land:
+Fylke / region:
+Klubbnavn:
+var page_loaded = true;var arrCountries = new Array("0_Alle","1_Belgia","35_Brasil","3_Danmark","5_De forente arabiske ","6_Estland","9_Færøyene","7_Finland","8_Frankrike","10_Hellas","11_Irland","12_Island","13_Italia","14_Kypros","15_Luxemburg","16_Malta","17_Marocco","4_Norge","18_Nederland","19_Polen","20_Portugal","21_Russland","27_Sør-Afrika","22_Slovenia","23_Spania","24_Storbritannia","25_Sveits","26_Sverige","28_Thailand","29_Tsjekkia","30_Tyrkia","31_Tyskland","32_Ungarn","33_USA","34_Østerrike",""); var arrCounties = new Array("0!4_Alle","35!4_","19!4_Akershus","1!4_Akershus/Oslo","2!4_Aust Agder","3!4_Buskerud","12!4_Finnmark","4!4_Hedmark","5!4_Hordaland","6!4_Møre og Romsdal","7!4_Nord-Trøndelag","8!4_Nordland","9!4_Oppland","10!4_Rogaland","11!4_Sogn og Fjordane","13!4_Sør-Trøndelag","14!4_Telemark","15!4_Troms","18!4_Vest-Agder","16!4_Vestfold","17!4_Østfold","0!26_Alle","36!26_","20!26_Mellersta Sverige","21!26_Norra Norrland","22!26_Stockholm","23!26_Södra Norrland","33!26_Södra Norrland","24!26_Västra Sverige","25!26_Östra Sverige","0!3_Alle","38!3_","28!3_Jylland","29!3_Sjælland","30!3_Øyene","0!1_Alle","41!1_","0!5_Alle","39!5_","27!5_Dubai","0!6_Alle","42!6_","0!7_Alle","43!7_","0!8_Alle","44!8_","0!9_Alle","45!9_","0!10_Alle","46!10_","0!11_Alle","40!11_","0!12_Alle","47!12_","0!13_Alle","48!13_","0!14_Alle","49!14_","0!15_Alle","50!15_","0!16_Alle","51!16_","0!17_Alle","52!17_","0!18_Alle","53!18_","0!19_Alle","54!19_","0!20_Alle","55!20_","0!21_Alle","56!21_","0!22_Alle","57!22_","0!23_Alle","34!23_","31!23_Gran Canaria","32!23_Lanzarote","0!24_Alle","58!24_","0!25_Alle","59!25_","0!27_Alle","60!27_","0!28_Alle","61!28_","0!29_Alle","62!29_","0!30_Alle","63!30_","0!31_Alle","64!31_","0!32_Alle","65!32_","0!33_Alle","37!33_","26!33_Florida","0!34_Alle","66!34_","");function changeCountry(n) { var teller = 0; tmp = arrCounties[1].substr(arrCounties[1].indexOf("!") + 1, arrCounties[1].indexOf("_") - arrCounties[1].indexOf("!") - 1); document.searchForm.county.length = 1; var len = arrCounties.length - 1;for(var i=0;i 
+ Debatt
+  . Dagens runde .. 
+ Golf på Etna
+  Bestilte kølle fra USA
+ Golfkart ?
+ Spilt golf i Munchen?
+ Ny bruker_Start debatt
+ Golfbørsen
+ Søk i 494 annonser
+ Halvsett Olyo links 2001
+ Callaway Hawk Eye jern 3-SW
+ Flonka Nytt Callaway helsett
+ Callaway 3 - pw X-14
+ Mørk Golfklubb
+ Callaway 4-pw X-16
+ Callaway X-16
+ Taylor-made R7 TP driver
+ COBRA 55 gr wedge selges
+ GOLF BØKER
+ Nettradio
+  NRK P1Kanal24P4 NorgeRadio 1 OsloNRJ - ENERGY Klem FMRadioAdressaRadio TangoNRK P2NRK PetreNRK mPetre NRK Alltid NyheterRadio 1 BergenRadio 1 TrondheimRadio 1 StavangerNRK Alltid KlassiskNRK Europakanalen NRK Sámi RadioNRK Stortinget
+ Arkiv 
+ Søk i artikler fra 2000-2003 
+    
+ Nyttige golflenker
+ GOLFREGLENE
+Kjapt oppslagsverk.
+POLLENVARSEL 
+Sjekk ut dagens varsel før du skal spille.
+GOLFNYHETER 
+Få golfnyheter på din hjemmeside
+P4-TOUR 
+Oppdaterte resultater og nyheter 
+RSS-FEED 
+Golfnyheter direkte til din PC 
+FEEDREADER
+Last ned dette programmet for å lese golf-nyheter på din PC 
+ Siste nytt
+ I bakvendtland
+31.10 kl.14:02Mobilbruk fører til tregere trafikk
+31.10 kl.13:59- Bil uansett raskere enn å reise kollektivt
+31.10 kl.13:5992-åring holdt på vesken - møtte de tiltalte i dag
+31.10 kl.13:59Her er de verste bilkøene
+31.10 kl.13:59Mer siste nytt

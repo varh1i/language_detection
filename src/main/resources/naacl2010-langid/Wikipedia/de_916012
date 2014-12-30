@@ -1,0 +1,2 @@
+'''Mittelwertschätzung''' ist eine Aufgabe der . Gewöhnlich wird der  vieler e als Schätzer für den Mittelwert der Grundgesamtheit (dem ) benutzt. Dieser ist jedoch nur bei einfachen Zufallsstichproben unverzerrt, denn bei diesen ist die  für alle Elemente der Grundgesamtheit gleich groß.
+Bei komplexen Stichproben kann der  als unverzerrter Mittelwertschätzer bei beliebigen en benutzt werden.

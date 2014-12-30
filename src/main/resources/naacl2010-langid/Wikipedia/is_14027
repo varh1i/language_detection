@@ -1,0 +1,230 @@
+'''Maren''' er .
+<timeline>
+ImageSize = width:600 height:320
+PlotArea = left:40 right:10 top:40 bottom:40
+AlignBars = late
+ 
+DateFormat = yyyy
+Period = from:1949 till:2008
+TimeAxis = orientation:horizontal
+ScaleMajor = unit:year increment:5 start:1950
+ 
+Colors =
+  id:canvas    value:white
+  id:fyrsta value: rgb(0.1,0.1,0.7)
+  id:seinna  value: rgb(1,0.7,0)
+ 
+Backgroundcolors = canvas:canvas
+ 
+TextData =
+  pos:(5,310) textcolor:black fontsize:S
+  text:Fjöldi
+  pos:(550,20) textcolor:black fontsize:S
+  text:Ár
+  pos:(250,310) textcolor:black fontsize:M
+  text:Heildarfjöldi nafngifta fyrir kvenmannsnafnið Maren
+  pos:(50,315) textcolor:fyrsta fontsize:S
+  text:fyrsta nafn
+  pos:(50,300) textcolor:seinna fontsize:S
+  text:seinni nöfn
+ 
+BarData =
+  bar:5 text:10
+  bar:4 text:8
+  bar:3 text:6
+  bar:2 text:4
+  bar:1 text:2
+ 
+LineData=
+ color:fyrsta
+ width:5
+ 
+ at:1953 frompos:40 tillpos:65 #1
+ at:1959 frompos:40 tillpos:65 #1
+ at:1961 frompos:40 tillpos:65 #1
+ at:1967 frompos:40 tillpos:65 #1
+ at:1968 frompos:40 tillpos:65 #1
+ at:1969 frompos:40 tillpos:90 #2
+ at:1972 frompos:40 tillpos:65 #1
+ at:1973 frompos:40 tillpos:90 #2
+ at:1975 frompos:40 tillpos:90 #2
+ at:1976 frompos:40 tillpos:90 #2
+ at:1977 frompos:40 tillpos:65 #1
+ at:1978 frompos:40 tillpos:65 #1
+ at:1979 frompos:40 tillpos:165 #5
+ at:1981 frompos:40 tillpos:90 #2
+ at:1982 frompos:40 tillpos:90 #2
+ at:1983 frompos:40 tillpos:115 #3
+ at:1986 frompos:40 tillpos:140 #4
+ at:1988 frompos:40 tillpos:90 #2
+ at:1989 frompos:40 tillpos:65 #1
+ at:1990 frompos:40 tillpos:65 #1
+ at:1991 frompos:40 tillpos:65 #1
+ at:1993 frompos:40 tillpos:90 #2
+ at:1994 frompos:40 tillpos:115 #3
+ at:1995 frompos:40 tillpos:65 #1
+ at:1996 frompos:40 tillpos:65 #1
+ at:1997 frompos:40 tillpos:65 #1
+ at:1999 frompos:40 tillpos:115 #3
+ at:2000 frompos:40 tillpos:65 #1
+ at:2001 frompos:40 tillpos:65 #1
+ at:2003 frompos:40 tillpos:190 #6
+ at:2006 frompos:40 tillpos:65 #1
+ 
+ color:seinna
+ width:1
+ 
+ at:1952 frompos:40 tillpos:65 #1
+ at:1954 frompos:40 tillpos:65 #1
+ at:1956 frompos:40 tillpos:65 #1
+ at:1959 frompos:40 tillpos:65 #1
+ at:1961 frompos:40 tillpos:65 #1
+ at:1965 frompos:40 tillpos:65 #1
+ at:1966 frompos:40 tillpos:65 #1
+ at:1967 frompos:40 tillpos:65 #1
+ at:1970 frompos:40 tillpos:90 #2
+ at:1974 frompos:40 tillpos:115 #3
+ at:1975 frompos:40 tillpos:65 #1
+ at:1977 frompos:40 tillpos:115 #3
+ at:1978 frompos:40 tillpos:90 #2
+ at:1979 frompos:40 tillpos:90 #2
+ at:1980 frompos:40 tillpos:65 #1
+ at:1982 frompos:40 tillpos:140 #4
+ at:1983 frompos:40 tillpos:65 #1
+ at:1984 frompos:40 tillpos:90 #2
+ at:1985 frompos:40 tillpos:65 #1
+ at:1986 frompos:40 tillpos:65 #1
+ at:1987 frompos:40 tillpos:115 #3
+ at:1988 frompos:40 tillpos:115 #3
+ at:1989 frompos:40 tillpos:115 #3
+ at:1991 frompos:40 tillpos:90 #2
+ at:1992 frompos:40 tillpos:65 #1
+ at:1993 frompos:40 tillpos:140 #4
+ at:1994 frompos:40 tillpos:90 #2
+ at:1995 frompos:40 tillpos:90 #2
+ at:1996 frompos:40 tillpos:65 #1
+ at:1999 frompos:40 tillpos:115 #3
+ at:2000 frompos:40 tillpos:115 #3
+ at:2001 frompos:40 tillpos:165 #5
+ at:2002 frompos:40 tillpos:115 #3
+ at:2003 frompos:40 tillpos:115 #3
+ at:2004 frompos:40 tillpos:165 #5
+ at:2005 frompos:40 tillpos:140 #4
+ at:2006 frompos:40 tillpos:65 #1
+ 
+</timeline>
+ 
+<timeline>
+ImageSize = width:600 height:320
+PlotArea = left:40 right:10 top:40 bottom:40
+AlignBars = late
+ 
+DateFormat = yyyy
+Period = from:1949 till:2008
+TimeAxis = orientation:horizontal
+ScaleMajor = unit:year increment:5 start:1950
+ 
+Colors =
+  id:canvas    value:white
+  id:fyrsta value: rgb(0.1,0.1,0.7)
+  id:seinna  value: rgb(1,0.7,0)
+ 
+Backgroundcolors = canvas:canvas
+ 
+TextData =
+  pos:(5,310) textcolor:black fontsize:S
+  text:Hlutfall
+  pos:(550,20) textcolor:black fontsize:S
+  text:Ár
+  pos:(250,310) textcolor:black fontsize:M
+  text:Hlutfall nafngifta fyrir kvenmannsnafnið Maren
+  pos:(50,315) textcolor:fyrsta fontsize:S
+  text:fyrsta nafn
+  pos:(50,300) textcolor:seinna fontsize:S
+  text:seinni nöfn
+ 
+BarData =
+  bar:5 text:1 %
+  bar:4 text:0.8 %
+  bar:3 text:0.6 %
+  bar:2 text:0.4 %
+  bar:1 text:0.2 %
+ 
+LineData=
+ color:fyrsta
+ width:5
+ 
+ at:1953 frompos:40 tillpos:48 #0.03%
+ at:1959 frompos:40 tillpos:48 #0.03%
+ at:1961 frompos:40 tillpos:48 #0.03%
+ at:1967 frompos:40 tillpos:48 #0.03%
+ at:1968 frompos:40 tillpos:48 #0.03%
+ at:1969 frompos:40 tillpos:53 #0.05%
+ at:1972 frompos:40 tillpos:48 #0.03%
+ at:1973 frompos:40 tillpos:53 #0.05%
+ at:1975 frompos:40 tillpos:53 #0.05%
+ at:1976 frompos:40 tillpos:53 #0.05%
+ at:1977 frompos:40 tillpos:48 #0.03%
+ at:1978 frompos:40 tillpos:48 #0.03%
+ at:1979 frompos:40 tillpos:65 #0.1%
+ at:1981 frompos:40 tillpos:50 #0.04%
+ at:1982 frompos:40 tillpos:50 #0.04%
+ at:1983 frompos:40 tillpos:55 #0.06%
+ at:1986 frompos:40 tillpos:65 #0.1%
+ at:1988 frompos:40 tillpos:53 #0.05%
+ at:1989 frompos:40 tillpos:48 #0.03%
+ at:1990 frompos:40 tillpos:48 #0.03%
+ at:1991 frompos:40 tillpos:48 #0.03%
+ at:1993 frompos:40 tillpos:53 #0.05%
+ at:1994 frompos:40 tillpos:58 #0.07%
+ at:1995 frompos:40 tillpos:48 #0.03%
+ at:1996 frompos:40 tillpos:48 #0.03%
+ at:1997 frompos:40 tillpos:48 #0.03%
+ at:1999 frompos:40 tillpos:58 #0.07%
+ at:2000 frompos:40 tillpos:48 #0.03%
+ at:2001 frompos:40 tillpos:48 #0.03%
+ at:2003 frompos:40 tillpos:75 #0.14%
+ at:2006 frompos:40 tillpos:48 #0.03%
+ 
+ color:seinna
+ width:1
+ 
+ at:1952 frompos:40 tillpos:73 #0.13%
+ at:1954 frompos:40 tillpos:68 #0.11%
+ at:1956 frompos:40 tillpos:63 #0.09%
+ at:1959 frompos:40 tillpos:63 #0.09%
+ at:1961 frompos:40 tillpos:63 #0.09%
+ at:1965 frompos:40 tillpos:60 #0.08%
+ at:1966 frompos:40 tillpos:58 #0.07%
+ at:1967 frompos:40 tillpos:58 #0.07%
+ at:1970 frompos:40 tillpos:78 #0.15%
+ at:1974 frompos:40 tillpos:85 #0.18%
+ at:1975 frompos:40 tillpos:55 #0.06%
+ at:1977 frompos:40 tillpos:85 #0.18%
+ at:1978 frompos:40 tillpos:68 #0.11%
+ at:1979 frompos:40 tillpos:65 #0.1%
+ at:1980 frompos:40 tillpos:53 #0.05%
+ at:1982 frompos:40 tillpos:90 #0.2%
+ at:1983 frompos:40 tillpos:53 #0.05%
+ at:1984 frompos:40 tillpos:70 #0.12%
+ at:1985 frompos:40 tillpos:55 #0.06%
+ at:1986 frompos:40 tillpos:58 #0.07%
+ at:1987 frompos:40 tillpos:85 #0.18%
+ at:1988 frompos:40 tillpos:83 #0.17%
+ at:1989 frompos:40 tillpos:83 #0.17%
+ at:1991 frompos:40 tillpos:68 #0.11%
+ at:1992 frompos:40 tillpos:55 #0.06%
+ at:1993 frompos:40 tillpos:93 #0.21%
+ at:1994 frompos:40 tillpos:68 #0.11%
+ at:1995 frompos:40 tillpos:68 #0.11%
+ at:1996 frompos:40 tillpos:55 #0.06%
+ at:1999 frompos:40 tillpos:80 #0.16%
+ at:2000 frompos:40 tillpos:78 #0.15%
+ at:2001 frompos:40 tillpos:105 #0.26%
+ at:2002 frompos:40 tillpos:80 #0.16%
+ at:2003 frompos:40 tillpos:78 #0.15%
+ at:2004 frompos:40 tillpos:100 #0.24%
+ at:2005 frompos:40 tillpos:90 #0.2%
+ at:2006 frompos:40 tillpos:53 #0.05%
+ 
+</timeline>

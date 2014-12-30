@@ -1,0 +1,1 @@
+'''HyperSCSI''' er en effektivt designet , der kan overføre diskdata med op til 100 MByte/s (Byte!) over Gigabit  . I stedet for f.eks. UltraSCSI 320 kabler på max. 15m, kan diskene placeres flere km (fiber) eller 100 m (over TP-kabler) væk fra ne.

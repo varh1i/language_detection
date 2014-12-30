@@ -1,0 +1,33 @@
+The '''Sitemaps''' protocol allows a webmaster to inform search engines about  on a website that are available for crawling. A Sitemap is an  file that lists the URLs for a site. It allows webmasters to include additional information about each URL: when it was last updated, how often it changes, and how important it is in relation to other URLs in the site. This allows search engines to crawl the site more intelligently. Sitemaps are a URL inclusion protocol and complement , a URL exclusion protocol.
+Sitemaps are particularly beneficial on websites
+The webmaster can generate a Sitemap containing all accessible URLs on the site and submit it to search engines. Since Google, MSN, Yahoo, and Ask use the same protocol now, having a Sitemap would let the biggest search engines have the updated pages information.
+Sitemaps supplement and do not replace the existing crawl-based mechanisms that search engines already use to discover URLs. By submitting Sitemaps to a search engine, a webmaster is only helping that engine's crawlers to do a better job of crawling their site(s). Using this protocol does not guarantee that web pages will be included in search indexes, nor does it influence the way that pages are ranked in search results.{{Fact|date=July 2008}}
+The Sitemaps protocol is based on ideas<ref>{{cite conference | author= M.L. Nelson, J.A. Smith, del Campo, H. Van de Sompel, X. Liu| title=Efficient, Automated Web Resource Harvesting | booktitle=WIDM'06 | year=2006 |url=http://public.lanl.gov/herbertv/papers/f140-nelson.pdf}}</ref> from "Crawler-friendly Web Servers".<ref>{{cite conference | title=Crawler-friendly web servers | booktitle = Proceedings of ACM SIGMETRICS Performance Evaluation Review, Volume 28, Issue 2 | year=2000 | doi=10.1145/362883.362894 | author=O. Brandman, J. Cho, , and }}</ref>
+The Sitemap Protocol format consists of XML tags. The file itself must be  encoded.
+(Sitemaps can also be just a plain text list of URLs. They can also be compressed in .gz format.)
+A sample Sitemap that contains just one URL and uses all optional tags is shown below.
+<pre>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+			    http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+	<url>
+		<loc>http://w3c-at.de</loc>
+		<lastmod>2006-11-18</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>0.8</priority>
+	</url>
+</urlset>
+</pre>
+If Sitemaps are submitted directly to a search engine (pinged), it will return status information and any processing errors.  The details involved with submission will vary with the different search engines.  The location of the Sitemap can also be included in the  file by adding the following line to robots.txt:
+<pre>
+Sitemap: <sitemap_location>
+</pre>
+The <sitemap_location> should be the complete URL to the Sitemap, such as: ''<nowiki>http://www.example.org/sitemap.xml</nowiki>''.  This directive is independent of the user-agent line, so it doesn't matter where it is placed in the file.  If the website has several Sitemaps, this url can simply point to the main Sitemap index file.
+The following table lists the Sitemap submission URLs for several major search engines:
+! Search engine
+! Submission URL
+! Help page
+Sitemap files have a limit of 50,000 URLs and 10 MegaBytes per sitemap. Sitemaps can be compressed using , reducing bandwidth consumption.  Multiple sitemap files are supported, with a Sitemap index  file serving as an entry point for a total of 1000 sitemaps.
+As with all XML files, any data values (including URLs) must use entity escape codes for the characters : ampersand(&), single quote ('), double quote ("), less than (<) and greater than (>).
+<references/>

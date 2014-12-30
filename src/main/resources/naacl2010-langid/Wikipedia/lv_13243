@@ -1,0 +1,1 @@
+Ja <math>V</math> un <math>W</math> ir vektora telpas, tad pāri <math>\left(V\otimes W, \Psi\right)</math> sauc par šo vektora telpu '''tenzora reizinājumu''' tad un tikai tad, ja katrai vektortelpai <math>G</math> un katrai bilineārai funkcijai <math>\Phi: V \times W\to G</math> eksistē tieši viena  <math>T:V\otimes W\to G</math> ar īpašību <math>T \circ \Psi=\Phi</math>.

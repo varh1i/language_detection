@@ -1,0 +1,9 @@
+A '''Bayesian average''' is a method of calculating the  of a  where there is a known  of the value being estimated.  It is of particular value when calculating means of multiple differently sized data sets from a larger population.  
+Calculating the Bayesian average uses the prior mean <math>\bar{m}</math> and a constant <math>C</math>.  <math>C</math> is assigned a value proportional to the typical data set size.  The value is larger when the expected variation between data sets within the larger population is small and smaller when the data sets are expected to vary substantially from one another.
+In cases where the averages' relative values are the only result of importance, <math>\bar{m}</math> can be replaced with zero.  <math>C</math> can be calculated based on the priors regarding variance between data sets, but in circumstances where that kind of rigor is desired, other more expressive measures of  are likely to be used.  As a result, <math>C</math> is usually assigned a value in an  manner.
+The goal is to calculate the Bayesian average of the heights of various occupations of adult American men.  In the larger population of adult American men, the  is 176cm.  A value of <math>C</math> is chosen as 10.  For the purpose of this example, the occupations used will be "Basketball Players", "Actors" and "Students".  For the basketball players, a group of 15 individuals is identified with an average height of 191cm among them.  For the students, a group of 10 individuals is identified with an average height of 179cm.  For the actors, only  is available, for an average height of 201cm.
+!Group
+!''N''
+!Group 
+!Bayesian average
+Here, the Bayesian average correctly reduces the effect of a single anomolously large value.  Had the sample sizes for basketball players been similarly small, the Bayesian average would have mis-estimated basketball players as being far closer to average than is likely the case.

@@ -1,0 +1,91 @@
+  img_coa =  |
+  official_name = Smerillo |
+  name = Smerillo |
+  region =  |
+  province =  (AP) |
+  elevation_m = 806 |
+  area_total_km2   = 11.3 |
+  population_as_of  = Dec. 2004 |
+  population_total = 414 |
+  population_density_km2 = 37 |
+  timezone          = , +1 |
+  coordinates       = {{coor dm|43|0|N|13|27|E|type:city(414)_region:IT}}|
+  frazioni          =  |
+  telephone         = 0734 |
+  postalcode        = 63020 |
+  gentilic          =  |
+  saint             = |
+  day               = |
+  mayor             = |
+  website           =  |
+  mapy = 13.4500 |
+  mapx = 43.0000 |
+'''Smerillo''' is a '''' (municipality) in the  in the  region , located about 70 km south of  and about 20 km northwest of . As of  , it had a population of 414 and an area of 11.3 km².<ref name="istat">All demographics and other statistics: Italian statistical institute .</ref>
+Smerillo borders the following municipalities: , , .
+<timeline>
+Colors=
+  id:lightgrey value:gray(0.9)
+  id:darkgrey  value:gray(0.8)
+  id:sfondo value:rgb(1,1,1)
+  id:barra value:rgb(0.6,0.7,0.8)
+ImageSize  = width:455 height:303
+PlotArea   = left:50 bottom:50 top:30 right:30
+DateFormat = x.y
+Period     = from:0 till:2000
+TimeAxis   = orientation:vertical
+AlignBars  = justify
+ScaleMajor = gridcolor:darkgrey increment:1000 start:0
+ScaleMinor = gridcolor:lightgrey increment:200 start:0
+BackgroundColors = canvas:sfondo
+BarData=
+  bar:1861 text:1861
+  bar:1871 text:1871
+  bar:1881 text:1881
+  bar:1901 text:1901
+  bar:1911 text:1911
+  bar:1921 text:1921
+  bar:1931 text:1931
+  bar:1936 text:1936
+  bar:1951 text:1951
+  bar:1961 text:1961
+  bar:1971 text:1971
+  bar:1981 text:1981
+  bar:1991 text:1991
+  bar:2001 text:2001
+PlotData=
+  color:barra width:20 align:left
+  bar:1861 from: 0 till:810
+  bar:1871 from: 0 till:761
+  bar:1881 from: 0 till:886
+  bar:1901 from: 0 till:1007
+  bar:1911 from: 0 till:1029
+  bar:1921 from: 0 till:1123
+  bar:1931 from: 0 till:1126
+  bar:1936 from: 0 till:1172
+  bar:1951 from: 0 till:1263
+  bar:1961 from: 0 till:1014
+  bar:1971 from: 0 till:605
+  bar:1981 from: 0 till:491
+  bar:1991 from: 0 till:431
+  bar:2001 from: 0 till:411
+PlotData=
+  bar:1861 at:810 fontsize:XS text: 810 shift:(-8,5)
+  bar:1871 at:761 fontsize:XS text: 761 shift:(-8,5)
+  bar:1881 at:886 fontsize:XS text: 886 shift:(-8,5)
+  bar:1901 at:1007 fontsize:XS text: 1007 shift:(-8,5)
+  bar:1911 at:1029 fontsize:XS text: 1029 shift:(-8,5)
+  bar:1921 at:1123 fontsize:XS text: 1123 shift:(-8,5)
+  bar:1931 at:1126 fontsize:XS text: 1126 shift:(-8,5)
+  bar:1936 at:1172 fontsize:XS text: 1172 shift:(-8,5)
+  bar:1951 at:1263 fontsize:XS text: 1263 shift:(-8,5)
+  bar:1961 at:1014 fontsize:XS text: 1014 shift:(-8,5)
+  bar:1971 at:605 fontsize:XS text: 605 shift:(-8,5)
+  bar:1981 at:491 fontsize:XS text: 491 shift:(-8,5)
+  bar:1991 at:431 fontsize:XS text: 431 shift:(-8,5)
+  bar:2001 at:411 fontsize:XS text: 411 shift:(-8,5)
+TextData=
+  fontsize:S pos:(20,20)
+  text:Data from ISTAT
+</timeline>
+<references/>
+<br clear=all>

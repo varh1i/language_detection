@@ -1,0 +1,6 @@
+<div style="display:block; border:1px solid #aaa; vertical-align:top; width:100%; background-color:#f8e8ce; margin-bottom:10px; padding:0px 0px 5px 0px; -moz-border-radius:8px;">
+<div style="float:right;">
+</div>
+<h2 style="background-color:#dff0ff; text-align:center; font-weight:bold; margin:0px 0px 5px 0px; padding:5px 3px {{#ifeq: {{{tailleTitre|100%}}} | 100% | 3px | 5px }} 3em; font-size:{{{tailleTitre|100%}}}; -moz-border-radius-topright:8px; -moz-border-radius-topleft:8px;">
+</h2>
+<div style="padding-left:4px; padding-right:4px; vertical-align:top;">

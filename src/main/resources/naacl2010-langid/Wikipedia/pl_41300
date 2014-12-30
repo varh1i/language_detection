@@ -1,0 +1,37 @@
+'''strace''' — narzędzie do  badające interakcję  z  . Śledzi  oraz  w . Może też zliczać i mierzyć czas poszczególnych wywołań.
+Polecenie strace można zastosować do śledzenia procesu na dwa sposoby: uruchamiając program pod kontrolą strace bądź podłączając się do już działającego procesu o zadanym identyfikatorze.
+W systemie  opisana funkcjonalność jest dostarczana przez polecenie '''truss'''<ref>http://docs.sun.com/app/docs/doc/816-0210/6m6nb7mnl?a=view</ref>, a strace służy do innych celów<ref>http://docs.sun.com/app/docs/doc/819-2240/6n4htdnmg?l=en&a=view&q=strace</ref>.
+Przykład wykonania strace dla <tt>/bin/true</tt> w systemie .
+<pre>
+$ strace /bin/true
+execve("/bin/true", ["/bin/true"], [/* 73 vars */]) = 0
+uname({sys="Linux", node="abc.xyz.pl", ...}) = 0
+brk(0)                                  = 0x804c000
+old_mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x40000000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.preload", O_RDONLY)    = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY)      = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=63878, ...}) = 0
+old_mmap(NULL, 63878, PROT_READ, MAP_PRIVATE, 3, 0) = 0x40001000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/tls/libc.so.6", O_RDONLY)    = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\340\350"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0644, st_size=1281872, ...}) = 0
+old_mmap(0x41019000, 1289356, PROT_READ|PROT_EXEC, MAP_PRIVATE, 3, 0) = 0x41019000
+old_mmap(0x41149000, 36864, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 3, 0x12f000) = 0x41149000
+old_mmap(0x41152000, 7308, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x41152000
+close(3)                                = 0
+old_mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x40011000
+set_thread_area({entry_number:-1 -> 6, base_addr:0x40011460, limit:1048575, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}) = 0
+munmap(0x40001000, 63878)               = 0
+brk(0)                                  = 0x804c000
+brk(0x806d000)                          = 0x806d000
+brk(0)                                  = 0x806d000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_LARGEFILE) = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=4222624, ...}) = 0
+mmap2(NULL, 2097152, PROT_READ, MAP_PRIVATE, 3, 0) = 0x40012000
+close(3)                                = 0
+exit_group(0)                           = ?
+</pre>
+ 

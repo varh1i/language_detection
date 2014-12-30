@@ -1,0 +1,14 @@
+'''Faza''' – w  wielkość bezwymiarowa opisująca procesy okresowe przedstawiająca, w której części okresu znajduje się ciało (zjawisko).
+Zjawiska okresowe lub prawie okresowe są przedstawiane jako drgania.
+Dla drgań harmonicznych opisanych równaniem
+ 
+fazą drgań określa się argument funkcji sinus, czyli  
+lub resztę z dzielenia tego kąta przez miarę kąta pełnego 
+Tak rozumiana faza jest kątem i jest wyrażana w jednostkach kąta, w układzie SI .
+Kąt <math>\Phi</math> nazywa się '''fazą początkową''' drgań.
+Dla drgań nieharmonicznych w których można wyróżnić drganie o najdłuższym okresie, fazę drgań określa się jako fazę drgania składowego o najdłuższym okresie.
+Czasami fazę, szczególnie w ruchu  nieharmonicznym określa się jako  ułamek okresu.
+Dla dwóch drgań przesunięciem fazowym drgań nazywa się różnicę ich faz. 
+Jeżeli drgania mają jednakową fazę to mówi się, że drgania te są w fazie. W ośrodkach liniowych wychylenia spowodowane tymi drganiami dodają się. 
+Drgania dla których faza różni się o połowę kąta pełnego nazywa się drganiami w przeciwfazie. Wychylenia spowodowane tymi drganiami odejmują się, a gdy oba drgania mają jednakowe wychylenia, znoszą się. 
+Fala rozchodząc się w ośrodku wywołuje drgania każdego punktu ośrodka. Za  w danym punkcie określa się fazę drgań w tym punkcie przestrzeni.

@@ -1,0 +1,65 @@
+Per studiare la '''rotazione nel piano complesso''' si possono distinguere due casi, dipendentemente dal fatto che il centro di tale rotazione sia rappresentato dall'origine del  o da un qualsiasi altro punto.
+Sia <math>a</math> un  di  unitario:
+<center> <math>a = \cos\vartheta+i\sin\vartheta=e^{i\vartheta}</math> </center>
+e sia <math>z</math> un qualsiasi numero complesso
+<center> <math>z=\rho(\cos\varphi+i\sin\varphi)</math> </center>
+La '''rotazione''' di centro l'origine degli assi <math>O</math> e di ampiezza <math>\vartheta</math>, <math>\vartheta \in \mathbb{R} </math>, è la trasformazione:
+<center> <math>\begin{matrix}\rho_{O,\vartheta}:&\mathbb{C}&\longrightarrow&\mathbb{C}&\\ &z&\longmapsto&z'&=az=e^{i\vartheta}z\end{matrix}</math> </center>
+che associa al punto <math>P(z)</math>, corrispondente di <math>z</math>, il punto <math>P'(z')</math>, corrispondente del numero complesso <math>z'=az</math>, di modulo pari al modulo di <math>z</math>, <math>\rho</math>, e di argomento pari a <math>\varphi+\vartheta</math>.
+Si osservi che, nella definizione appena data, <math>\vartheta</math> può assumere qualsiasi valore reale, incluso lo <math>0</math> e i valori negativi.
+Infatti:
+<center> <math>z'=az=\rho(\cos\varphi+i\sin\varphi)(\cos\vartheta+i\sin\vartheta)=\rho[\cos(\varphi+\vartheta)+i\sin(\varphi+\vartheta)]=\rho e^{i(\varphi+\vartheta)}</math> </center>
+Passando in  e ricordando la forma delle equazioni che determinano la  di centro l'origine degli assi cartesiani e angolo <math>\vartheta</math>:
+<center> <math>\rho_{O, \vartheta}: \left \{ \begin{matrix} x' = x \cos \vartheta - y \sin \vartheta \\ y' = x \sin \vartheta + y \cos \vartheta \end{matrix} \right.</math> </center>
+Si ha che:
+moltiplicare il numero complesso <math>z</math> per un numero complesso <math>a</math> di modulo unitario, equivale ad applicare nel piano al punto <math>P(z)</math> una rotazione avente come centro l'origine degli assi e angolo <math>\vartheta</math>, con <math>\vartheta\in \mathbb{R} </math>.
+Notiamo che:
+Le tre proprietà elencate permettono di dedurre che l'associazione di un numero reale ad una rotazione, definisce un' tra il  dei numeri reali (con l'usuale operazione di somma) e il  delle rotazioni del piano complesso (dotato dell'operazione di composizione tra funzioni). L'applicazione lineare così definita non è un , difettando infatti della non .    
+La trasformazione che ammette come scrittura complessa 
+<center> <math>z'= \left(-{\sqrt{2} \over 2}+ i{\sqrt{2} \over 2} \right)z </math> </center>
+è una rotazione attorno all'origine degli assi di angolo <math>\vartheta = {3 \over 4} \pi</math>.
+Infatti:
+<center> <math> -{\sqrt{2} \over 2}+ i{\sqrt{2} \over 2} = \cos \left ( {3 \over 4} \pi \right ) + i \sin \left ( {3 \over 4} \pi \right ) = e^{i{3 \over 4} \pi }</math> </center>
+quindi 
+<center> <math>z'= \left(-{\sqrt{2} \over 2}+ i{\sqrt{2} \over 2} \right)z = e^{i{3 \over 4} \pi } z </math> </center>
+è una rotazione attorno all'origine degli assi cartesiani di angolo <math>\vartheta = {3 \over 4} \pi</math>.
+<center> <math>a=e^{i { \pi \over 2}}=\cos \left({\pi \over 2}\right)+i\sin \left({\pi \over 2}\right)= i </math> </center>
+quindi: la rotazione di centro l’origine degli assi <math>O</math> e di ampiezza <math>\pi / 2</math> coincide con la moltiplicazione per l’ <math>i</math>:
+<center> <math>\begin{matrix}\rho_{O,{\pi \over 2}}:&\mathbb{C}&\longrightarrow&\mathbb{C}&\\ &z&\longmapsto&z'&=e^{i { \pi \over 2}}z=iz\end{matrix}</math> </center>          		           
+         
+Infatti, indicando con
+<center> <math>z=\rho(\cos\varphi+i\sin\varphi)</math>, </center>
+si ha che:
+<center> <math>z'=iz= \rho \left [\cos \left( \varphi + {\pi \over 2} \right) +
+i \sin \left( \varphi + {\pi \over 2}\right) \right ]= \rho e^{i \left( \varphi + {\pi \over 2}\right)}</math>. </center>
+<center> <math>a=e^{i \pi}=
+\cos \left( \pi \right)+i\sin \left(\pi \right)=-1</math>, </center>
+quindi la rotazione di centro l’origine degli assi <math>O</math> e di ampiezza <math>\pi</math> è data da:
+<center> <math>\begin{matrix}\rho_{O,{\pi}}:&\mathbb{C}&\longrightarrow&\mathbb{C}&\\ &z&\longmapsto&z'&=e^{i \pi}z=-z\end{matrix}</math> </center>   
+       		    
+Infatti, indicando con
+<center> <math>z=\rho(\cos\varphi+i\sin\varphi)</math>, </center>
+si ha che:
+<center> <math>z'=-z=
+\rho \left [\cos \left( \varphi + \pi \right) + i \sin \left( \varphi + \pi \right) \right ]= \rho e^{i \left( \varphi + {\pi}\right)}</math>. </center>
+Quindi la rotazione di centro l’origine degli assi <math>O</math> e di ampiezza <math>\pi</math> equivale alla simmetria rispetto all'origine.
+<center> <math>a=e^{i {3 \over 2}\pi}=\cos \left({3 \over 2}\pi \right)+i\sin \left({3 \over 2}\pi \right)=-i</math>, </center>
+quindi la rotazione di centro l’origine degli assi <math>O</math> e di ampiezza <math>{3 \over 2}\pi</math> è:
+<center> <math>\begin{matrix}\rho_{O,{3 \over 2}\pi}:&\mathbb{C}&\longrightarrow&\mathbb{C}&\\ &z&\longmapsto&z'&= e^{i {3 \over 2}\pi} z=-iz\end{matrix}</math> </center>   
+	                    
+Infatti, indicando con
+<center> <math>z=\rho(\cos\varphi+i\sin\varphi)</math>, </center>
+si ha che:
+<center> <math>z'=-iz= \rho \left [ \cos \left( \varphi + {3 \over 2}\pi \right) +
+i \sin \left( \varphi + {3 \over 2}\pi \right) \right ]= \rho e^{i \left( \varphi + {3 \over 2}\pi \right )}</math>. </center>
+Sia <math>C_0=P(z_0)</math> il punto corrispondente al numero complesso <math>z_0=x_0+iy_0</math>, e sia <math>a</math> un numero complesso di modulo unitario.
+La  di centro <math>C_0(x_0;y_0)</math> e angolo <math>\vartheta</math>, <math>\vartheta \in \mathbb{R} </math> è data da:
+<center> <math>\begin{matrix}\rho_{C_0,{\vartheta}}:&\mathbb{C}&\longrightarrow&\mathbb{C}&\\ &z&\longmapsto&z'&=az+b=e^{i \vartheta}z+b \end{matrix}</math> </center>   
+con <math>b=(1-a)z_0</math>.
+Infatti se moltiplicare il numero complesso <math>z</math> per un numero complesso <math>a</math> di modulo unitario, equivale ad applicare al punto <math>P(z)</math> una rotazione di centro l'origine degli assi e angolo <math>\vartheta</math>, <math>\vartheta \in \mathbb{R} </math>, considerando il punto <math>C_0</math> come nuova origine degli assi, si ha che <math>z' - z_0 =a(z-z_0)</math>, quindi <math>z'=az+(1-a)z_0</math>.
+Ponendo <math>b=(1-a)z_0</math> si ottiene il caso generale della rotazione.
+Per determinare la scrittura complessa della rotazione di centro <math>C_0(-2-i)</math> e angolo <math>\vartheta = {\pi \over 2}</math> si osservi che il centro della rotazione <math>C_0(-2-i)</math> è il punto associato al numero complesso <math>z=-2-i</math>.
+Quindi, ricordando che <math>b=(1-a)z_0</math>, si ha che 
+<center> <math>z'= e^{i\vartheta}z + b= e^{i {\pi \over 2}}z +(1-i)(-2-i)=iz + (-2-i+2i-1) = iz + (-3+i)</math> </center>
+cioè la trasformazione data da:
+<center> <math>\begin{matrix}\rho_{(-2-i),{\pi \over 2}}:&\mathbb{C}&\longrightarrow&\mathbb{C}&\\ &z&\longmapsto&z'&=iz+(-3+i) \end{matrix}</math> </center>

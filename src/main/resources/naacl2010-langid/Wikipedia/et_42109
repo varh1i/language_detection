@@ -1,0 +1,16 @@
+'''Intel i386''' ehk '''386''' ehk  '''80386''' on i , mis kuulub Inteli kolmandasse -ite perekonda. 
+i386 protsessorile eelnes . Esimene 386 tüüpi protsessor ilmus 17. oktoober . Tarbijateni jõudis aga aastal . Ta sisaldas 275000 it.
+Esimese personaalarvuti, mis kasutas 386 protsessrit, tootis .
+Protsessoril oli esmakordselt 32-bitine arhitektuur. Eelmine protsessor oli 80286, mis kasutas mälu segmentide põhist mäluhaldust. 386 aga kasutas , mis tegi virtuaalmälu kasutamise operatsioonisüsteemis märgatavalt lihtsamaks.
+Protsessoril oli kolm töörežiimi: reaalne, kaitstud ja virtuaalne. Reaalne oli ühilduv  ja 80286'ga. Kaitstud režiim kasutas samu võimalusi, mis 80286. Lisaks oli kaitstud režiimi laiendus, mis võimaldas adresseerida kuni 4 GB mälu. Virtuaalne režiim, mida eelnevatel polnud, lubas kaitstud režiimis käivitada ühte või enamat virtuaalset 8086 keskonda.
+386 protsessoril on kaks mälumudelit segmenteeritud ja lame (''flat'' inglise keeles). Lameda mälumudeli korral käsitletakse mälu ühe 4 GB segmendina. Segmenteeritud mälumudeli korral 16383 baidiste segmentidena.
+Esmakordselt tutvustas Intel protsessorite juures lühendeid DX ('''D'''ouble-word e'''X'''ternal) ja SX ('''S'''ingle-word e'''X'''ternal). 386 DX protsessoritel ei olnud sisseehitatud matemaatikaprotsessorit aga 486 DX variandil oli. See võib segadust tekitada. 386 puhul tähendas SX 16 bitist andmesiini ja DX kaks korda suuremat andmesiini. Matemaatikaprotsessor oli eraldi vaja lisada.
+<table class="wikitable">
+<tr><td><b>Mudel</b></td><td><b>Tootmise algus</b></td><td><b>Siini kiirus</b></td><td><b>Info</b></td></tr>
+<tr><td>Intel 80386</td><td>17.10.1985</td><td>16-20 MHz</td><td></td></tr>
+<tr><td>Intel 80386DX</td><td>17.10.1985</td><td>20-33 MHz</td><td>Sisemine ja välimine andmesiinsiin 32 bitine</td></tr>
+<tr><td>Intel 80386SX</td><td> 16.05.1988</td><td>16-33 MHz</td><td>Sisemine andmesiin 32 biti, välimine 16 biti, 24-bitine väline aadressisiin.</td></tr>
+<tr><td>Intel 80386EX</td><td>1994</td><td>25 MHz</td><td></td></tr>
+<tr><td>Intel 80386SL</td><td>1991</td><td>25 MHz</td><td>Mõeldud sülearvutitele</td></tr>
+</table>
+[http://www.cpu-collection.de/?tn=0&l0=co&l1=Intel&l2=i386+DX Protsessorite täpne info] Inglise keeles

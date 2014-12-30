@@ -1,0 +1,36 @@
+'''Vier-Bordes''' is een gemeente in het  departement  (regio ) en telt 80 inwoners (2004). De plaats maakt deel uit van het arrondissement .
+De oppervlakte van Vier-Bordes bedraagt 9,7 km², de bevolkingsdichtheid is 8,2 inwoners per km². 
+Onderstaande figuur toont het verloop van het inwonertal (bron: ).
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:300 color:gray1 width:1       
+  from:start till:end             
+  bar:200 color:gray1              
+  from:start till:end            
+  bar:100 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,57)(84,57) color:blue  width:2 #1962 tot 1968. Inwonertal 1962: 66 1968: 65
+  points:(84,57)(100,50)    color:blue    width:2 #1975: 53
+  points:(100,50)(128,51)   color:blue    width:2 #1982: 55
+  points:(128,51)(160,53)   color:blue    width:2 #1990: 58
+  points:(160,53)(196,62)   color:blue    width:2 #1999: 74
+  points:(196,62)(228,65)     color:blue    width:2 #2004/5 
+  
+</timeline>     
+<!-- Bron: Frans bureau voor statistiek. Cijfers inwoneraantal volgens de definitie "population sans doubles comptes" --> 

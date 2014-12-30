@@ -1,0 +1,23 @@
+<noinclude>
+</noinclude>{{Traduction/Suivi
+<!-- Éditez à partir d'ici ce paragraphe pour tenir à jour le message de statut qui apparaitra dans l'article et dans les diverses sous-pages du Projet Traduction -->
+<!-- Choisissez un statut de traduction entre 1 et 5
+	1 : Demande
+	2 : En cours
+	3 : A relire
+	4 : En relecture
+        5 : Terminée
+-->
+<!-- Exemple :
+                | traducteur = 
+                | avancement_traduction = {{Avancement|50}}
+                | oldid = 830165|
+                | date  = 26 juin 2007 à 12:30 (CEST)| 
+-->
+<!-- Exemple :
+                | relecteur = 
+                | avancement_relecture = {{Avancement|20}}
+-->
+<!-- FIN DES MODIFICATIONS USUELLES -->
+__NOTOC__
+</noinclude>

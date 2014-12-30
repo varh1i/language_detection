@@ -1,0 +1,6 @@
+V  in   pomeni '''pól'''  določeno vrsto preproste , kjer se funkcija obnaša podobno kot  ''f''(''z'') = 1/''z''<sup>''n''</sup> pri ''z'' = 0. V polu funkcija praviloma ni definirana, v poljubni okolici pola pa absolutna vrednost funkcije preseže poljubno veliko število (pravimo, da gre |''f''(''z'')| proti neskončno, ko se ''z'' približuje polu).
+Formalno, denimo, da je ''U''    '''C''', ''a'' naj bo element ''U'' in ''f'' : ''U'' &minus; {''a''} &rarr; '''C''' naj bo . Če obstaja holomorfna funkcija ''g'' : ''U'' &rarr; '''C''' in  ''n'', da velja ''f''(''z'') = ''g''(''z'') / (''z'' - ''a'')<sup>''n''</sup> za vse ''z'' v ''U'' &minus; {''a''}, potem se ''a'' imenuje '''pol funkcije ''f'''''. Če je ''n'' izbran tako majhen, kot je to le mogoče, se ''n'' imenuje '''stopnja''' ali '''red pola'''.
+Število ''a'' je pol reda ''n'' funkcije ''f'', če in samo če ima  funkcije ''f'' okoli ''a'' le končno mnogo členov z negativnimi stopnjami, začenši z (''z'' - ''a'')<sup>&minus;''n''</sup>.
+Pol reda 0 je . V tem primeru  lim<sub>''z''&rarr;''a''</sub> ''f''(''z'') obstaja kot kompleksno število. Če je red večji od 0, potem je lim<sub>''z''&rarr;''a''</sub> ''f''(''z'') = &infin;.
+Neodpravljiva singularnost, ki ni niti pol niti  se imenuje .
+Holomorfne funkcije, katerih edine singularnosti so poli, se imenujejo .

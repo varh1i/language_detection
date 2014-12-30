@@ -1,0 +1,35 @@
+<noinclude>
+Templat ini digunakan untuk menambahkan bendera yang sesuai untuk kapal-kapal Angkatan Laut Amerika Serikat ke dalam <nowiki>{{Infobox Ship}}</nowiki> atau artikel lain yang sesuai. Templat ini dibuat karena sering terjadi perubahan , dimana dalam sejarahnya kebanyakan menggunakan warna dasar  ditambah dengan  dari  sesuai dengan jumlah  yang bergabung. Oleh karena itu untuk memudahkannya templat ini dibuat.
+Untuk menggunakan templat ini, tambahkan hal-hal berikut:
+Kedua parameter adalah tambahan. Kalau anda tidak menambahkan angka tahun, bendera yang digunakan saat ini yang digunakan. Kalau ada tidak menambahkan lebar, bendera akan berada di sebelah kanan di dalam kotak info kapal. Bendera akan memiliki 1-pixel batas putih disekelilingnya agar terlihat jelas dari warna dasar biru. Contoh di bawah ini:
+Tidak dapat hanya menulis lebar, angka tahun mesti diberikan pula.
+Also, a nitpicky usage note.  The template displays the flag used at the ''end'' of the specified year.  For example, the US flag changed from 46 to 48 stars on July 4, 1912.  If you use '''<nowiki>{{USN flag|1912}}</nowiki>''' in an article, it will display the 48 star flag.  If you want a 46 star flag for a ship that only served in ''early'' 1912, use the previous year's flag, '''<nowiki>{{USN flag|1911}}</nowiki>'''.
+</noinclude><includeonly>{{#ifexpr: {{{1|999999}}} >= 2002| {{border|Naval Jack of the United States.svg|{{{2|60}}}px|United States Navy First Navy Jack}}}}<!--
+-->{{#ifexpr: {{{1|999999}}} >= 1960 and {{{1|999999}}} < 2002|{{border|US Naval Jack.svg|{{{2|48}}}px|United States Navy Jack}}}}<!--
+-->{{#ifexpr: {{{1|999999}}} >= 1959 and {{{1|999999}}} < 1960|{{border|US Naval Jack 49 stars.svg|{{{2|48}}}px|United States Navy Jack}}}}<!--
+-->{{#ifexpr: {{{1|999999}}} >= 1912 and {{{1|999999}}} < 1959|{{border|US Naval Jack 48 stars.svg|{{{2|48}}}px|United States Navy Jack}}}}<!--
+-->{{#ifexpr: {{{1|999999}}} >= 1908 and {{{1|999999}}} < 1912| {{border|US Naval Jack 46 stars.svg|{{{2|48}}}px|United States Navy Jack}}}}<!--
+-->{{#ifexpr: {{{1|999999}}} >= 1896 and {{{1|999999}}} < 1908| {{border|US Naval Jack 45 stars.svg|{{{2|48}}}px|United States Navy Jack}}}}<!--
+-->{{#ifexpr: {{{1|999999}}} >= 1891 and {{{1|999999}}} < 1896| {{border|US Naval Jack 44 stars.svg|{{{2|48}}}px|United States Navy Jack}}}}<!--
+-->{{#ifexpr: {{{1|999999}}} >= 1890 and {{{1|999999}}} < 1891| {{border|US Naval Jack 43 stars.svg|{{{2|48}}}px|United States Navy Jack}}}}<!--
+-->{{#ifexpr: {{{1|999999}}} >= 1877 and {{{1|999999}}} < 1890| {{border|US Naval Jack 38 stars.svg|{{{2|48}}}px|United States Navy Jack}}}}<!--
+-->{{#ifexpr: {{{1|999999}}} >= 1867 and {{{1|999999}}} < 1877| {{border|US Naval Jack 37 stars.svg|{{{2|48}}}px|United States Navy Jack}}}}<!--
+-->{{#ifexpr: {{{1|999999}}} >= 1865 and {{{1|999999}}} < 1867| {{border|US Naval Jack 36 stars.svg|{{{2|48}}}px|United States Navy Jack}}}}<!--
+-->{{#ifexpr: {{{1|999999}}} >= 1863 and {{{1|999999}}} < 1865| {{border|US Naval Jack 35 stars.svg|{{{2|48}}}px|United States Navy Jack}}}}<!--
+-->{{#ifexpr: {{{1|999999}}} >= 1861 and {{{1|999999}}} < 1863| {{border|US Naval Jack 34 stars.svg|{{{2|48}}}px|United States Navy Jack}}}}<!--
+-->{{#ifexpr: {{{1|999999}}} >= 1859 and {{{1|999999}}} < 1861| {{border|US Naval Jack 33 stars.svg|{{{2|48}}}px|United States Navy Jack}}}}<!--
+-->{{#ifexpr: {{{1|999999}}} >= 1858 and {{{1|999999}}} < 1859| {{border|US Naval Jack 32 stars.svg|{{{2|48}}}px|United States Navy Jack}}}}<!--
+-->{{#ifexpr: {{{1|999999}}} >= 1851 and {{{1|999999}}} < 1858| {{border|US Naval Jack 31 stars.svg|{{{2|48}}}px|United States Navy Jack}}}}<!--
+-->{{#ifexpr: {{{1|999999}}} >= 1848 and {{{1|999999}}} < 1851| {{border|US Naval Jack 30 stars.svg|{{{2|48}}}px|United States Navy Jack}}}}<!--
+-->{{#ifexpr: {{{1|999999}}} >= 1847 and {{{1|999999}}} < 1848| {{border|US Naval Jack 29 stars.svg|{{{2|48}}}px|United States Navy Jack}}}}<!--
+-->{{#ifexpr: {{{1|999999}}} >= 1846 and {{{1|999999}}} < 1847| {{border|US Naval Jack 28 stars.svg|{{{2|48}}}px|United States Navy Jack}}}}<!--
+-->{{#ifexpr: {{{1|999999}}} >= 1845 and {{{1|999999}}} < 1846| {{border|US Naval Jack 27 stars.svg|{{{2|48}}}px|United States Navy Jack}}}}<!--
+-->{{#ifexpr: {{{1|999999}}} >= 1837 and {{{1|999999}}} < 1845| {{border|US Naval Jack 26 stars.svg|{{{2|48}}}px|United States Navy Jack}}}}<!--
+-->{{#ifexpr: {{{1|999999}}} >= 1836 and {{{1|999999}}} < 1837| {{border|US Naval Jack 25 stars.svg|{{{2|48}}}px|United States Navy Jack}}}}<!--
+-->{{#ifexpr: {{{1|999999}}} >= 1822 and {{{1|999999}}} < 1836| {{border|US Naval Jack 24 stars.svg|{{{2|48}}}px|United States Navy Jack}}}}<!--
+-->{{#ifexpr: {{{1|999999}}} >= 1820 and {{{1|999999}}} < 1822| {{border|US Naval Jack 23 stars.svg|{{{2|48}}}px|United States Navy Jack}}}}<!--
+-->{{#ifexpr: {{{1|999999}}} >= 1819 and {{{1|999999}}} < 1820| {{border|US Naval Jack 21 stars.svg|{{{2|48}}}px|United States Navy Jack}}}}<!--
+-->{{#ifexpr: {{{1|999999}}} >= 1818 and {{{1|999999}}} < 1819| {{border|US Naval Jack 20 stars.svg|{{{2|48}}}px|United States Navy Jack}}}}<!--
+-->{{#ifexpr: {{{1|999999}}} >= 1795 and {{{1|999999}}} < 1818| {{border|US Naval Jack 15 stars.svg|{{{2|48}}}px|United States Navy Jack}}}}<!--
+-->{{#ifexpr: {{{1|999999}}} >= 1777 and {{{1|999999}}} < 1795| {{border|US Naval Jack 13 stars.svg|{{{2|48}}}px|United States Navy Jack}}}}<!--
+-->{{#ifexpr: {{{1|999999}}} < 1777| {{border|Naval Jack of the United States.svg|{{{2|60}}}px|United States Navy First Navy Jack}}}}</includeonly><noinclude></noinclude>

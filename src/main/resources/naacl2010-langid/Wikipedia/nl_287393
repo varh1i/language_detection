@@ -1,0 +1,35 @@
+'''Bajamont''' is een gemeente in het  departement  (regio ) en telt 931 inwoners (1999). De plaats maakt deel uit van het arrondissement .
+De oppervlakte van Bajamont bedraagt 12,2 km², de bevolkingsdichtheid is 76,3 inwoners per km².
+Onderstaande figuur toont het verloop van het inwonertal (bron: ).
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:1200 color:gray1 width:1       
+  from:start till:end             
+  bar:800 color:gray1              
+  from:start till:end            
+  bar:400 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,68)(84,71) color:blue  width:2 #1962 tot 1968. Inwonertal 1962: 336 1968: 362
+  points:(84,71)(100,84)    color:blue    width:2 #1975: 455
+  points:(100,84)(128,106)   color:blue    width:2 #1982: 607
+  points:(128,106)(160,141)   color:blue    width:2 #1990: 857
+  points:(160,141)(196,152)   color:blue    width:2 #1999: 931
+  
+</timeline>     
+<!-- Bron: Frans bureau voor statistiek. Cijfers inwoneraantal volgens de definitie "population sans doubles comptes" --> 

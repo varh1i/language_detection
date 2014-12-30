@@ -1,0 +1,50 @@
+¿No tiene tiempo? Lleve la información de BBC Mundo.com con usted a donde quiera y en el momento que prefiera. 
+BBC Mundo ofrece varios servicios para leer el contenido de la página. Haga clic en cada una de las posibilidades para conocer cómo puede utilizarlas: 
+1. BBC Mundo portátil (PDA) 2. BBC Mundo en su teléfono móvil 3. RSS (Really Simple Syndication) 4. Titulares por email 5. Descargue el salvapantallas 
+BBC MUNDO PORTÁTIL (PDA) 
+  
+BBC Mundo le ofrece una versión portátil para su computadora de bolsillo PDA (Personal Digital Assistant - Asistente Personal Digital). Así podrá tener acceso a las últimas noticias en cualquier lugar y en el momento que lo desee. 
+Éste es un servicio gratuito que ha sido diseñado especialmente para computadoras de bolsillo o PDA que utilizan Windows CE, Palm OS o sistemas operativos similares. 
+Para utilizarlo sólo necesita descargar en su computadora (a la que habitualmente conecta su PDA) el software AvantGo y darse de alta como usuario, sin costo alguno. 
+¿Cómo agregar el canal BBC Mundo a su dispositivo PDA? 
+Si ya es usuario de AvantGo, sólo haga clic aquí. 
+Si no es usuario de AvantGo, haga clic aquí y siga los pasos que se indican en la página. 
+1. Una vez que descargue el software AvantGo para su PDA, ejecute el programa en su computadora y siga las instrucciones en pantalla. 
+2. Para incorporar BBC Mundo a su PDA pulse aquí. 
+3. Finalmente, sincronice su computadora de bolsillo. 
+Una vez concluido el proceso, los usuarios de dispositivos PDA pueden recibir las últimas noticias más destacadas de las secciones Portada, Internacional, América Latina, Economía, Ciencia y De todo un poco. 
+Vea un adelanto de la versión portátil de BBC Mundo 
+Arriba ^^ 
+EN SU TELÉFONO MOVIL 
+Ahora puede ingresar a BBC Mundo desde su teléfono móvil. 
+Si tiene acceso a internet (WAP) digite: www.bbcmundo.com/movil 
+Si recibe un mensaje de error, debe ingresar esta dirección: http://news.bbc.co.uk/low/spanish/pda/news/default.htm 
+Arriba ^^ 
+RSS (REALLY SIMPLE SYNDICATION) 
+  
+RSS (Really Simple Syndication) es un sistema automatizado de envío de noticias que le permitirá estar al corriente minuto a minuto de la información que publica BBC Mundo.com. 
+Les ofrecemos una variedad de índices contenidos en la página de BBC Mundo. Sólo tiene que seleccionar cúal o cúales quiere añadir a su lector de noticias. 
+El formato que ofrecemos consiste en el titular de la noticia y un sumario, con un vínculo en vivo que le llevará a la página de BBC Mundo donde ya podrá leer el resto de la información. 
+Si no sabe qué es un lector de noticias o cómo utilizar este servicio, lea esta nota de ayuda y siga las instrucciones. 
+Si desea suscribirse al servicio, ingrese a la página de sindicación de noticias de BBC Mundo. 
+Arriba ^^ 
+TITULARES POR EMAIL 
+  
+Reciba los titulares de noticias más importantes del día a través de su correo electrónico, en formato de texto o con imágenes. 
+Si desea suscribirse, ingrese a la página de Titulares BBC Mundo. 
+Lea también la cláusula de privacidad. 
+Arriba ^^ 
+DESCARGUE EL SALVAPANTALLAS 
+  
+Descargue nuestro salvapantallas para tener una interesante perspectiva del fotorreportaje a nivel mundial. Esperamos que lo inspire -así como a los que están alrededor suyo- a mirar las cosas de una manera ligeramente distinta. 
+Para instalar el salvapantallas, haga doble clic en uno de los vínculos que aparecen a continuación y siga las instrucciones. 
+Usuarios de PC Usuario de Mac 
+Requerimientos de sistema: 
+PC: Procesador: Intel Pentium III o superior. Memoria RAM: 64 MB (128 MB recomendado). Resolución de Pantalla: mínimo 800x600, 16 bit de color. Sistema Operativo: Windows XP (Service Pack 1 o superior)/2000/NT4 (Service Pack 6)/98/ME. Mac: Procesador: Power PC G3 o superior Sistema Operativo: Mac OS 8.6 o superior. No recomendado para su uso en monitores duales. 
+Si no puede bajar el salvapantallas, esto se puede deber a que exista un firewall o cortafuegos. Usted debe contactarse con su administrador de sistema para que lo asista. 
+Licencia 
+Este software se ofrece sólo sobre una base "tal cual". 
+Si bien la BBC ha extremado esfuerzos para asegurar que el programa funcione correctamente y no contenga errores, virus o defectos, no ofrece garantías o representación legal (explícita o implícita) de que éste sea el caso. 
+La BBC no se hace responsable por la descarga y la instalación del software en su computadora y no acepta ningún tipo de responsabilidad por cualquier pérdida o daño directo, indirecto o resultante, debido o relacionado al uso del software. 
+Se le aconseja que tome todas las medidas necesarias para proteger a su computadora de las infecciones de virus. 
+Arriba ^^ 

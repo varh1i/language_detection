@@ -1,0 +1,7 @@
+L’ permet de localiser une page. Habituellement, elle est de la forme http://fr.wikipedia.org/wiki/Train, celle-ci mène à l’article .
+Après le préfixe , on trouve dans l’ordre :
+L’URL contient ensuite un certain nombre de paramètres.
+! Paramètre
+! Signification
+L’URL est codée en . Tout les caractères de l’URL sont donc compris entre <code>A</code> et <code>Z</code>, <code>a</code> et <code>z</code>, <code>0</code> et <code>9</code> ainsi que <code>:._\/~%-+&#?!=()@</code>. Les caractères non ASCII sont possible dans le titre mais seront converties.
+Il existe une fonction parser nommée <nowiki>{{urlencode:}}</nowiki> :

@@ -1,0 +1,3 @@
+<noinclude>Erzeugt kleine Überschriften ohne Unterstreichung für Portale, verwenden mit <tt><nowiki>{{Portal-head4a1|Kleine Überschrift}}</nowiki></tt>
+</noinclude>
+<div style="padding-right: 8px; text-align: left; font-family: Gill Sans, Futura, sans-serif; font-size:90%; font-variant: small-caps">{{{1}}}</div>

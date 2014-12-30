@@ -1,0 +1,28 @@
+<div
+style="position:relative;float:right;background:White;margin-left:1em;line-height:1.3em;border: 1px solid #aaa;padding:0.3em;min-width:140px;width:12em;overflow:visible;">
+'''''Vítejte...''''' <br>
+''... v tomto projektu. Každý, kdo má chuť a pár vědomostí, je pozván ke spolupráci. ''
+__TOC__
+</div>
+Patronát převzal zcela dobrovolně iniciátor projektu, biologický laik  (přesto autor několika antilop a dalších koz), a protože nikdo neprotestoval, drží ho dosud. 
+<br clear = "all">
+(poznámka - ty * tu jsou, aby text nesplynul, v článku být nemají)
+Jak psát taxoboxy viz {{hlavní článek|Wikipedie:WikiProjekt Klasifikace biologie/Taxobox|Taxobox}}
+'''''Výčet taxonů''''': zřejmě všichni autoři projektu tíhnou k názoru, že v taxonomické tabulce (taxoboxu) není třeba uvádět celý stromeček všech známých taxonů (jako podčeleď, nadčeleď atd.), ale pouze ty nejpodstatnější. O dalších taxonech je možno zmínit se v textu samotném, kde pak je možno poukázat i na rozdílné klasifikace. Pouze v případě, kdy se to zdá být nezbytné, lze samozřejmě použít i šablony pro další taxony (následující dva příklady ukazují i zde různý přístup).
+Pro '''''názvy v taxoboxu''''' platí  pravidla pravopisu - viz odstavec výše a název taxoboxu odpovídá názvu článku samotného.
+V šabloně se uvádí '''''autor popisu druhu''''' ''druh popsal'', atd... (s údajem roku, kdy popsání provedl). Jméno autora se v české Wikipedii uvádí jeho skutečným jménem (pod tímto odkazem bude dřív či později existovat článek), '''''ne latinsky''''', tedy ''Linné'' a ne ''Linnaeus'' apod.   
+Na  je možno podívat se obsáhlou anglickou verzi klasifikační tabulky pro zoologii, která se však v některých případech může od české lišit. 
+U druhů je obvyklé uvádět v binomické části nejen český a latinský název, ale i jméno autora (a rok popisu). Jedná-li se o taxobox pro vyšší taxon (jako např. řád), binomická sekce odpadá, místo ní je pak uvedeno druhotné dělení.
+'''''Druhotné dělení''''': existují-li i poddruhy, je v tom případě možno použít navíc – jako zde – šablonu pro druhotné dělení, kde lze všechny poddruhy vyjmenovat, jinak tato sekce odpadá.
+'''''Obrázky''''': v tabulce je možno umístit jeden obrázek, další obrázky se mohou umístit přímo v textu. Obrázek by neměl být příliš vysoký, čímž se tabulka jen nadbytečně prodlužuje. Šířka obrázku odpovídá šířce taxoboxu.
+Následující odkazy jsou jen malým náhodným výběrem několika článků, které ukazují použití taxoboxu v různých provedeních; zdrojový kód je možno zkopírovat v editačním okénku příslušné stránky:
+U jedovatých organismů se přidávájí šablony na toto upozorňující. Vkládají se za taxobox před český druhový název:
+Při zakládání článku s českým názvem vytvořte zároveň přesměrování (redirekt) z vědeckého jména na české jméno a přidejte šablonu <nowiki>{{</nowiki><nowiki>}}</nowiki>
+Obsahuje-li Váš článek jen základní údaje a je nutno ho rozšířit, používá se normálně šablona <nowiki>{{Pahýl}}</nowiki>. 
+ - příklady šablon biologických pahýlů:
+<nowiki>{{biologický pahýl}}</nowiki>
+(umístěno na konci článku).
+Mimo obrázků, nacházejících se v jiných wikipediích, je možno používat i obrázků z http://commons.wikimedia.org/wiki/Main_Page (Wikimedia Commons, nová obrazová databáze pro všechny wikipedie), kterých je stále více; hledat je možno podle kategorií (kliknutím na kategorii ''Příroda'' na české hlavní stránce nebo ''Nature'' na anglické). Mimo to existují i následující zdroje na internetu:
+Následující seznam obsahuje články (botanika i zoologie), u kterých taxonomická tabulka zcela schází nebo kde je nutno tuto ještě doplnit (popř. s poznámkou, co schází). V případě dohotovení bude výhodné článek z tohoto seznamu smazat.
+Jako oznámení: mezinárodní wikipedie započala velmi nedávno nový projekt Wikispecies, který má soužit vytvoření společné databáze pro taxonomii, pravděpodobně i obrazový materiál atd v oblasti biologie. Prozatím existuje Wikispecies jen v několika málo jazycích, hlavní anglická strana má adresu http://species.wikipedia.org/wiki/Main_Page (tato se nachází i na hlavní straně české wikipedie zcela dole). Nechci vůbec posoudit, jaký to má nebo bude mít význam (je to tam teprv pár týdnů), ale snad se tam někdo z našich bio- a zoo-odborníků někdy podívá a dá zde vědět.    14:31, 24. 1. 2005 (UTC)
+----

@@ -1,0 +1,22 @@
+En optique, la '''formule de Hagen-Rubens''' exprime le coefficient de réflexion d'un milieu conducteur
+en fonction de la fréquence de la radiation incidente et de la conductivité du milieu.
+Cette relation s'écrit:
+<math> R=1-2\left(\frac{2 \epsilon_0 \omega}{\sigma}\right)^{1/2}</math>
+Dans le système d'unités SI. 
+On part des  et on exprime la densité de courant en fonction du champ
+électrique en utilisant la . 
+On obtient: 
+<math> \nabla \times \mathbf{B}=\mu_0 \sigma \mathbf{E} +\mu_0\epsilon_0 \frac{\partial \mathbf{E}}{\partial t} </math> 
+et:
+<math> \nabla \times  \mathbf{E}=-\frac{\partial B}{\partial t} </math> 
+En éliminant le champ magnétique, on trouve une équation différentielle au dérivées partielles
+du second ordre pour le champ électrique. Cette équation s'écrit:
+<math>\nabla^2\mathbf{E}=\mu_0 \sigma  \frac{\partial \mathbf{E}}{\partial t} + \frac{1}{c^2}\frac{\partial^2 \mathbf{E}}{\partial t^2}</math>
+On cherche une solution de cette équation sous la forme <math>E(x,t)=E_0e^{ikx-i\omega t}</math>, 
+ce qui donne:
+<math> k=\frac{\omega}{c}\left(1+\frac{i\sigma}{\omega \epsilon_0}\right)^{1/2} </math>
+Un métal se comporte donc comme un milieu d'indice de réfraction complexe 
+<math>N(\omega)= \left(1+\frac{i\sigma}{\omega \epsilon_0}\right)^{1/2} </math> 
+La partie imaginaire de <math>N(\omega)</math> est responsable de l'effet de peau du métal. 
+En appliquant la formule donnant le coefficient de réflexion sur un milieu d'indice <math>N(\omega)</math> et en supposant une fréquence telle que <math>\sigma \gg \epsilon_0\omega </math>
+on obtient la relation de Hagen-Rubens. 

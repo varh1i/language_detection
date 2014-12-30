@@ -1,0 +1,53 @@
+<!--tabella per la realizzazione di un comune-->
+<!--questa tabella memorizza solo i parametri - la struttura/layout è nel template Comune-->
+<!--NON modificare la prima riga e le righe dove compare il simbolo uguale-->
+<!--sostituire gli spazi vuoti (&nbsp;) col testo o col numero che deve apparire nella tabella-->
+<!--se non si sa cosa scrivere in una riga,  mettere lo spazio vuoto (&nbsp;)-->
+<!--NON inserire ritorni a capo e NON modificare il numero delle righe-->
+<!--se non si scrive una riga, questa appare come uno spazio vuoto nella tabella-->
+nomecomune =
+Hünenberg  <!--scrivere qui il nome del comune-->
+nomestemma =
+Hunenberg-ZG-Stemma.png <!--scrivere qui il nome dell'immagine dello stemma -->
+nomepaese =
+  <!--non modificare-->
+nomecantone =
+Zugo  <!--cantone di appartenenza - senza parentesi quadre - solo nome (es:Ticino)-->
+siglacantone =
+ZG  <!--sigla del cantone di appartenenza - senza parentesi quadre-->
+nomedistretto = 
+nomecircolo =
+lingua =
+  <!-- lingua ufficiale del comune - wikificata-->
+latitudine =
+47° 10‘  <!--scrivere la latitudine del capoluogo del comune - non scrivere Nord che viene messo automaticamente-->
+longitudine =
+8° 25‘  <!--scrivere la longitudine del capoluogo del comune - non scrivere Est che viene messo automaticamente-->
+altitudine =
+451   <!--scrivere l'altezza del capoluogo del comune in metri - non scrivere la m finale che viene messa automaticamente-->
+superficie =
+18,54  <!--scrivere la superficie del comune (in km²) - di solito con due decimali - - non scrivere km² che viene messo automaticamente-->
+popolazione =
+8.087  <!--scrivere la popolazione totale del comune - col punto separatore delle migliaia-->
+annocensimento = 
+  <!--inserire l'anno del censimento - con parentesi quadre-->
+densita =
+436  <!--scrivere la densità di popolazione del comune-->
+frazionicomune =
+Chämleten, Enikon, Hinterhünenberg, Kemmatten, Langrüti, Matten, Stadelmatt, Unterhünenberg  <!--Eventuali frazioni - se non ci sono lasciare lo spazio &nbsp; - non scrivere nella riga sopra, ma solo in questa - nomi senza parentesi quadre (di norma) - separati da virgola e spazio - non usare <br> perché va a capo automaticamente-->
+comunilimitrofi =
+,  (AG),  (ZH),  (AG),  (AG),  (AG),  (ZH), ,  (AG),  (''Zug'')  <!--Comuni confinanti anche di altri cantoni - se non ci sono lasciare lo spazio &nbsp; - non scrivere nella riga sopra, ma solo in questa - nomi esatti con doppie parentesi quadre (sempre) - separati da virgola e spazio - non usare <br> va a capo automaticamente-->
+cap =
+6331  <!--codice postale del comune - anche piu di uno-->
+prefisso =
+041  <!--prefisso telefonico del comune - anche piu di uno-->
+comunenumero =
+1703  <!--BFS-Nr. del comune-->
+nomeabitanti =
+Hünenberger  <!--nome degli abitanti-->
+sito =
+http://www.zug.ch/huenenberg  <!--sito internet ufficiale del comune - con singole parentesi quadre-->
+nomemappa =
+Karte Gemeinde Huenenberg.png
+<!-- fine della tabella comune -->
+'''Hünenberg''' è un comune del  di 8.087 abitanti. Comprende una parte del .

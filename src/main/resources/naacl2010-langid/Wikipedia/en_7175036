@@ -1,0 +1,35 @@
+ | image = PBB_Protein_PARP12_image.jpg
+ | image_source =  rendering based on 2pqf.
+ | PDB = {{PDB2|2pqf}}
+ | Name = Poly (ADP-ribose) polymerase family, member 12
+ | HGNCid = 21919
+ | Symbol = PARP12
+ | AltSymbols =; FLJ22693; PARP-12; ZC3H1; ZC3HDC1
+ | OMIM =  
+ | ECnumber =  
+ | Homologene = 11236
+ | MGIid = 2143990
+ | GeneAtlas_image1 = PBB_GE_PARP12_218543_s_at_tn.png
+ | Function = {{GNF_GO|id=GO:0003676 |text = nucleic acid binding}}{{GNF_GO|id=GO:0003950 |text = NAD+ ADP-ribosyltransferase activity}}{{GNF_GO|id=GO:0008270 |text = zinc ion binding}}{{GNF_GO|id=GO:0016740 |text = transferase activity}}{{GNF_GO|id=GO:0046872 |text = metal ion binding}}
+ | Component = {{GNF_GO|id=GO:0005634 |text = nucleus}} 
+ | Process = {{GNF_GO|id=GO:0006471 |text = protein amino acid ADP-ribosylation}} 
+ | Orthologs = {{GNF_Ortholog_box
+    | Hs_EntrezGene = 64761
+    | Hs_Ensembl = ENSG00000059378
+    | Hs_RefseqProtein = NP_073587
+    | Hs_RefseqmRNA = NM_022750
+    | Hs_GenLoc_db =  
+    | Hs_GenLoc_chr = 7
+    | Hs_GenLoc_start = 139370020
+    | Hs_GenLoc_end = 139409990
+    | Hs_Uniprot = Q9H0J9
+    | Mm_EntrezGene = 243771
+    | Mm_Ensembl = ENSMUSG00000038507
+    | Mm_RefseqmRNA = NM_172893
+    | Mm_RefseqProtein = NP_766481
+    | Mm_GenLoc_db =  
+    | Mm_GenLoc_chr = 6
+    | Mm_GenLoc_start = 39016020
+    | Mm_GenLoc_end = 39047854
+    | Mm_Uniprot = Q0VB94
+  }}

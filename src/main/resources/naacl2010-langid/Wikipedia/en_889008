@@ -1,0 +1,6 @@
+'''Degree of curve''' or '''degree of curvature''' is a measure of  used in  for its easy use in layout .
+A ''n''-degree curve turns ''n''  over some agreed-upon distance.  The usual distance is 100  of , but 100 feet of  is also common, and other lengths&mdash;such as 100 s where  is favoured, or a shorter length for sharper curves.
+The 100 foot is a station, used to define length along an alignment.  Annotated as 1+00, 2+00 etc.
+Typically roads are defined in arcs, and since rail routes have very large radii, the are laid out in chords, as the difference to the arc is inconsequential.  
+Beware though, the degree of curvature, as typically defined in civil literature, is for a 100' ''chord''.
+''Note the variation in usage among these samples.''

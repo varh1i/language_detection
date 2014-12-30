@@ -1,0 +1,67 @@
+''Abitanti censiti''
+<timeline>
+Colors=
+  id:lightgrey value:gray(0.9)
+  id:darkgrey  value:gray(0.7)
+  id:sfondo value:rgb(1,1,1)
+  id:barra value:rgb(0.6,0.7,0.8)
+ImageSize  = width:455 height:373
+PlotArea   = left:50 bottom:50 top:30 right:30
+DateFormat = x.y
+Period     = from:0 till:3000
+TimeAxis   = orientation:vertical
+AlignBars  = justify
+ScaleMajor = gridcolor:darkgrey increment:500 start:0
+ScaleMinor = gridcolor:lightgrey increment:100 start:0
+BackgroundColors = canvas:sfondo
+BarData=
+  bar:1861 text:1861
+  bar:1871 text:1871
+  bar:1881 text:1881
+  bar:1901 text:1901
+  bar:1911 text:1911
+  bar:1921 text:1921
+  bar:1931 text:1931
+  bar:1936 text:1936
+  bar:1951 text:1951
+  bar:1961 text:1961
+  bar:1971 text:1971
+  bar:1981 text:1981
+  bar:1991 text:1991
+  bar:2001 text:2001
+PlotData=
+  color:barra width:20 align:left
+  bar:1861 from:0 till: 0
+  bar:1871 from:0 till: 0
+  bar:1881 from:0 till: 0
+  bar:1901 from:0 till: 0
+  bar:1911 from:0 till: 0
+  bar:1921 from:0 till: 2040
+  bar:1931 from:0 till: 2000
+  bar:1936 from:0 till: 1936
+  bar:1951 from:0 till: 2220
+  bar:1961 from:0 till: 2499
+  bar:1971 from:0 till: 2688
+  bar:1981 from:0 till: 2583
+  bar:1991 from:0 till: 2567
+  bar:2001 from:0 till: 2602
+PlotData=
+  bar:1861 at: 0 fontsize:S text: n.d. shift:(-8,5)
+  bar:1871 at: 0 fontsize:S text: n.d. shift:(-10,5)
+  bar:1881 at: 0 fontsize:S text: n.d. shift:(-10,5)
+  bar:1901 at: 0 fontsize:S text: n.d. shift:(-10,5)
+  bar:1911 at: 0 fontsize:S text: n.d. shift:(-10,5)
+  bar:1921 at: 2040 fontsize:S text: 2.040 shift:(-10,5)
+  bar:1931 at: 2000 fontsize:S text: 2.000 shift:(-10,5)
+  bar:1936 at: 1936 fontsize:S text: 1.936 shift:(-10,5)
+  bar:1951 at: 2220 fontsize:S text: 2.220 shift:(-10,5)
+  bar:1961 at: 2499 fontsize:S text: 2.499 shift:(-10,5)
+  bar:1971 at: 2688 fontsize:S text: 2.688 shift:(-10,5)
+  bar:1981 at: 2583 fontsize:S text: 2.583 shift:(-10,5)
+  bar:1991 at: 2567 fontsize:S text: 2.567 shift:(-10,5)
+  bar:2001 at: 2602 fontsize:S text: 2.602 shift:(-10,5)
+TextData=
+  fontsize:S pos:(20,20)
+  text:fonte ISTAT - elaborazione grafica a cura di Wikipedia
+</timeline>
+<noinclude></noinclude>

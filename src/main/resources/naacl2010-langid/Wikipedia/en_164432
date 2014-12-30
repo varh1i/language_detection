@@ -1,0 +1,43 @@
+'''ISO 3166-3''' defines codes for outdated   and is part of the   published by the  (ISO). The official name of the standard is ''Codes for the representation of names of countries and their subdivisions – Part 3: Code for formerly used names of countries''. It was first published in 1999.
+ISO 3166-3 contains an entry for each formerly used country name whose codes were withdrawn from ISO 3166 since the first edition was published in 1974, and assigns a four-character alphabetic code for each entry. The first two characters are the withdrawn  code of the country, while the last two characters are allocated according to following rules:
+Following is a list of current ISO 3166-3 codes. For each entry, the ISO 3166-3 four-letter code is given first, followed by the former country name, its original code elements (, , ), their period of validity, and finally any related notes.
+Once five years have passed from the time of withdrawal, the two-letter code is free to be reassigned, as has been done with <tt>AI</tt>, <tt>CS</tt>, <tt>GE</tt>, and <tt>SK</tt>. However, some of the two-letter codes remain  for a longer period.
+Many of the two-letter codes were withdrawn before the introduction of the , and so were never used for the 's s (ccTLDs). However, some ccTLDs using withdrawn codes are still currently active, such as , , and .
+The alpha-2 code <tt>CS</tt> had been withdrawn twice, the first time due to the split of  and the second time due to the split of . On  (Newsletter I-4), the code <tt>CSHH</tt> was assigned to Serbia and Montenegro, even though it had already been used for Czechoslovakia. To avoid confusion, since  (Newsletter I-5), the code <tt>CSXX</tt> is used for Serbia and Montenegro.
+If the country only changed its name without any territorial changes, its numeric code remains the same.
+!ISO 3166-3 code
+!Former country name
+!Former code elements
+!Period of validity
+!Notes
+! <tt>AIDJ</tt>
+! <tt>BQAQ</tt>
+! <tt>BUMM</tt> 
+! <tt>BYAA</tt> 
+! <tt>CSHH</tt>
+! <tt>CSXX</tt>
+! <tt>CTKI</tt> 
+! <tt>DDDE</tt>
+! <tt>DYBJ</tt>
+! <tt>FQHH</tt>
+! <tt>FXFR</tt>
+! <tt>GEHH</tt>
+! <tt>HVBF</tt>
+! <tt>JTUM</tt>
+! <tt>MIUM</tt>
+! <tt>NHVU</tt>
+! <tt>NQAQ</tt>
+! <tt>NTHH</tt>
+! <tt>PCHH</tt>
+! <tt>PUUM</tt>
+! <tt>PZPA</tt>
+! <tt>RHZW</tt>
+! <tt>SKIN</tt>
+! <tt>SUHH</tt>
+! <tt>TPTL</tt>
+! <tt>VDVN</tt>
+! <tt>WKUM</tt>
+! <tt>YDYE</tt>
+! <tt>YUCS</tt>
+! <tt>ZRCD</tt>
+Since the first publication of ISO 3166-3 in 1999, five newsletters have been published which announce changes to the standard:

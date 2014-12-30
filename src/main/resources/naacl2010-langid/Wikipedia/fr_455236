@@ -1,0 +1,42 @@
+'''''Strukturbericht''''' signifie « rapport sur les structures » en allemand. Il s'agissait d'une publication allemande, initialement un supplément au ''Zeitschrift für Kristallographie'' (journal de cristallographie). Les volumes 1 à 8 (–) de ''Strukturbericht'' furent publiés exclusivement en allemand, par Akademische Verlagsgesellschaft MBH, . À partir du volume 9, ils furent également publiés en anglais sous le titre ''Structure Report''.
+Pour décrire les , la publication introduisit une notation propre, qui porte d'ailleurs son nom. Cette notation est surtout utile dans le cas de composés polyatomiques lorsqu'il y a un ordre chimique (s,  ioniques, s, s…).
+En effet, les autres notations (, ) ne considèrent que le  mais ne décrivent pas l'arrangement chimique.
+Cette notation commence par une lettre qui correspond globalement aux proportions d'atomes :
+À cette lettre s'ajoute un nombre (p.-ex. A1), une lettre en indice (p.-ex. A<sub>h</sub>), ou encore un nombre suivi d'un autre nombre ou d'un lettre en indice (p.-ex. L1<sub>2</sub>, D0<sub>2</sub>, C1<sub>b</sub>)… qui correspond à un numéro d'ordre.
+! Notation <br />''Strukturbericht'' !! Structure !! Groupe d'espace !! Exemple
+Le  a une structure rhomboédrique (α-Al<sub>2</sub>O<sub>3</sub>), de groupe d'espace <math>\mathrm{R\bar{3}c}</math>. Un motif est composé de deux pyramides Al<sub>2</sub>O<sub>3</sub> inversées qui se répètent aux nœuds du rhomboèdre.
+Les atomes/ions d'oxygènes forment un réseau , avec donc une alternance de plans A-B ; les atomes/ions métalliques occupent les deux-tiers des sites intersitiels octaédriques, avec trois types de plans a, b et c en alternance. On a donc une alternance A-a-b-B-c-a-A-b-c-B-a-b-A-c-a-B-b-c-A-a…
+Cette structure est notée '''D5<sub>1</sub>'''. C'est aussi la structure de l' (α-Fe<sub>2</sub>O<sub>3</sub>).
+<gallery>
+Image:Rhomboedrique D51.svg|Structure D5<sub>1</sub>
+Image:Rhomboedrique D51 2.svg|Autre description de la structure D5<sub>1</sub>
+</gallery>
+La structure  à un type d'atome est notée '''A3''' ; son groupe d'espace est P6<sub>3</sub>/mmc (n°194). C'est la structure notamment du  (Mg), du  (Co), de l' (Y), du  (Zr)…
+La structure du  est notée '''A9''' ; son groupe d'espace est P6<sub>3</sub>/mmc (n°194).
+La  (ZnS) a une structure hexagonale '''B4''' ; son groupe d'espace est P6<sub>3</sub>mc (n°186). Les atomes de zinc forment un réseau hexagonal compact, et les atomes de soufre occupent tous les sites lacunaires tétraédriques. C'est aussi la structure du  AlN.
+<gallery>
+Image:Hexagonal A3.svg|Structure A3
+</gallery>
+La structure du  TiO<sub>2</sub> est notée C4. Les cations de titane sont aux angles et au centre. Quatre des anions d'oxygène forment un rectangle, ils sont situés sur les diagonales des grands côtés (''a''×''a'') parallèles entres elles ; les deux autres anions sont situés sur l'axe perpendiculaire à ce rectangle et passant par le centre de la structure.
+Les réseaux cubiques simples correspondent au groupe d'espace n°221, ayant les symboles de Hermann-Mauguin <math>\mathrm{Pm\bar{3}m}</math> (ou Pm3m).
+Un cristal monoatomique, comme le  alpha (α-Po), est noté '''A<sub>h</sub>'''.
+Dans le cas d'un cristal diatomique ''AB'' avec une alternance ''A''-''B''-''A''-''B''-… le long de la grande diagonale du cube, la notation ''Strukturbericht'' est '''B2'''. Le cristal paraît cubique centré, mais est en fait cubique simple, chaque nœud portant une paire ''A''-''B''. C'est le cas du  (CsCl), de l' bêta-2 (β2-FeAl) et de l' bêta (β-NiAl).
+La  CaTiO<sub>3</sub> est un composé ternaire cubique simple dont la notation Strukturbericht et '''L2<sub>1</sub>'''. C'est aussi la structure du Fe<sub>3</sub>AlC et du nitrure de fer épsilon (ε-Fe<sub>4</sub>N).
+<gallery>
+Image:Cubique simple Ah.svg|Structure A<sub>h</sub>
+Image:Cubique simple B2.svg|Structure B2
+</gallery>
+Les réseaux cubiques simples correspondent au groupe d'espace n°229, ayant les symboles de Hermann-Mauguin <math>\mathrm{Im\bar{3}m}</math> (ou Im3m).
+Un cristal monoatomique, comme le  alpha (α-Fe), est noté '''A2'''.
+C'est le cas de Li (à température ambiante), Na, K, V, Cr, Rb, Nb, Mo, Cs, Ba, Eu, Ta.
+<gallery>
+Image:Cubique centre A2.svg|Structure A2
+</gallery>
+Les réseaux  correspondent au groupe d'espace n°225, ayant les symboles de Hermann-Mauguin <math>\mathrm{Fm\bar{3}m}</math> (ou Fm3m).
+Un cristal monoatomique, comme le γ- () ou le , est noté '''A1'''.
+Dans le cas d'un cristal diatomique ''AB'' avec une alternance ''A''-''B''-''A''-''B''-… le long de l'arrête du cube, la notation ''Strukturbericht'' est '''B1'''. Le cristal paraît cubique simple, mais est en fait cubique simple, chaque nœud portant une paire ''A''-''B''. C'est le cas de la  (NaCl), de la  (PbS) et de la  (FeO).
+La structure  (MgAl<sub>2</sub>O<sub>4</sub>, ou Mg<sup>2+</sup>Al<sup>3+</sup><sub>2</sub>O<sup>2-</sup><sub>4</sub>) est une structure cubique à faces centrée à trois atomes. Son groupe d'espace est <math>\mathrm{Fd\bar{3}m}</math> et sa notation Strukturbericht '''H1<sub>1</sub>'''. C'est aussi la structure de la  (Fe<sup>2+</sup>Fe<sup>3+</sup><sub>2</sub>O<sup>2-</sup><sub>4</sub>), de la  (FeAl<sub>2</sub>O<sub>4</sub>) et de l'oxynitrure d'aluminium gamma (γ-AlON).
+<gallery>
+Image:Cubique a faces centrees A1.svg|Structure A1
+Image:Cubique a faces centrees B1.svg|Structure B1
+</gallery>

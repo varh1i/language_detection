@@ -1,0 +1,2 @@
+<div id="longpagewarning" style="margin: 0 0 1em; padding: .5em 1em; vertical-align: middle; border: solid #aaaaaa 1px">
+Αυτή η σελίδα είναι $1 kb. {{#switch:{{NAMESPACE}}

@@ -1,0 +1,46 @@
+<!--tabella per la scheda delle specie minerali
+questa tabella memorizza solo i parametri - la struttura/layout è nel template Minerale
+NON modificare la prima riga e le righe dove compare il simbolo uguale
+sostituire tutte le xxx col testo o col numero che deve apparire nella tabella
+se non si sa cosa scrivere in una riga,  mettere lo spazio vuoto &nbsp;
+se non si scrive una riga, questa appare come uno spazio vuoto nella tabella-->
+nomeminerale =
+Murataite<!--scrivere qui il nome della specie minerale-->
+immagine=
+<!--inserire qui il nome dell'immagine della specie minerale-->
+classificazione =
+IV/C.14-10<!--scrive il codice della classificazione secondo Strunz-->
+formula =
+(Y,Na)<sub>6</sub>(Zn,Fe<sup>+++</sup>)<sub>5</sub>(Ti,Nb)<sub>12</sub>O<sub>29</sub>(O,F)<sub>14</sub><!--scrivere la formula bruta-->
+gruppo =
+&nbsp; <!--scrivere il gruppo cristallino-->
+sistema =
+&nbsp; <!--scrivere il sistema cristallino-->
+classe =
+&nbsp; <!--scrivere la classe di simmetria-->
+parametri =
+&nbsp; <!--scrivere i parametri di cella-->
+puntuale =
+<font style="text-decoration:overline">4</font> 3m<!--scrivere il gruppo puntuale-->
+spaziale =
+F<font style="text-decoration:overline">4</font>3m<!--scrivere il gruppo spaziale-->
+valoredensita =
+&nbsp; <!--scrivere la densità in g/cm3-->
+valoredurezza =
+&nbsp; <!--scrivere la durezza secondo Mohs-->
+tiposfaldatura =
+&nbsp; <!--scrivere il tipo di sfaldatura-->
+tipofrattura =
+&nbsp; <!--scrivere il tipo di frattura-->
+coloreminerale =
+&nbsp; <!--scrivere i colori che può assumere il minerale-->
+tipolucentezza =
+&nbsp; <!--scrivere il tipo di lucentezza-->
+tipoopacita =
+&nbsp; <!--scrivere "opaca, translucida, trasparente ecc.-->
+coloreriflessi =
+&nbsp; <!--scrivere il colore dello striscio su porcellana-->
+tipodiffusione =
+&nbsp; <!--scrivere se è raro, diffuso, comune ecc...-->
+<!--fine della tabella minerale-->
+La '''murataite''' è un minerale.

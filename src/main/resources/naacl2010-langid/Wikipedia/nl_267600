@@ -1,0 +1,35 @@
+'''Voisins-le-Bretonneux''' is een gemeente in het  departement  (regio ) en telt 12.153 inwoners (1999). De plaats maakt deel uit van het arrondissement  en is één van de zeven gemeenten van de  .
+De oppervlakte van Voisins-le-Bretonneux bedraagt 2,4 km², de bevolkingsdichtheid is 5063,8 inwoners per km². 
+Onderstaande figuur toont het verloop van het inwonertal (bron: ).
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:18000 color:gray1 width:1       
+  from:start till:end             
+  bar:12000 color:gray1              
+  from:start till:end            
+  bar:6000 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,26)(84,26) color:blue  width:2 #1962 tot 1968. Inwonertal 1962: 594 1968: 680
+  points:(84,26)(100,40)    color:blue    width:2 #1975: 2132
+  points:(100,40)(128,69)   color:blue    width:2 #1982: 5229
+  points:(128,69)(160,126)   color:blue    width:2 #1990: 11220
+  points:(160,126)(196,135)   color:blue    width:2 #1999: 12153
+  
+</timeline>     
+<!-- Bron: Frans bureau voor statistiek. Cijfers inwoneraantal volgens de definitie "population sans doubles comptes" --> 

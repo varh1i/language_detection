@@ -1,0 +1,29 @@
+  nom=eyeOS |
+  logo = |
+  captura_de_pantalla= |
+  titol=Captura de pantalla de l'eyeOS |
+  autor= |
+  desenvolupador= [http://eyeos.org/whoarewe Equip eyeOS] |
+  ultima_versio= 1.6.0 |
+  data_ultima_versio=  del  |
+  sistema_operatiu= | 
+  idioma= |
+  tipus= |
+  llicencia= |
+  web=[http://eyeos.org Pàgina web oficial] |
+'''eyeOS''' és un entorn d', també conegut ''Sistema operatiu via web''. La diferència més important entre l'eyeOS i altres "sistemes operatius Web" és que eyeOS es pot descarregar en tant que és  (llicència ), i permet a tothom tenir el seu propi servidor d'eyeOS.
+eyeOS forma part de la  i combina en una pàgina web , ,  i . eyeOS permet que hom pugui veure i editar tots els seus arxius i programes des de qualsevol  amb connexió a  i un  que compleixi els estàndards .
+Els principals programadors d'aquest sistema operatiu són , , ,  i . El projecte va néixer a  () l'agost del .
+eyeOS és un projecte iniciat l'agost del , per un petit grup de joves programadors d'Olesa de Montserrat. Va començar com una simple idea que se-l's havia ocorregut al veure el naixement de varis serveis d'aquest tipus com , per a pujar fotos, , per a emmagatzemar enllaços. Els tres amics havien d'anar a casa de l'altre per fer els seus treballs i usualment s'oblidaven els documents, així se-l's va ocórrer la idea de tenir tots els fitxers a Internet i així no haver-los de traginar. Van veure llavors que allò podia ser encara més útil i hi van incloure un .
+Així va sorgir la primera idea, la creació d'un  (que tècnicament no era un sistema operatiu però si comptava amb un nucli propi) i el van oferir lliurement per a que qualsevol pogués instal·lar-lo i utilitzar-lo en els seus servidors i s amb .
+El març de  van obrir el lloc [http://eyeOS.info eyeOS.info], que ofereix un servei gratuït en línia basat en el seu programari original fent-lo una adaptació d'aquest per a poder ser utilitzat com a un servei en línia des d'un pàgina web, en la qual qualsevol pogués accedir-hi i utilitzar el seu programari com a escriptori virtual en línia, on l'usuari pogués utilitzar els seus paquets d'aplicacions com a un legítim sistema operatiu, des de qualsevol part del món i sense instal·lar res addicional.
+La idea va ser tot un èxit, doncs en tan sols dos mesos van obtenir gran acceptació ja que es van inscriure al servei més de 27.000 usuaris de diferents països com , ,  i inclòs països amb règims estrictes que regulen certs serveis d'emmagatzematge com . Des de llavors, els van ploure col·laboradors els quals va crear cents de programaris per a aquest servei i van traduir el servei a més de 30 llengües diferents.
+Des de llavors han estat creixent amb força, i han nascut altres serveis com , que és una comunitat de persones dedicades al disseny i a l'estètica d'aquest projecte amb la intenció de fer més fàcil el seu ús i adaptable a persones amb discapacitats visuals i auditives. L'eyeOS aconsegueix, de mitjana, uns 400 usuaris nous cada dia.
+L'eyeOS porta una gran nombre d'aplicacions per defecte, a més a més se'n poden incloure d'altres, i si s'és programador programar-ne de noves.
+Els programes per defecte són els següents:
+Aquest servei destaca per posseir una fortes mesures de seguretat com són l'ús de , els formateigs mensuals com a mesura preventiva per si s'ha infiltrat algun ...
+Com a mesura preventiva addicional, tota la comunicació que es desenvolupa a dins i tots els continguts i fitxers emmagatzemats queden xifrats. De tal manera que ni els propis administradors poden descobrir el seu contingut, garantint així un drets a la privacitat de l'usuari.
+<gallery>
+Image:EyeOS09.png|eyeOS 0.9
+Imatge:EyeOS10.jpg|eyeOS 1.0
+</gallery>

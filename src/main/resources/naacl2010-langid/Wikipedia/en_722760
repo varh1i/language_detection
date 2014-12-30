@@ -1,0 +1,6 @@
+In , a '''generalized eigenvector''' of a  ''A'' is a nonzero  '''v''', which has associated with it an  &lambda; having  ''k'' &ge;1, satisfying
+Ordinary s are obtained for ''k''=1.
+Generalized eigenvectors are needed to form a complete  of a , which is a matrix in which there are fewer  eigenvectors than eigenvalues.  The generalized eigenvectors ''do'' form a complete basis, as follows from the  of a matrix. 
+In particular, suppose that an eigenvalue &lambda; of a matrix ''A'' has a multiplicity ''m'' but only a single corresponding eigenvector <math>x_1</math>.  We form a sequence of ''m'' generalized eigenvectors <math>x_1, x_2, \ldots, x_m</math> that satisfy:
+for <math>k=1,\ldots,m</math>, where we define <math>x_0 = 0</math>.  It follows that:
+The generalized eigenvectors are linearly independent, but are not determined uniquely by the above relations.  

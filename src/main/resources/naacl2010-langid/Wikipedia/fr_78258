@@ -1,0 +1,22 @@
+'''''Sokoban''''' est un  inventé au . Ce nom que l'on écrit 倉庫番 en , ou ''sôkoban'' transcrit avec la , désigne un garde d'entrepôt.
+Gardien d'entrepot (divisé en cases ), le joueur doit ranger des caisses sur des cases cibles. Il peut se déplacer dans les quatre directions, et  pousser (mais pas tirer) une seule caisse à la fois.
+Une fois toutes les caisses rangées (c'est parfois un vrai ), le  est réussi et le joueur passe au  suivant, plus difficile en général. 
+L'idéal est de réussir avec le moins de coups possibles (déplacements et poussées).
+Le jeu original a été écrit par Hiroyuki Imabayashi et comportait 50 x. Il remporte en  un concours de jeu vidéo pour ordinateur. Plus tard Hiroyuki Imabayashi est devenu président de la compagnie  Thinking Rabbit Inc. qui détient aujourd'hui les droits sur le jeu depuis .
+Aujourd'hui, il existe de multiples jeux dérivées de ce jeu, comme par exemple ''Boxworld'', une variante fonctionnant sous  et incluant 100 x. Comme les règles sont simples, le jeu est facile à , même le  suffit, il est ainsi possible de  avec un . Il existe des logiciels proposant un affichage  (le principe du jeu reste en 2D, comme certains jeux d'échecs 3D).
+Si, dans certaines versions du jeu, tous les niveaux jouables sont intégrés dans le jeu, sans permettre l'importation de niveaux, la majeure partie des versions permettent de jouer des niveaux autres que ceux qui sont intégrés.
+Pour cela, plusieurs formats existent, comme :
+Ce texte est un niveau (le premier, de la première version), qui montre le format ".XSB", le format  des niveaux Sokoban, et sa légende.
+<pre>
+    #####                 # -> mur
+    #   #                 $ -> caisse
+    #$  #                 . -> destination
+  ###  $##                * -> caisse sur une zone de rangement (pas dans ce niveau)
+  #  $ $ #                @ -> personnage     
+    #     #########
+    #######
+</pre>
+Le jeu de ''Sokoban'' peut être étudié du point de vue de la . Il a été démontré que la résolution des niveaux de ''Sokoban'' est un problème de complexité NP-difficile<ref>[http://citeseer.ist.psu.edu/dor95sokoban.html ''Sokoban'' produit des problèmes NP-difficiles]</ref>, en ce sens que le jeu fait partie de la classe plus générale des problèmes de planification de déplacements, où le joueur est autorisé à pousser ou à tirer un ou plusieurs objets à la fois. Le jeu est également intéressant pour les chercheurs en , car la résolution de niveaux peut être comparée à la conception d'un robot qui déplace des caisses dans un entrepôt. D'autres travaux ont par ailleurs montré qu'il est <ref>[http://citeseer.ist.psu.edu/culberson97sokoban.html ''Sokoban'' produit des problèmes PSPACE-complet]</ref>.
+La difficulté du ''Sokoban'' provient de son  (comparable à celui des , bien que très inférieur à celui du ), mais aussi de la très grande profondeur de son . Ainsi, certains niveaux nécessitent plusieurs milliers de déplacements et plus de {{formatnum:1000}} « poussées ». Les joueurs humains expérimentés se basent principalement sur des méthodes s. Ils sont généralement capables d'éliminer rapidement les tactiques de jeu inutiles ou redondantes, et ils identifient les dispositions du jeu et les sous-buts, ce qui leur permet d'élaguer sensiblement l'étendue des recherches.
+Les problèmes de ''Sokoban'' peuvent être résolus automatiquement à l'aide d'un algorithme de , tel que , amélioré par plusieurs techniques qui font appel à des connaissances spécifiques de ce domaine<ref>[http://citeseer.ist.psu.edu/373835.html Collection de méthodes pour résoudre un problème de ''Sokoban'']</ref>. C'est la méthode utilisée par ''Rolling Stone'', un solveur développé par le groupe GAMES de l', au Canada<ref>[http://www.cs.ualberta.ca/~games ''Rolling Stone'', un solveur de ''Sokoban'']</ref>. Cependant, certains niveaux parmi les plus complexes semblent toujours hors de portée des meilleurs solveurs automatiques.
+<references/>

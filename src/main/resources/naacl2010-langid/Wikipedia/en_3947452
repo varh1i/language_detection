@@ -1,0 +1,17 @@
+'''Jabbin''' is a  chat program for  and  phone calls via  protocols.
+Jabbin allows Jabber instant messaging and free voice calls.
+It is cross-platform with versions for Linux and Windows. A port to  is in development.
+The program is based on the   client.
+Both are written in  and use the cross-platform  library to provide their . Version 3.3.x of Qt is used so it's not very easy to build Jabbin on Windows using only open-source components. Either unofficial (but legal) Windows port for Qt 3.3.x/X11 needs to be used or Qt 3.3.x commercial license required)
+Like Psi, Jabbin uses the Jabber or  communication protocol, but uses the  library for   connections.
+Jabbin incorporates the libjingle support from Psi (where it was still considered experimental) with additional Windows support and uses the free voice codec .
+The first version, 1.0, was released in December 2005, based on the development Psi 0.10.
+The telephone connections were made via the  extension to XMPP.
+Since version 2.0, VoIP support was backported from Psi and extended to work on . 
+It uses the libjingle library from Google, but does not (despite the confusing name) implement the Jingle protocol from the XMPP Standards Foundation. The support for this protocol replaced TINS.
+For version 3, Jabbin plans to support  calls.
+Current (28.05.2008) SVN arleady has many important fixes and additions like fix for Service Discovery(with was broken in betas of 2.0),workable  and workable support for Jabbin->PSTN calling (this feature require server-side support, it works with OpenFire+Asterisk pair as server, which is used on JabberOut.com(currently in beta)).
+Update (April 9 2008): Now you will be redirected to a commercial web page of "Telecom64". The last version of the software (2006-07-21) is still available at [http://sourceforge.net/projects/jabbin/ Sourceforge].
+Update (May 28 2008): VoIP->PSTN call is not reliable in precence of Symmetric NATs and/or UDP blocking (VoIP module currently doesn't auto-fallback to TCP)
+At present (Feb 19 2008) you'll be shown "This site may harm your computer" when invoking the official Jabbin website by .
+This happens within the campaign  which also listed  as badware.

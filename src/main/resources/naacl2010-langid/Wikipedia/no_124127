@@ -1,0 +1,4 @@
+En '''modal logikk''' er en  for å behandle ''modaliteter'': konsepter som ''mulighet'', ''umulighet'' og ''nødvendighet''. Logikker for å behandle en rekke andre ideer, som ''etter hvert'', ''tidligere'', ''kan'', ''kunne'', ''skulle'', ''burde'' og ''må'', blir også kalt modale logikker, siden de kan behandles på lignende måter.
+Formelle modallogikker representerer modalitetene ved at man setter logiske operatorer på setningene. De grunnleggende '''modale operatorene''' er vanligvis <math>\Box</math> (eller ''L'') for modaliteten ''nødvendig'' og <math>\Diamond</math> (eller ''M'') for ''mulig''. De er interdefinert slik:
+Dermed er det ''mulig'' at NN ble myrdet hvis og bare hvis det ikke er ''nødvendig'' at NN ''ikke'' ble myrdet. Tilsvarende er det ''nødvendig'' at NN ble myrdet hvis og bare hvis det ikke er ''mulig'' at NN ''ikke'' ble myrdet.
+Sagt på en annen måte: Noe er ''mulig'' hvis og bare hvis det motsatte ikke er ''nødvendig'', og vice versa.

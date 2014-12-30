@@ -1,0 +1,14 @@
+ |          Nazwa = MIPS
+ |         Symbol = -
+ |          Uklad = informatyczny
+ |         Wymiar = 
+ |       Wielkosc = 
+ |    WielkoscOzn =
+ |        SI-jedn = 
+ |       CGS-jedn =
+ |       Imp-jedn =
+ |       Nazwisko =
+ |     Etymologia = ang. '''''M'''illion '''I'''nstructions '''P'''er '''S'''econd
+ | JednPodstawowa =
+'''Million Instructions Per Second (MIPS)''' - miara wydajności jednostki centralnej  a.
+''MIPS'' określa liczbę milionów operacji stałoprzecinkowych wykonywanych w ciągu , przez daną jednostkę obliczeniową. Jednostka ta jest powszechnie używana w dwóch formach ''Milion Instrukcji na Sekundę (MIPS)'' lub ''Milion Operacji na Sekundę (MOPS)''.

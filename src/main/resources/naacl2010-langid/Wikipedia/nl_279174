@@ -1,0 +1,35 @@
+'''Lignerolles''' is een gemeente in het  departement  (regio ) en telt 255 inwoners (1999). De plaats maakt deel uit van het arrondissement .
+De oppervlakte van Lignerolles bedraagt 6,2 km², de bevolkingsdichtheid is 41,1 inwoners per km². 
+Onderstaande figuur toont het verloop van het inwonertal (bron: ).
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:360 color:gray1 width:1       
+  from:start till:end             
+  bar:240 color:gray1              
+  from:start till:end            
+  bar:120 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,106)(84,112) color:blue  width:2 #1962 tot 1968. Inwonertal 1962: 182 1968: 195
+  points:(84,112)(100,102)    color:blue    width:2 #1975: 174
+  points:(100,102)(128,107)   color:blue    width:2 #1982: 184
+  points:(128,107)(160,128)   color:blue    width:2 #1990: 228
+  points:(160,128)(196,140)   color:blue    width:2 #1999: 255
+  
+</timeline>     
+<!-- Bron: Frans bureau voor statistiek. Cijfers inwoneraantal volgens de definitie "population sans doubles comptes" --> 

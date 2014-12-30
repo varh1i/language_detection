@@ -1,0 +1,15 @@
+In the  subfield , '''tricubic interpolation''' is a method for obtaining values at arbitrary points in  of a function defined on a .  The approach involves approximating the function locally by an expression of the form 
+This form has 64 coefficients <math>a_{ijk}</math>; requiring the function to have a given value or given  at a point places one linear constraint on the 64 coefficients.
+The term ''tricubic interpolation'' is used in more than one context; some experiments measure both the value of a function and its spatial derivatives, and it is desirable to interpolate preserving the values and the measured derivatives at the grid points.  Those provide 32 constraints on the coefficients, and another 32 constraints can be provided by requiring smoothness of higher derivatives; see <ref>[http://www.lekien.com/~francois/papers/LeMa05/LeMa05.pdf Tricubic interpolation in three dimensions<!-- Bot generated title -->]</ref> for details.
+In other contexts, we can obtain the 64 coefficients by considering a 3x3x3 grid of small cubes surrounding the cube inside which we evaluate the function, and fitting the function at the 64 points on the corners of this grid.  
+The advantage of this approach is that it can be done incrementally: define <math>\mathrm{CINT}_x(u_{-1}, u_0, u_1, u_2)</math> as the value of the unique cubic polynomial with <math>f(-1) = u_{-1}, \ldots, f(2) = u_2</math> evaluated at ''x''.  
+The  article will remind you that <math>\mathrm{CINT}_x(u_{-1}, u_0, u_1, u_2) = \mathbf{v}_x \cdot \left( u_{-1} u_0 u_1 u_2 \right)</math> for some vector <math>\mathbf{v}_x</math> which is a function of ''x'' alone.
+Now, we can proceed by setting
+\begin{align}
+t(x,y) & {} = \mathrm{CINT}_z\left( r(x,y,-1), r(x,y,0), r(x,y,1), r(x,y,2)\right) & (x,y \in -1 \ldots 2) \\
+u(x) & {} = \mathrm{CINT}_y\left( t(x,-1), t(x,0), t(x,1), t(x,2)\right) & (x \in -1 \ldots 2) \\
+f & {} = \mathrm{CINT}_x\left( u(-1), u(0), u(1), u(2)\right)
+\end{align}
+</math>
+which requires 21 calls to <math>\mathrm{CINT}</math>, each of which is essentially a four-element dot-product (and sixteen of which are four-element dot-products by the same vector) rather than the multiplication of a <math>{64 \times 64}</math> matrix by the vector with the 64 point values which a direct solution of the linear system would entail.
+<references/>

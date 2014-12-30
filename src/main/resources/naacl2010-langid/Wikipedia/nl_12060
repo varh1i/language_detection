@@ -1,0 +1,21 @@
+In de  verstaat men onder '''metrische ruimte''' een verzameling waarin een begrip ''afstand'' of ''metriek'' bestaat. Van twee verschillende elementen van zo'n verzameling kan de afstand ertussen bepaald worden. Het begrip afstand is daarbij zo gegeneraliseerd dat het de voor afstand kenmerkende eigenschappen heeft behouden. Sommige verzamelingen laten als afstand slechts de triviale discrete metriek toe, andere kennen meer dan één afstandsbegrip.
+Een '''metrische ruimte''' is een  ''V'' samen met een afbeelding <math>d: V\times V\rightarrow\mathbb{R}</math>, '''' of ''afstand'' geheten, die aan de volgende 's voldoet:
+voor willekeurige <math>x, y, z \in V</math> geldt:
+Als de scheidingseigenschap wordt afgezwakt door "slechts dan" weg te laten, heet d een .
+waarbij 
+Deze metriek dankt zijn naam aan het twee-dimensionale voorbeeld waarbij men in een stadswijk met een patroon van elkaar loodrecht kruisende straten, volgens de kortste weg van hoekpunt A naar hoekpunt B wandelt.
+Op iedere willekeurige verzameling <math>V</math> is de afbeelding <math>d:V\times V</math> die elk identiek puntenpaar <math>(x,x)</math> op 0 afbeeldt, en elk ander puntenpaar <math>(x,y)</math> op 1, een metriek. Men noemt dit de ''discrete metriek''. Deze metriek geeft in essentie slechts aan of twee elementen verschillend zijn of niet.
+De eerste twee voorbeelden hierboven hebben gemeen dat de verzameling <math>V</math> telkens een reële of complexe  is, waarin de afstandsfunctie geïnduceerd wordt door een of andere  <math>\|.\|</math>, d.w.z. 
+Algemeen maakt deze constructie van elke genormeerde ruimte een metrische ruimte. Als de aldus ontstane metrische ruimte  is, noemt men de genormeerde ruimte een .
+In een metrische ruimte induceert de metriek ook een  voortgebracht door de open bollen. De open bol ''B(a,&rho;)'' om het punt ''a'' met straal &rho; > 0 bestaat uit de punten die op een kleinere afstand dan &rho; van ''a'' liggen:
+Met deze topologie wordt iedere metrische ruimte een .
+Niet elke topologie is echter afkomstig van een metriek. Een topologische ruimte heet  als haar topologie wordt voortgebracht door de open bollen van een of andere metriek op de dragende verzameling.
+Er bestaan verschillende verbanden tussen metriseerbaarheid en de s en de s. De  bepaalt een precieze equivalentie tussen metriseerbaarheid enerzijds, en de combinatie van een aftelbaarheidsaxioma en een scheidingsaxioma anderzijds.
+Twee metrieken op een verzameling <math>V</math> <math>d_1</math> en <math>d_2</math> zijn equivalent als en slechts als er een <math>M_1</math> en <math>M_2 \in \mathbb{R}</math> bestaan zodat:
+<math>\forall x,y \in V: d_1(x,y) \leq M_1 d_2(x,y)</math> en <math>\forall x,y \in V: d_2(x,y) \leq M_2 d_1(x,y)</math>
+Equivalente metrieken impliceren dat in beide metrische ruimten dezelfde verzamelingen open zijn (en dus dezelfde ook gesloten zijn), ook definiëren equivalente metrieken dezelfde   en s.
+In <math>\R^p</math> zijn de volgende metrieken equivalent:
+Een begrensde metriek is een metriek waarvoor er een ''M'' >0 bestaat zodat <math>\forall x,y \in V:d(x,y)\leq M </math>
+Een voorbeeld hiervan is de metriek <math>d:\R \times \R\rightarrow \R</math> gegeven door:
+<math>d(x,y)= \frac{|x-y|}{1+|x-y|}</math>
+Het is duidelijk dat in dit geval geldt dat <math>d(x,y)\leq 1</math>

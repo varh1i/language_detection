@@ -1,0 +1,43 @@
+''Abitanti censiti''
+<timeline>
+Colors=
+  id:lightgrey value:gray(0.9)
+  id:darkgrey  value:gray(0.7)
+  id:sfondo value:rgb(1,1,1)
+  id:barra value:rgb(0.6,0.7,0.8)
+ImageSize  = width:350 height:373
+PlotArea   = left:50 bottom:50 top:30 right:30
+DateFormat = x.y
+Period     = from:0 till:3000
+TimeAxis   = orientation:vertical
+AlignBars  = justify
+ScaleMajor = gridcolor:darkgrey increment:500 start:0
+ScaleMinor = gridcolor:lightgrey increment:100 start:0
+BackgroundColors = canvas:sfondo
+BarData=
+  bar:1962 text:1962
+  bar:1968 text:1968
+  bar:1975 text:1975
+  bar:1982 text:1982
+  bar:1990 text:1990
+  bar:1999 text:1999
+PlotData=
+  color:barra width:30 align:left
+  bar:1962 from:0 till: 1501
+  bar:1968 from:0 till: 1647
+  bar:1975 from:0 till: 1691
+  bar:1982 from:0 till: 2043
+  bar:1990 from:0 till: 2465
+  bar:1999 from:0 till: 2543
+PlotData=
+  bar:1962 at: 1501 fontsize:S text: 1.501 shift:(-8,5)
+  bar:1968 at: 1647 fontsize:S text: 1.647 shift:(-10,5)
+  bar:1975 at: 1691 fontsize:S text: 1.691 shift:(-10,5)
+  bar:1982 at: 2043 fontsize:S text: 2.043 shift:(-10,5)
+  bar:1990 at: 2465 fontsize:S text: 2.465 shift:(-10,5)
+  bar:1999 at: 2543 fontsize:S text: 2.543 shift:(-10,5)
+TextData=
+  fontsize:S pos:(20,20)
+  text:fonte INSEE - elaborazione grafica a cura di Wikipedia
+</timeline>
+<noinclude></noinclude>

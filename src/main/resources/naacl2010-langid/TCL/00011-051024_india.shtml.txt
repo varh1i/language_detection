@@ -1,0 +1,29 @@
+Indyjskie firmy produkuj¹ce oprogramowanie prze¿ywaj¹ boom, ale na prowincji ludzie dopiero poznaj¹ komputery.
+Ludzie ¿yj¹cy z p³odów ziemi, ich codzienne obowi¹zki i bardzo g³êboko zakorzeniona rola tradycji - tak wygl¹da wiêksza czêœæ Indii. W takim œwiecie ¿yje tam oko³o 700 milionów rolników.
+To rzeczywistoœæ zupe³nie inna od tej w Bangalore, komputerowego centrum Indii. 
+Specjaliœci od oprogramowania opracowuj¹ tam rozwi¹zania, które maj¹ ulepszyæ ¿ycie ludzi na ca³ym œwiecie.
+Tymczasem indyjska prowincja praktycznie wcale nie korzysta z owoców ich pracy. Dopiero niedawno komputery pojawi³y siê w ¿yciu jej mieszkañców.
+Choupal i e-Choupal
+We wsi Sabalpur wyj¹tkowym wydarzeniem w ka¿dym tygodniu jest spotkanie starszyzny, zwane "Choupal".
+Do niedawna starszyzna omawia³a podczas nich najwa¿niejsze wydarzenia tygodnia dla ¿ycia regionu i sprawy dotycz¹ce zbiorów.
+Od kiedy wieœ jest pod³¹czona do internetu wa¿nym punktem programu sta³o siê tzw. "e-Choupal", czyli wymiana doœwiadczeñ z rolnikami z innych czêœci Indii.
+Komputer trafi³ do specjalnego pomieszczenia na obrze¿ach wioski. Za jego u¿ywanie odpowiada Akash Pratab Singh Raghav, jeden z mieszkañców, który przeszed³ odpowiednie przeszkolenie. 
+Komputer i monitor s¹ stare a procesor niezbyt szybki. To jednak niewa¿ne. Istotne jest, ¿e wieœ jest pod³¹czona do sieci.
+"U¿ywamy e-choupal do komunikacji z innymi wsiami. Zadajemy pytania dotycz¹ce rolnictwa, opisujemy nasze problemy ze zbiorami, dajemy rady" - mówi Akash.
+Dziêki e-choupal rolnicy w Sabalpur znaj¹ ceny produktów w innych miejscach, mog¹ byæ wobec nich konkurencyjni i oferowaæ lepsze stawki.
+Ogromne wyzwanie
+Po³¹czenie sieci¹ setek tysiêcy wsi na indyjskiej prowincji to ogromne wyzwanie.
+"Obecnie do oko³o 80 procent wsi s¹ doprowadzone linie telefoniczne. Ale 20 procent ci¹gle nie ma telefonów. W poprawieniu tego stanu musz¹ pomóc rz¹d i operatorzy" - mówi informatyk Harlinder Singh-Heer.
+Wed³ug niego jakoœæ du¿ej czêœci linii telefonicznych pozostawia wiele do ¿yczenia. Zdarzaj¹ siê tak¿e przeciêcia linii i braki w dostawie pr¹du.
+W Sabalpur pr¹du brakuje dosyæ czêsto. Dlatego wieœ zafundowa³a sobie dwie baterie s³oneczne. W ci¹gu dnia ³aduj¹ one dwa akumulatory samochodowe, które w³¹czaj¹ siê w chwili odciêcia pr¹du.
+Eksperci widz¹ tak¿e inne rozwi¹zania ni¿ zapewnienie dostêpu do internetu ca³ej indyjskiej prowincji dziêki po³¹czeniom telefonicznym.
+"Mo¿na uzyskaæ dostêp przez satelitê, albo zainstalowaæ hot spoty w kaej wsi. Teraz pojawia siê tak¿e inna opcja oparta na bezprzewodowej technologii Wimax" - mówi prezes firmy HCL Infosystems Ajai Chowdhry.
+Telefony komórkowe
+Na indyjsk¹ prowincjê zaczynaj¹ powoli docieraæ tak¿e telefony komórkowe. Ale w wiêkszoœci wsi nie ma ani jednego aparatu.
+W³adze jednej z nich wpad³y na ciekawy pomys³ na wykorzystanie wiadomoœci tekstowych.
+W centralnym punkcie wsi, gdzie mieszkañcy spotykaj¹ siê i dyskutuj¹, znajduje siê zwyk³a tablica informacyjna.
+Wymyœlono, ¿e zast¹pi siê j¹ wyœwietlaczem ciek³okrystalicznym przyczepionym do drzewa, na który bêdzie siê przesy³a³o esemesami ró¿ne wiadomoœci.
+Niestety, wyœwietlacz szybko zepsu³ siê podczas transportu do wsi i teraz czeka na naprawê. 
+Okaza³o siê, ¿e nawet brak komórek mo¿na w pewnym stopniu przezwyciê¿yæ. 
+W jednym z regionów w tym celu przyczepiono aparat do motoru i obwo¿ono po okolicznych wioskach, aby ich mieszkañcy mogli zadzwoniæ do przyjació³ i bliskich.
+Jeden problem jednak pozosta³. Nie ma jak realizowaæ po³¹czeñ przychodz¹cych 

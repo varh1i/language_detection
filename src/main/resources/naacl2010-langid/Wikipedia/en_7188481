@@ -1,0 +1,37 @@
+ | image =  
+ | image_source =  
+ | PDB = 
+ | Name = Mindbomb homolog 1 (Drosophila)
+ | HGNCid = 21086
+ | Symbol = MIB1
+ | AltSymbols =; DIP-1; DKFZp686I0769; DKFZp761M1710; FLJ90676; MGC129659; MGC129660; MIB; ZZANK2; ZZZ6
+ | OMIM = 608677
+ | ECnumber =  
+ | Homologene = 10810
+ | MGIid = 2443157
+ | GeneAtlas_image1 = PBB_GE_MIB1_gnf1h02349_at_tn.png
+ | GeneAtlas_image2 = PBB_GE_MIB1_gnf1h08014_at_tn.png
+ | GeneAtlas_image3 = PBB_GE_MIB1_gnf1h08614_s_at_tn.png
+ | Function = {{GNF_GO|id=GO:0005515 |text = protein binding}} {{GNF_GO|id=GO:0008270 |text = zinc ion binding}} {{GNF_GO|id=GO:0016874 |text = ligase activity}} {{GNF_GO|id=GO:0046872 |text = metal ion binding}} 
+ | Component = {{GNF_GO|id=GO:0005739 |text = mitochondrion}} {{GNF_GO|id=GO:0016020 |text = membrane}} {{GNF_GO|id=GO:0031410 |text = cytoplasmic vesicle}} 
+ | Process = {{GNF_GO|id=GO:0001568 |text = blood vessel development}} {{GNF_GO|id=GO:0001701 |text = in utero embryonic development}} {{GNF_GO|id=GO:0001756 |text = somitogenesis}} {{GNF_GO|id=GO:0001841 |text = neural tube formation}} {{GNF_GO|id=GO:0001947 |text = heart looping}} {{GNF_GO|id=GO:0006512 |text = ubiquitin cycle}} {{GNF_GO|id=GO:0007219 |text = Notch signaling pathway}} {{GNF_GO|id=GO:0007507 |text = heart development}} {{GNF_GO|id=GO:0045665 |text = negative regulation of neuron differentiation}} {{GNF_GO|id=GO:0045807 |text = positive regulation of endocytosis}} 
+ | Orthologs = {{GNF_Ortholog_box
+    | Hs_EntrezGene = 57534
+    | Hs_Ensembl = ENSG00000101752
+    | Hs_RefseqProtein = NP_065825
+    | Hs_RefseqmRNA = NM_020774
+    | Hs_GenLoc_db =  
+    | Hs_GenLoc_chr = 18
+    | Hs_GenLoc_start = 17575543
+    | Hs_GenLoc_end = 17704912
+    | Hs_Uniprot = Q86YT6
+    | Mm_EntrezGene = 225164
+    | Mm_Ensembl = ENSMUSG00000024294
+    | Mm_RefseqmRNA = XM_976932
+    | Mm_RefseqProtein = XP_982026
+    | Mm_GenLoc_db =  
+    | Mm_GenLoc_chr = 18
+    | Mm_GenLoc_start = 10725623
+    | Mm_GenLoc_end = 10812215
+    | Mm_Uniprot = Q3TSS1
+  }}

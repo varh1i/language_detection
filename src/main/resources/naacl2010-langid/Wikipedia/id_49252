@@ -1,0 +1,4 @@
+Pohon rentang minimum merupakan istilah dalam teori graf (Inggris: ''minimum spanning tree'').
+'''Pohon rentang''' adalah sebuah pohon yang mencakup semua titik (node) pada sebuah graf terhubung. '''Bobot pohon rentang''' merupakan jumlah bobot sisi-sisi pembentuk (cabang) pohon rentang. Pohon rentang minimum adalah pohon rentang dari graf, dengan bobot minimal.
+Definisi yang lebih formal :
+'''Pohon rentang minimum''' adalah pohon rentang dari graf sedemikian sehingga semua pohon rentang lain memiliki  lebih besar atau sama dengan '''pohon rentang minimum'''.

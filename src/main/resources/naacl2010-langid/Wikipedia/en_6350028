@@ -1,0 +1,21 @@
+The following is a simplified '''family tree''' for the '''''', which ruled China between 1644 and the declaration of the  on  1912.
+Those who became emperor of China are listed in bold, with their years of reign.  and  were emperors of the dynasty, which at the time dominated the  region, but were not emperors of China as a whole; their years of reign over the dynasty are therefore given in brackets. The names given for emperors are reign names, the form by which Qing emperors were most commonly known (with the exception of , who ruled as the Emperor Xuantong, but was generally known by his given name after his deposition). The imperial family's original Manchu clan name was  ("the golden clan"). The dynasty was originally titled the Later Jin Dynasty (後金), in reference to its  origins, by Nurhaci in 1616, but in 1636 Huang Taiji opted to replace this title with the Chinese dynastic title Qing (清), meaning "pure".
+ImageSize  = width:195 height:1000
+PlotArea   = left:40 right:0 top:0 bottom:150
+Legend     = columns:1 left:10 top:135
+DateFormat = yyyy
+Period     = from:1611 till:1911      # The 'till' value should be the day this timeline was last edited, to reflect the at the time current value
+TimeAxis   = orientation:vertical
+ScaleMajor = unit:year increment:10 start:1620
+Define $dx = 20
+Define $dy = -3
+Colors=
+ id:emp value:yellow legend:Emperor_of_China_Proper
+ id:not value:blue legend:Manchu_ruler
+PlotData=
+  bar:Emperors color:blue width:25 mark:(line,white) align:left fontsize:S
+  from:1616 till:1626 shift:($dx,$dy) color:not text: 努爾哈赤
+  from:1626 till:1644 shift:($dx,$dy) color:not text: 皇太極
+  from:1644 till:1661 shift:($dx,$dy) color:emp text: 順治
+  from:1661 till:1722 shift:($dx,$dy) color:emp text: 康熙
+</timeline>

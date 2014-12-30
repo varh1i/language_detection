@@ -1,0 +1,27 @@
+
+  Many people still open e-mail attachments from strangers 
+Widespread ignorance about basic computer security is putting millions of people at risk from net-savvy criminals, a survey suggests. 
+It found 83% of 1,000 people questioned were not doing enough to protect themselves online, with 53% saying they did not know how to improve security. 
+Some 42% relied on family and friends for advice, the survey revealed. 
+It coincides with a Get Safe Online campaign backed by the National Hi-Tech Crime Unit and the government. 
+Net losses 
+"Increasingly we are seeing organised criminals turning to the internet as a vehicle for their criminality," said Sharon Lemon, head of the crime unit. 
+"And as more of us are connecting to the internet to shop, bank and communicate, we need to make sure that we do so as safely as possible." 
+The Get Safe Online campaign is a national initiative aimed at the general public that will try to combat ignorance about basic computer security. 
+    STAYING SAFE ONLINE Use anti-spyware and anti-virus programs On at least a weekly basis update anti-virus and spyware products. here Install a firewall and make sure it is switched on Make sure updates to your operating system are installed Take time to educate yourself and family about the risks Monitor your computer and stay alert to threats Will the campaign work? 
+Headed by the government and the National Hi-Tech Crime Unit, the campaign is also backed by companies such as eBay, Microsoft, BT and Yell. 
+The education campaign will use a website and a national tour aimed at getting people thinking about staying safe when they use the web. 
+The survey, conducted to support the campaign launch, found that 17% said net crime was the everyday threat they worried about most. 
+By comparison, 18% considered burglary of their home as their biggest worry. 
+What most people (40%) feared was that a criminal would get hold of their credit or debit card details and raid their bank account. 
+Despite these fears many of those questioned, 85%, did not think that doing something about cyber crime was their problem. 
+Almost half, 49%, said businesses should tackle it and 11% think the government should take it on. 
+    SURVEY FINDINGS 87% - say protecting their PC is a top priority 52% - have little or no knowledge of PC safety 42% - ask friends and family for computer security advice 40% - feel most at risk from card fraud in their day-to-day life 28% - update security software weekly 20% - do not have anti-virus software 22% - open e-mail attachments from strangers 38% - plan to shop online this Christmas 
+The report found that although people were worried by the threat of net crime, more than half, 52%, said they knew little about the best way to protect themselves. 
+The survey found that those who were doing something to protect themselves often did not do enough. 
+A quarter of those questioned said they had no firewall sitting between their computer and the web and 20% had no anti-virus software to stop malicious programs finding and compromising their PC. 
+Of those that did use security products, only 14% updated monthly, 32% did so every three months and 6% never updated programs designed to protect them. 
+By comparison, many anti-virus firms now update their scanning systems every hour to cope with the deluge of viruses and malicious programs being pumped out by criminals. 
+Some bad user habits were revealed by the survey too. It found that 22% of people opened attachments on e-mails from people they did not know - one of the many routes malicious hackers use to get viruses, worms and spyware onto PCs. 
+A further 9% happily forwarded these potentially infected attachments to friends and family. 
+ICM interviewed 1,000 people across the UK in August for the survey.

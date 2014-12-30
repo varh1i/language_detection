@@ -1,0 +1,15 @@
+<div class="NavFrame" >
+<div class="NavFrame" align="center" style="border: 1px solid #BC8F8F;background-color:#FFFFFF; font-size: 90%; ">
+<div class="NavHead" style="background-color:#FFD700; text-align:left;"> '''''': {{ #switch: {{{1}}}
+ | 1 = '''''''''' <small>(se deseja ajudar e participar neste grupo, inscreva-se )</small>
+ | 2 = '''''''''', com , ,  e .
+ | 3 = '''''''''', com , ,  e .
+ | 4 = '''''''''', com , ,  e 
+ | 5 = '''''''''', com , ,  e .
+ | 6 = '''''''''', com , ,  e .
+ |#default=
+<div class="NavContent" style="text-align:center; background-color:#FFFFFF">
+Este artigo é um candidato ao  e que se encontra neste momento em curso. Pede-se que não remova esta marcação e que não edite o artigo até o final do concurso para não prejudicar a avaliação do artigo e a participação dos wikipedistas. 
+</div></div></div>
+<noinclude>
+</noinclude>

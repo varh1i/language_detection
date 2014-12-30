@@ -1,0 +1,25 @@
+Der '''Satz von Cayley''' ist ein nach dem englischen Mathematiker  benannter Satz aus der . Er besagt, dass man jede  als  realisieren kann, und liefert ein Beispiel einer  einer Gruppe auf sich.
+Formal lautet der Satz:
+Kürzer und einprägsamer formuliert:
+Die Menge <math>Sym(M)</math> besteht aus allen   von der Menge ''M'' nach ''M''. Diese Menge bildet mit der 
+eine Gruppe, die symmetrische Gruppe.
+Setze M:=G.
+Für jedes Gruppenelement ''g'' definieren wir eine Abbildung <math>\ell_g</math> von ''G'' nach ''G'':
+Diese Abbildung heißt „Linksmultiplikation mit ''g''“. Da ''G'' eine Gruppe ist, ist <math>\ell_g</math> : Wegen <math>\ell_g(g^{-1}*x) = x</math> ist sie surjektiv und wegen <math>g*x = g*y \Rightarrow g^{-1}*g*x = g^{-1}*g*y \Rightarrow x = y</math> ist sie injektiv.
+Jede dieser Linksmultiplikationen ist also eine bijektive Funktion von G nach G und die Menge
+ist eine Teilmenge von <math>Sym(G)</math>.
+Nun zeigen wir, dass diese Menge ''U'' eine Untergruppe von <math>Sym(G)</math> ist, die zu ''G'' isomorph ist.
+Dazu definieren wir eine Abbildung ''T'', die jedem Element von ''G'' die Linksmultiplikation mit ihm zuordnet:
+und beweisen, dass ''T'' ein bijektiver  ist.
+Offenbar ist ''T'' surjektiv. Wegen
+für alle <math>g,h,x \in G</math> ist <math>U = T(G)</math> eine Untergruppe von <math>Sym(G)</math> und ''T'' ein Gruppenhomomorphismus.
+Seien ''e'' das Einselement und ''f'', ''g'' beliebige Elemente von ''G'' mit <math>T(f) = T(g)</math>.
+Dann folgt <math>\ell_f = \ell_g</math>, und somit:
+Damit ist ''T'' injektiv und nach Definition surjektiv, also bijektiv.
+Also ist die Bildmenge ''U'' eine Untergruppe von ''Sym(G)'', die zu ''G'' isomorph ist.
+Der Homomorphismus ''T'' ist eine  von ''G'' auf sich, die auch als
+geschrieben werden kann. Man sagt hier: ''G'' operiert per Linksmultiplikation auf sich.
+Der Beweis lässt sich analog führen, wenn man statt der Linksmultiplikation die Rechtsmultiplikation mit dem Inversen verwendet. Er liefert dann unter Umständen eine andere Untergruppe von <math>Sym(G)</math>, die aber ebenfalls isomorph zu ''G'' ist.
+Der Satz von Cayley erlaubt es, die Theorie der Permutationsgruppen auf jede Gruppe anzuwenden.
+Neben dem Satz von Cayley gibt es noch andere Möglichkeiten, Gruppen in spezieller Form darzustellen, z.B. als Untergruppe einer Matrixgruppe (eine ''lineare Darstellung''). Siehe dazu den Artikel .
+Anstelle der im Beweis verwendeten Menge ''M''=''G'' kann man oft auch kleinere Mengen verwenden. Zum Beispiel liefert der Beweis eine Darstellung der  <math>A_4</math> mit 12 Elementen als Untergruppe der <math>S_{12}</math>, obwohl die Menge {1,2,3,4} als Grundmenge ''M'' ausreichen würde.

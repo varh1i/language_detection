@@ -1,0 +1,34 @@
+Il '''Teorema di Tietze''' è un  di  generale che, sotto certe ipotesi, afferma la possibilità di prolungare qualsiasi funzione a valori reali, , definita su un sottoinsieme di uno , ad una funzione continua definita sull'intero spazio.
+Gli spazi topologici che godono di tale importante proprietà sono quindi gli spazi normali. Si tratta di spazi di cui è già nota, grazie al , la ricchezza di funzioni reali continue non banali. Con tali funzioni è possibile ''separare'' qualsiasi coppia di insiemi chiusi e disgiunti mediante opportune funzioni reali continue<ref>Lo stesso si può dire, ovviamente e in maniera equivalente, per ogni coppia di insiemi (non necessariamente chiusi) senza punti di aderenza in comune.</ref>. Per quanto profonda, una simile proprietà ci permette apparentemente di costruire solo funzioni molto rudimentali, costanti su ciascuno dei due insiemi chiusi da separare.
+Il teorema di Tietze ci assicura invece che, proprio grazie a tali ''rudimentali'' funzioni, è possibile inferire l'esistenza di un ricchissimo bagaglio di funzioni reali continue, costruite semplicemente a partire da una qualsiasi funzione continue definita su un sottospazio chiuso.
+Il teorema afferma che ogni funzione continua, definita su un sottospazio chiuso di uno spazio topologico normale, a valori in un intervallo [-1 1], è prolungabile a una funzione reale continua a valori nello stesso intervallo. 
+In simboli:
+esiste <math> g:E\to [-1, 1] </math> continua e tale che <math>\ g(x) = f(x)</math>  per ogni <math> x\in C</math>
+Prima di passare alla dimostrazione ci serve il seguente risultato preliminare che assicura l'esistenza di estensioni, per così dire, approssimate.
+Siano ''E'' e ''C'' definiti come sopra e: 
+esiste allora <math> \phi :E\to [-b/3, +b/3] </math> continua e tale che <math> |h(x) - \phi(x)| \leq (2/3)b </math>  per ogni <math> x \in C</math>
+Dimostrazione:
+Si considerano i due insiemi disgiunti <math> A = \{t: h(t)\leq -(1/3)b \}</math> e <math>B = \{t: h(t)\geq (1/3)b \}
+</math>. Si tratta di insiemi chiusi, in quanto immagini inverse di chiusi tramite una funzione continua.
+Il lemma di Urysohn assicura l'esistenza di una funzione continua <math> \phi:E \to [-b/3 +b/3] </math> che vale -b/3 su A e b/3 su B. È immediato verificare che essa soddisfa la disuguaglianza richiesta.
+La dimostrazione è un'applicazione ricorsiva del lemma preliminare.
+Iniziamo a porre <math> h = f </math> (e, di conseguenza, <math> b = 1 </math>). Troviamo una <math> \phi_0: E \to [-1/3, +1/3]</math> continua tale che <math> |f(x) - \phi_0(x)| \leq 2/3 </math> su E.
+Si passa poi a considerare la funzione <math>\ h = f - \phi_0 </math> per la quale, essendo <math> |h| \leq 2/3 </math> dovremo porre <math> b = 2/3</math>. Si trova allora una funzione <math> \phi_1: E \to [-2/3^2, 2/3^2]</math> tale che <math> |h(x)- \phi_1(x)| = |f(x) - \phi_0(x)- \phi_1(x)| \leq (2/3)^2 </math> su <math>E</math>.
+Il passo compiuto si reitera ancora e, procedendo per induzione, si giunge a dimostrare l'esistenza di una  a valori reali e continue <math> \phi_n, n \in \N_0</math>, tali che, per ogni indice ''n'', si abbia:
+<math>|\phi_n(x))| \leq (1/3)(2/3)^n  \leq (2/3)^n  x \in E</math> 
+e
+<math>|f(c) - (\phi_1(c) + \phi_2(c) + ... + \phi_n(c))| \leq (2/3)^{n+1}, c \in C</math>
+Poniamo <math>g_n(x) = \phi_0(x) + \phi_1(x) + ... + \phi_n(x))</math>
+si avrà che ciascun termine della serie di funzioni <math>g_n</math> è ''dominata'' dalla successione <math>(2/3)^n</math>. Questo assicura la convergenza uniforme ad una funzione continua ''g'' (si veda  - convergenza totale).
+Inoltre la disuguaglianza
+<math>|f(c) - g_n(c)| \leq (2/3)^{n+1}</math>
+assicura che la serie di funzioni <math>g_n</math> converge uniformemente a <math>f</math> su tutto <math>C</math>.
+Quindi ''g'' costituisce l'estensione continua richiesta dalla tesi.
+<!-- 
+<math>|g_{n+p}(x) - g_n(x)| = |\phi_{n+1}(x) + \phi_{n+2}(x) + ... + \phi_{n+p}(x)| \leq </math>
+<math>|\phi_{n+1}(x)| + |\phi_{n+2}(x)| + ... + |\phi_{n+p}(x)| \leq </math>
+<math>1/3((2/3)^{n+1} + (2/3)^{n+1} + ... +(2/3)^{n+p}) \leq </math>
+<math>1/3((2/3)^{n}((2/3) + (2/3)^2 + ... +(2/3)^n) \leq </math>
+<math>1/3((2/3)^{n}((2/3) + (2/3)^2 + ... +(2/3)^n) \leq </math>
+-->
+La richiesta che l'insieme di definizione della funzione di partenza sia chiuso è connaturata al problema stesso. È noto, da esempi presi dall'analisi elementare, che non è possibile garantire, in generale, il prolungamento continuo di funzioni definite su insiemi che non siano chiusi. Si pensi ad esempio alla funzione <math>sin(1/x)</math> continua sui reali diversi da 0 ma non estensibile nello zero. 

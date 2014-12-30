@@ -1,0 +1,4 @@
+LDL est l'acronyme de Langage de Description de Langages, c'est aussi le  qui l'utilise comme langage de description.
+Il s'agit d'un langage et d'un cadre de développement (Framework) de compilateurs. LDL a été utilisé pour sa propre définition (méta-circularité) ce qui a facilité son développement et ses évolutions. Un dispositif auto-correcteur d'erreur est intégré.
+Utilisé dans le cadre des projets de super-calculateurs  et  développés en France dans les années 1980, LDL a permis de la mise au point et le prototypage de différents langages.
+LDL a été créé par Gabriel KEPEKLIAN (1983-1986) - Sintra / Thonsom.

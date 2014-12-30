@@ -1,0 +1,12 @@
+<includeonly>*您可以在找到[http://www.backpackers.com.tw/guide/index.php/{{{1|{{PAGENAME}}}}} {{{2|{{{1|{{PAGENAME}}}}}}}}]的相關旅遊資訊。</includeonly><noinclude>
+注意：'''本模板僅應被放置在條目的「外部鏈結」章節。'''
+----
+使用这个模版，可以在维基百科条目中引用的条目。
+如果使用
+ <nowiki>{{背包攻略}}</nowiki>
+则默认引用当前条目的同名的条目。如果你需要引用其他特定的条目，也可以使用
+ <nowiki>{{背包攻略|你需要的条目}}</nowiki>
+来引用你需要的条目。还可以使用
+ <nowiki>{{背包攻略|你需要的条目|显示名称}}</nowiki>
+来引用你需要的条目，并以指定的名称显示。
+</noinclude>

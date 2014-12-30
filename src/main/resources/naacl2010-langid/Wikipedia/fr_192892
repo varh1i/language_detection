@@ -1,0 +1,102 @@
+'''Thorame-Basse''' (''Torama-Bassa'' en  ) est une , située dans le  des  et la  .
+Ses  sont appelés les Thoramiens et les Thoramiennes.
+Le village de Thorame-Basse est situé à 1 145 m d’altitude<ref name="La Torre">{{Ouvrage| éditeur=Deslogis-Lacoste| collection=Villes et villages de France| titre=Alpes-de-Haute-Provence : le guide complet des 200 communes | auteur= Michel de La Torre| année=1989| lieu=Paris| langue=français| format=Relié| pages= 72 (non-paginé)| isbn= 2-7399-5004-7|}} </ref>. La commune est traversée par plusieurs cours d'eau : l' et ses affluents la Mastre et l'Estelle qui prennent leur source sur la commune. 
+Son point culminant se situe à 2 395 m, le point le plus bas est à 985 m dans la vallée de l'Issole.
+Bien que rattachée au , la commune n’est pas traversée par cette rivière qui passe à 5 km du chef-lieu.
+En janvier 2008, un  a été photographié dans la vallée de la Valette ; l'ONF n'a pas authentifié la présence de cet animal sur la commune. Entre 2002 et 2004, une soixantaine d’attaques de troupeaux ont eu lieu dans le canton, attaques attribuables au loup<ref>Laurent Garde, ''Attaques de chiens sur les troupeaux ovins dans le Luberon et comparaison avec la prédation en territoire à loups'', Centre d’études et de réalisations pastorales Alpes Méditerranée (CERPAM), Anthropozoologica 40 (2), 2005, p 19. Disponible en ligne, [http://www.mnhn.fr/museum/front/medias/publication/10635_007_026.pdf]. Consulté le 7 avril 2008</ref>.
+Château-Garnier ; Le Moustier ; la Bâtie ; la Valette.
+L'histoire des "deux Thorame" se confondent jusqu'à la scission du territoire d'''Eturamina'' au Moyen-Age en deux communautés distinctes.
+La localité apparait pour la première fois dans les chartes au XI{{e}} siècle (''Toramina'')<ref name="La Torre"/>. 
+Les  provoquent des dévastations (destruction de la tour de Piégut).
+Durant la , les paysans prennent d’assaut le château et arrachent les carcans de la prison à l’été 1791<ref>André Lombard, « Violences et troubles de 1789 à l’An VI », ''La Révolution dans les Basses-Alpes'', Annales de Haute-Provence, bulletin de la société scientifique et littéraire des Alpes-de-Haute-Provence, no 307, 1{{er}} trimestre 1989, 108{{e}} année, p 154</ref>. La commune compte une , créée après la fin de 1792<ref>Patrice Alphand, « Les Sociétés populaires», ''La Révolution dans les Basses-Alpes'', Annales de Haute-Provence, bulletin de la société scientifique et littéraire des Alpes-de-Haute-Provence, no 307, 1{{er}} trimestre 1989, 108{{e}} année, p 296-298</ref>.
+Population  :
+'''Avant 1900'''
+1765= 938<ref name="La Torre"/>|
+1793= 897|
+1800= 842|
+1806= 797|
+1821= 885|
+1831= 894|
+1836= 809|
+1841= 795|
+1846= 787|
+1851= 761|
+1856= 808|
+1861= 810|
+1866= 735|
+1872= 674|
+1876= 655|
+1881= 597|
+1886= 615|
+1891= 572|
+1896= 578|}}
+'''Après 1900'''
+1901= 531|
+1906= 525|
+1911= 504|
+1921= 420|
+1926= 393|
+1931= 340|
+1936= 315|
+1946= 298|
+1954= 238|
+1962= 187|
+1962= 141|
+1968= 164|
+1975= 134|
+1982= 129|
+1990= 146|
+1999= 151|
+2006= 200|
+sansdoublescomptes= 1968}}
+<timeline>
+Colors=
+  id:grisclair value:gray(0.9)
+  id:grisfonce  value:gray(0.7)
+  id:fond value:rgb(1,1,1)
+  id:barres value:rgb(0.7,0.9,0.7)
+ImageSize  = width:460 height:460
+PlotArea   = left:50 bottom:50 top:30 right:30
+DateFormat = x.y
+Period     = from:0 till:1000
+TimeAxis   = orientation:vertical
+AlignBars  = justify
+ScaleMajor = gridcolor:grisfonce increment:500 start:0
+ScaleMinor = gridcolor:grisclair increment:100 start:0
+BackgroundColors = canvas:fond
+BarData=
+  bar:_ text:
+  bar:1765 text:1765
+  bar:_ text:
+  bar:1962 text:1962
+  bar:1968 text:1968
+  bar:1975 text:1975
+  bar:1982 text:1982
+  bar:1990 text:1990
+  bar:1999 text:1999
+  bar:2006 text:2006
+PlotData=
+  color:barres width:20 align:left
+  bar:_ from:0 till:0
+  bar:1765 from:0 till:938
+  bar:_ from:0 till:0 
+  bar:1962 from:0 till:141
+  bar:1968 from:0 till:164
+  bar:1975 from:0 till:134
+  bar:1982 from:0 till:129
+  bar:1990 from:0 till:146
+  bar:1999 from:0 till:151
+  bar:2006 from:0 till:200
+	
+PlotData=
+ bar:1765 at:938 fontsize:S text:938 shift:(-10,5)
+ bar:1962 at:141 fontsize:S text:141 shift:(-10,5)
+ bar:1968 at:164 fontsize:S text:164 shift:(-10,5)
+ bar:1975 at:134 fontsize:S text:134 shift:(-10,5)
+ bar:1982 at:129 fontsize:S text:129 shift:(-10,5)
+ bar:1990 at:146 fontsize:S text:146 shift:(-10,5)
+ bar:1999 at:151 fontsize:S text:151 shift:(-10,5)
+ bar:2006 at:200 fontsize:S text:200 shift:(-10,5)
+</timeline>
+André Peyron est un chanteur provençal originaire de Thorame-Basse
+<references/>

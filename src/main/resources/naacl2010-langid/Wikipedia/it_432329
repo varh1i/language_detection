@@ -1,0 +1,3 @@
+<includeonly>{{#switch:{{lc:{{{Premio}}}}}
+Questo template viene utilizzato nel template Bio visualizzare i premi di cui è stato insignita la persona. All'interno di questo template le specialità sono in ordine alfabetico al fine di rendere più agevole la manutenzione delle stesse. Si consiglia di discutere nella pagina  l'opportunità di inserire nuovi premi.
+</noinclude>

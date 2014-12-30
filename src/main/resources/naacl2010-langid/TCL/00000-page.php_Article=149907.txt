@@ -1,0 +1,8 @@
+
+Que vous soyez webmestre ou utilisateur d'un logiciel agrégateur d'information, Liberation.fr met à votre disposition une adresse web pour avoir accès aux dernières nouvelles au format RSS. Certains logiciels permettent en effet de récupérer en temps réel les titres des dernières infos sur une sélection de sites web (par exemple RssReader pour Windows ou NetNewsWire pour Mac OS X). Vous pouvez dès maintenant ajouter Libération à vos canaux d'information en renseignant l'adresse suivante :
+http://www.liberation.fr/rss.php
+Sur le même sujet
+Vous cherchiez? Et bien trouvez à présent!
+Certains webmestres expérimentés ne manqueront pas d'utiliser cette même adresse pour récupérer les derniers titres de libération sur leur propre site. Les webmestres plus débutants, où ne disposant pas des technologies de syndication RSS sur leur site pourront quand même faire apparaitre les derniers titres de Libération.fr sur leurs pages personnelles sous cette forme :
+En recopiant la ligne suivante dans une de leurs pages HTML:
+

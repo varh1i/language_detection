@@ -1,0 +1,33 @@
+'''Texy!''' je  čistého (plain) textu do validního  kódu. Text napíšete a formátujete v čisté formě a texy! jej převede. Jeho autorem je .
+Texy! je nejčastěji používáno u ů a různých komentářových službách, kde uživatel nemusí (často nezná) jazyk  a texy! mu umožní jednoduše formátovat popřípadě urychlit formátování těm, kdo znají jazyk HTML při tvorbě svého článku, příspěvku ap. Je implementováno do mnoha , jako je třeba  ap.
+<pre>
+Nadpis
+První řádek
+ Druhý řádek toho samého odstavce
+ Třetí řádek odstavce
+Nový odstavec
+- první položka seznamu
+- druhá nečíslovaná položka seznamu
+1) číslovaný seznam
+2) seznam
+http://wikipedia.org nebo „Wikipedia global“:[http://wikipedia.org]
+vložení obrázku doprava [* http://texy.info/images/buttons/texy-powered.png >]
+</pre>
+Toto je jen velmi malá ukázka toho, co Texy! umí. Od vkládání ů až po ochranu komentářového spamu.
+<pre>
+<h1>Nadpis</h1>
+<p>První řádek
+<br />Druhý řádek toho samého odstavce
+<br />Třetí řádek odstavce</p>
+<p>Nový odstavec</p>
+<ul>
+	<li>první položka seznamu</li>
+	<li>druhá nečíslovaná položka seznamu</li>
+</ul>
+<ol>
+	<li>číslovaný seznam</li>
+	<li>seznam</li>
+</ol>
+<p><a href="http://wikipedia.org">http://wikipe­dia.org</a> nebo <a href="http://wikipedia.org">Wikipedia global</a></p>
+<p>vložení obrázku doprava<img style="float:right"src="http://texy.info/images/buttons/texy-powered.png" alt="" /></p>
+</pre>

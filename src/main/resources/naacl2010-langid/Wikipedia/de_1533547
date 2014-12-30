@@ -1,0 +1,40 @@
+<div style="text-align:right; float:right; margin-left:5px">
+<timeline>
+ImageSize	= width:300 height:600
+PlotArea	= left:40 right:0 bottom:80 top:20
+Legend		= columns:3 left:40 top:60 columnwidth:50
+DateFormat	= dd/mm/yyyy
+Period		= from:23/05/1949 till:30/04/2008
+TimeAxis	= orientation:vertical format:yyyy
+ScaleMajor	= unit:year increment:4 start:1950
+Colors=
+ id:CDU	value:black	legend:CDU
+ id:CSU value:blue      legend:CSU
+ id:SPD value:red	legend:SPD
+ id:FDP value:yellow    legend:FDP
+PlotData=
+ bar:Außenminister color:black width:20 fontsize:M align:left shift:(20,-5) mark:(line,white)
+ 
+ from:20/09/1949 till:09/03/1952 text: color:FDP
+ from:19/07/1952 till:16/10/1953 text: color:FDP
+ from:20/10/1953 till:29/10/1957 text: color:FDP
+ from:29/10/1957 till:26/10/1965 text: color:CDU
+ from:26/10/1965 till:28/10/1966 text: color:FDP
+ from:28/10/1966 till:30/11/1966 text: color:CDU
+ from:01/12/1966 till:15/12/1972 text: color:SPD
+ from:15/12/1972 till:16/05/1974 text: color:SPD
+ from:16/05/1974 till:16/02/1978 text: color:SPD
+ from:16/02/1978 till:01/10/1982 text: color:SPD
+ from:04/10/1982 till:21/04/1989 text: color:CSU
+ from:21/04/1989 till:18/01/1991 text: color:CSU
+ from:18/01/1991 till:17/11/1994 text: color:FDP
+ from:17/11/1994 till:14/01/1998 text: color:CDU
+ from:14/01/1998 till:26/10/1998 text: color:CSU
+ from:27/10/1998 till:29/09/1999 text: color:SPD
+ from:29/09/1999 till:16/11/2000 text: color:SPD
+ from:16/11/2000 till:22/10/2002 text: color:SPD
+ from:22/10/2002 till:22/11/2005 text: color:SPD
+ from:22/11/2005 till:end text: color:SPD
+</timeline>
+</div><noinclude>
+</noinclude>

@@ -1,0 +1,51 @@
+'''Sare''' ( ''Sara'') is a small village in the traditional  province of , now a  in the  '''' of southern .
+int *counter;
+void P(int semId, int semNr)
+    struct sembuf op = {semNr, -1, 0};
+    semop(semId, &op, 1);
+void V(int semId, int semNr)
+    struct sembuf op = {semNr, +1, 0};
+    semop(semId, &op, 1);
+int main(int argc, char **argv)
+	int semId, pid, shmId;
+	shmId = shmget(IPC_PRIVATE, sizeof(int), IPC_CREAT | 0600);
+   
+	if (shmId < 0)
+	{ 
+		perror("Eroare creare shm"); 
+		exit(2); 
+	}
+	counter = (int*) shmat(shmId, 0, 0);
+	semId = semget(IPC_PRIVATE, 3, IPC_CREAT | 0600);
+	if (semId < 0)
+	{ 
+		perror("Eroare creare sem"); 
+		exit(2); 
+	}
+ 
+	semctl(semId, FIRST, SETVAL, 1);   
+	
+	pid = fork();
+	while (1)
+	{
+		if (pid == 0) //we are in the son
+		{
+			P(semId, FIRST);
+	
+			*counter =*counter +1;
+			printf("second counter is: %d\n", *counter);
+	
+			V(semId, FIRST);
+			sleep(1);
+		}
+		else //we are in the parent
+		{
+			P(semId, FIRST);
+	
+			*counter =*counter +1;
+			printf("first counter is: %d\n", *counter);
+			
+			V(semId, FIRST);
+			sleep(1);
+		}
+	}

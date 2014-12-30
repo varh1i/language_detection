@@ -1,0 +1,102 @@
+'''Herluf''' er .
+<timeline>
+ImageSize = width:600 height:320
+PlotArea = left:40 right:10 top:40 bottom:40
+AlignBars = late
+ 
+DateFormat = yyyy
+Period = from:1949 till:2008
+TimeAxis = orientation:horizontal
+ScaleMajor = unit:year increment:5 start:1950
+ 
+Colors =
+  id:canvas    value:white
+  id:fyrsta value: rgb(0.1,0.1,0.7)
+  id:seinna  value: rgb(1,0.7,0)
+ 
+Backgroundcolors = canvas:canvas
+ 
+TextData =
+  pos:(5,310) textcolor:black fontsize:S
+  text:Fjöldi
+  pos:(550,20) textcolor:black fontsize:S
+  text:Ár
+  pos:(250,310) textcolor:black fontsize:M
+  text:Heildarfjöldi nafngifta fyrir karlmannsnafnið Herluf
+  pos:(50,315) textcolor:fyrsta fontsize:S
+  text:fyrsta nafn
+  pos:(50,300) textcolor:seinna fontsize:S
+  text:seinni nöfn
+ 
+BarData =
+  bar:5 text:5
+  bar:4 text:4
+  bar:3 text:3
+  bar:2 text:2
+  bar:1 text:1
+ 
+LineData=
+ color:fyrsta
+ width:5
+ 
+ at:1951 frompos:40 tillpos:90 #1
+ at:1968 frompos:40 tillpos:90 #1
+ at:1988 frompos:40 tillpos:90 #1
+ at:1995 frompos:40 tillpos:90 #1
+ 
+ color:seinna
+ width:1
+ 
+ 
+</timeline>
+ 
+<timeline>
+ImageSize = width:600 height:320
+PlotArea = left:40 right:10 top:40 bottom:40
+AlignBars = late
+ 
+DateFormat = yyyy
+Period = from:1949 till:2008
+TimeAxis = orientation:horizontal
+ScaleMajor = unit:year increment:5 start:1950
+ 
+Colors =
+  id:canvas    value:white
+  id:fyrsta value: rgb(0.1,0.1,0.7)
+  id:seinna  value: rgb(1,0.7,0)
+ 
+Backgroundcolors = canvas:canvas
+ 
+TextData =
+  pos:(5,310) textcolor:black fontsize:S
+  text:Hlutfall
+  pos:(550,20) textcolor:black fontsize:S
+  text:Ár
+  pos:(250,310) textcolor:black fontsize:M
+  text:Hlutfall nafngifta fyrir karlmannsnafnið Herluf
+  pos:(50,315) textcolor:fyrsta fontsize:S
+  text:fyrsta nafn
+  pos:(50,300) textcolor:seinna fontsize:S
+  text:seinni nöfn
+ 
+BarData =
+  bar:5 text:1 %
+  bar:4 text:0.8 %
+  bar:3 text:0.6 %
+  bar:2 text:0.4 %
+  bar:1 text:0.2 %
+ 
+LineData=
+ color:fyrsta
+ width:5
+ 
+ at:1951 frompos:40 tillpos:50 #0.04%
+ at:1968 frompos:40 tillpos:48 #0.03%
+ at:1988 frompos:40 tillpos:48 #0.03%
+ at:1995 frompos:40 tillpos:48 #0.03%
+ 
+ color:seinna
+ width:1
+ 
+ 
+</timeline>

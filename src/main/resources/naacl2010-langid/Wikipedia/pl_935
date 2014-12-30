@@ -1,0 +1,11 @@
+'''Dzielenie''' to w  operacja zdefiniowana w dowolnym  jako:
+gdzie <math>\,{b^{-1}}</math> to  do <math>b</math>.
+W działaniu tym występują dwa operandy nazywające się ''dzielną'' i ''dzielnikiem''. Wynik dzielenia nazywany jest ''ilorazem''.
+Do zapisu operacji dzielenia używa się alternatywnie symboli <math>\div,\;/</math>.
+Przykładem będzie dzielenie <math>x \over y</math>, co daje w wyniku <math>\,{z}</math>.
+Gdy <math>\,{y=0}</math>, <math>\,{z}</math> jest nieokreślone (wyjątek ).
+Gdy <math>\,{y}</math> jest równe podstawie systemu pozycyjnego do potęgi <math>\,{n}</math>, to <math>\,{z}</math> równe jest <math>\,{x}</math> przesuniętemu w prawo o <math>\,{n}</math> (dla dowolnego systemu pozycyjnego).
+Znajdujemy najmniejszą liczbę naturalną <math>\,{m}</math>, taką że:
+Wtedy:
+Materiały pochodzą z [http://atvn.pl Akademickiej Telewizji Naukowej – ATVN.pl]:
+().

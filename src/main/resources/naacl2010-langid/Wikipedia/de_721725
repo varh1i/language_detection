@@ -1,0 +1,5 @@
+'''Servoy''' ist ein plattform- und datenbankunabhängiges -Werkzeug (Rapid Application Development). 
+Mit ihm ist ein schnelles  und eine sehr  und kundenfreundliche Entwicklung von  möglich.
+Servoy besteht aus drei Teilen: ,  und Developer Applikation. Da Servoy komplett in  entwickelt wurde, ist es plattform- und hardwareunabhängig.
+Als Datenbank kann jede standardisierte -Datenbank mit einer  Schnittstelle angekoppelt werden. Besondere Glanzpunkte sind: verschlüsselte Datenübertragung (), volle Internet/Intranet fähigkeit, keine Installation der Client-Applikation (Zero deployment,  Technologie), Zusammenfassung mehrerer Datenbanken in einer Applikation, Internationalisierung (), Rechtemanagement auf Benutzer- und Gruppenebene und uneingeschränkte Funktionalität durch  Technologie. Ein weiteres Highlight ist die eingebaute .
+Servoy unterhält ein Partner-Netzwerk (Servoy Alliance Network, SAN) bestehend aus ca. 100 Unternehmen, die Servoy Entwicklungen, Servoy-Komponenten ( und Plugins), Beratung und Hosting-Dienste anbieten. 

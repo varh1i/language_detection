@@ -1,0 +1,13 @@
+In , a '''square-free polynomial''' is a  with no square factors, i.e, <math>f \in F[x]</math> is square-free if and only if <math>b^2 \nmid f</math> for every <math>b \in F[x]</math> with non-zero degree. This definition implies that no factors of higher order can exist, either, for if <math>b^3</math> divided the polynomial, then <math>b^2</math> would divide it also. In applications in physics and engineering, a square-free polynomial is much more commonly called a   '''polynomial with no repeated roots'''.
+Any  is square-free. Conversely, if the field ''F'' is , all square-free polynomials over ''F'' are separable. In particular, if ''f'' is a square-free polynomial over a perfect field, then the  of ''f'' and its  ''f''&nbsp;′ is 1.
+A '''square-free factorization''' of a polynomial is a factorization into powers of square-free factors, i.e:
+f(x) = a_1(x) a_2(x)^2 a_3(x)^3 \cdots a_n(x)^n
+</math>
+where the <math>a_k(x)</math> are pairwise  square-free polynomials. Clearly, any non-zero polynomial admits a square-free factorization, since it could be  into  factors and the  of each irreducible factor counted to determine which <math>a_k(x)</math> it is part of.
+The utility of a square-free factorization is that it is generally easier to compute than a full irreducible factorization. For this reason, square-free factorization is often used as the first step in polynomial factorization or root-finding algorithms.
+Over fields of characteristic 0, only differentiation, polynomial division, and GCD calculation (which can be done using the ) is required to compute the square-free factorization. Let ''f'' be a non-zero polynomial, decomposed into square-free factors as above. Consider any irreducible factor ''q'' of ''f'': we may write <math>f=q^kh</math>, where ''k''>0 and <math>q\nmid h</math>. By the product rule,
+As the characteristic is 0, ''q'' does not divide ''k'', ''q''′, or ''h'', thus <math>q^k\nmid\gcd(f,f')</math> and <math>q^{k-1}\mid\gcd(f,f')</math>. That is, the multiplicity of any irreducible factor in <math>\gcd(f,f')</math> is one less than its multiplicity in ''f'', so
+Now, if we compute recursively
+we obtain the polynomials
+from which we recover the square-free factors as <math>a_k=\frac{g_k}{g_{k+1}}</math>.
+A modification of this algorithm also works for polynomials over finite fields, or more generally, perfect fields of non-zero characteristic ''p'', if we know an algorithm to compute ''p''-th roots of elements of the field.
