@@ -1,6 +1,7 @@
 package hu.bme.language_detection.model;
 
 import hu.bme.language_detection.Main;
+import hu.bme.language_detection.util.LanguageAndDocumentProfiler;
 
 import java.util.HashMap;
 import java.util.List;
@@ -18,7 +19,7 @@ public class Language {
 	public Language(String id, List<NGram> mostFreqList){
 		this.id = id;
 		this.mostFreq = mostFreqList;
-		positions = createPositions(mostFreq);
+		positions = LanguageAndDocumentProfiler.createPositions(mostFreq);
 	}
 	
 	public int getDistance(Document document){
@@ -36,15 +37,6 @@ public class Language {
 		return distance;
 	}
 	
-	private Map<String, Integer> createPositions(List<NGram> mostFreqList){
-		Map<String, Integer> positions = new HashMap<String, Integer>();
-		for(int i = 0; i<mostFreqList.size(); i++){
-			NGram ngram = mostFreqList.get(i);
-			positions.put(ngram.getText(), i);
-		}
-		return positions;
-	}
-
 	public String getId() {
 		return id;
 	}

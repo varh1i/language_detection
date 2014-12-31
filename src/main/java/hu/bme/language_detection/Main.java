@@ -2,7 +2,7 @@ package hu.bme.language_detection;
 
 import hu.bme.language_detection.model.Language;
 import hu.bme.language_detection.util.LanguagePredictor;
-import hu.bme.language_detection.util.LanguageProfiler;
+import hu.bme.language_detection.util.LanguageAndDocumentProfiler;
 import hu.bme.language_detection.util.ReaderUtil;
 
 import java.io.IOException;
@@ -26,10 +26,9 @@ public class Main {
     
     private static void analyseAndPredictWikipedia(){
     	long start = System.currentTimeMillis();
-    	languageProfiles = LanguageProfiler.createLanguageProfilesWikipedia();
+    	languageProfiles = LanguageAndDocumentProfiler.createLanguageProfilesWikipedia();
     	long profileTime = System.currentTimeMillis() - start;
-    	System.out.println("Created " + languageProfiles.size() + " profiles");
-    	System.out.println("Time for creating profiles: " + profileTime + " ms");
+    	System.out.println("Created profile for " + languageProfiles.size() + " languages in: " +profileTime+ " ms.");
     	start = System.currentTimeMillis();
     	LanguagePredictor.predictWikipedia(languageProfiles);
     	long predictionTime = System.currentTimeMillis() - start;
@@ -39,7 +38,7 @@ public class Main {
     private static void analyseAndPredictEuroGov(){
     	long start = System.currentTimeMillis();
     	Map<String, List<String>> filesByLanguage = ReaderUtil.getFilesByLangFromEurGovMetaFile();
-    	languageProfiles = LanguageProfiler.createLanguageProfilesEurGov(filesByLanguage);
+    	languageProfiles = LanguageAndDocumentProfiler.createLanguageProfilesEurGov(filesByLanguage);
     	long profileTime = System.currentTimeMillis() - start;
     	System.out.println("Created profile for " + languageProfiles.size() + " languages in: "+ profileTime + " ms.");
     	start = System.currentTimeMillis();
