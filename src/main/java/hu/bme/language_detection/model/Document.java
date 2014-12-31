@@ -1,4 +1,6 @@
-package language_detection;
+package hu.bme.language_detection.model;
+
+import hu.bme.language_detection.Main;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -27,8 +29,7 @@ public class Document {
     		int occurence = frequency.get(key);
     		if(mostFreqList.size()==0){
     			mostFreqList.add(new NGram(key, occurence));
-    		}
-    		else {
+    		} else {
     			boolean notAdded = true;
 				for(int i=0; i<mostFreqList.size() && notAdded; i++){
     				if (mostFreqList.get(i).getFrequency() < occurence) {

@@ -1,4 +1,4 @@
-package language_detection;
+package hu.bme.language_detection.model;
 
 /**
  * @author varh1i

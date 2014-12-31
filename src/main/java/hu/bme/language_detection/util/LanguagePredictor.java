@@ -1,4 +1,7 @@
-package language_detection;
+package hu.bme.language_detection.util;
+
+import hu.bme.language_detection.model.Document;
+import hu.bme.language_detection.model.Language;
 
 import java.io.File;
 import java.util.List;
@@ -9,9 +12,9 @@ import org.jsoup.Jsoup;
 /**
  * @author varh1i
  */
-public class Predictor {
+public class LanguagePredictor {
 
-	public static void makePredictions(Map<String, Language> languages, Map<String, List<String>> filesByLanguage){
+	public static void predictEuroGov(Map<String, Language> languages, Map<String, List<String>> filesByLanguage){
     	int correct = 0;
     	int wrong = 0;
     	File directory = new File("src/main/resources/naacl2010-langid/EuroGov");
@@ -34,15 +37,12 @@ public class Predictor {
     			correct++;
     		} else {
     			wrong++;
-    			//Language lang = languages.get(file.getName().substring(0, 2));
-        		//int realDistance = lang.getDistance(doc);
-    			//System.out.println("Distance: " + distance + " from lang: " + langId + ", but should be: " + lang.getId() +" ("+ realDistance+") DIFF: " + Math.abs(realDistance-distance) );
     		}
     	}
-    	System.out.println("correct: " + new Double(correct)/(correct+wrong) + "% (" + correct + "/"+(correct+wrong)+")");
+    	System.out.println("correct: " + new Double(correct)/(correct+wrong)*100 + "% (" + correct + "/"+(correct+wrong)+")");
     }
 	
-	private static void makePredictions(Map<String, Language> languages){
+	public static void predictWikipedia(Map<String, Language> languages){
     	int correct = 0;
     	int wrong = 0;
     	File directory = new File("src/main/resources/naacl2010-langid/Wikipedia");
@@ -63,12 +63,9 @@ public class Predictor {
     			correct++;
     		} else {
     			wrong++;
-    			Language lang = languages.get(file.getName().substring(0, 2));
-        		int realDistance = lang.getDistance(doc);
-    			System.out.println("Distance: " + distance + " from lang: " + langId + ", but should be: " + lang.getId() +" ("+ realDistance+") DIFF: " + Math.abs(realDistance-distance) );
     		}
     	}
-    	System.out.println("correct: " + new Double(correct)/(correct+wrong) + "% (" + correct + "/"+(correct+wrong)+")");
+    	System.out.println("correct: " + new Double(correct)/(correct+wrong)*100 + "% (" + correct + "/"+(correct+wrong)+")");
     }
 	
 }

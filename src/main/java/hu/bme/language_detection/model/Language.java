@@ -1,4 +1,6 @@
-package language_detection;
+package hu.bme.language_detection.model;
+
+import hu.bme.language_detection.Main;
 
 import java.util.HashMap;
 import java.util.List;
