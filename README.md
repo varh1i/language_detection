@@ -2,8 +2,12 @@ language_detection
 ==================
 
 Detects language of text files from different languages.
+
+
 Creates language profiles from text files of different languages then predict the language of each document by comparing the distance of the document to all language profiles.
-Not production quality but does the works very well. :)
+Not production quality but does the work very well. :)
+
+Info about used datasource: language_detection/src/main/resources/naacl2010-langid/README.txt
 
 Output: 
 ```bash
