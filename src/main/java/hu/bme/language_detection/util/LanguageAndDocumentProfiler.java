@@ -75,15 +75,15 @@ public class LanguageAndDocumentProfiler {
     				if (mostFreqList.get(i).getFrequency() < occurence) {
     					mostFreqList.add(i, new NGram(key, occurence));
     					notAdded=false;
+    					if(mostFreqList.size()>numOfMostFrequent){
+    						mostFreqList.remove(numOfMostFrequent);
+    					}
     				} 
     			}
 				if(notAdded && mostFreqList.size()<numOfMostFrequent){
 					mostFreqList.add(new NGram(key, occurence));
 				}
 			}
-        }
-        while(mostFreqList.size()>numOfMostFrequent){
-        	mostFreqList.remove(mostFreqList.size()-1);
         }
         return mostFreqList;
 	}
