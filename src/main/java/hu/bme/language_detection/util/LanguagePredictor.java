@@ -1,5 +1,6 @@
 package hu.bme.language_detection.util;
 
+import hu.bme.language_detection.Main;
 import hu.bme.language_detection.model.Document;
 import hu.bme.language_detection.model.Language;
 
@@ -27,7 +28,7 @@ public class LanguagePredictor {
     		Document doc = new Document(text);
     		for(String languageId: languages.keySet()){
         		Language lang = languages.get(languageId);
-        		int tmpDistance = lang.getDistance(doc);
+        		int tmpDistance = getDistance(lang, doc);
         		if(tmpDistance < distance){
         			distance = tmpDistance;
         			langId = lang.getId();
@@ -53,7 +54,7 @@ public class LanguagePredictor {
     		Document doc = new Document(ReaderUtil.readFile(file));
     		for(String languageId: languages.keySet()){
         		Language lang = languages.get(languageId);
-        		int tmpDistance = lang.getDistance(doc);
+        		int tmpDistance = getDistance(lang, doc);
         		if(tmpDistance < distance){
         			distance = tmpDistance;
         			langId = lang.getId();
@@ -68,4 +69,18 @@ public class LanguagePredictor {
     	System.out.println("correct: " + new Double(correct)/(correct+wrong)*100 + "% (" + correct + "/"+(correct+wrong)+")");
     }
 	
+	private static int getDistance(Language lang, Document document){
+		Map<String, Integer> positions = document.getPositions();
+		int distance = 0;
+		for(String ngram: positions.keySet()){
+			Integer position;
+			if((position = lang.getPositions().get(ngram))!=null){
+				distance += Math.abs(position-positions.get(ngram));
+			}else{
+				distance += Main.NUM_OF_MOST_FREQ_TERMS;
+			}
+			
+		}
+		return distance;
+	}
 }

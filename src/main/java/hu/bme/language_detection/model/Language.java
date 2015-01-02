@@ -1,6 +1,5 @@
 package hu.bme.language_detection.model;
 
-import hu.bme.language_detection.Main;
 import hu.bme.language_detection.util.LanguageAndDocumentProfiler;
 
 import java.util.HashMap;
@@ -22,23 +21,11 @@ public class Language {
 		positions = LanguageAndDocumentProfiler.createPositions(mostFreq);
 	}
 	
-	public int getDistance(Document document){
-		Map<String, Integer> positions = document.getPositions();
-		int distance = 0;
-		for(String ngram: positions.keySet()){
-			Integer position;
-			if((position = this.positions.get(ngram))!=null){
-				distance += Math.abs(position-positions.get(ngram));
-			}else{
-				distance += Main.NUM_OF_MOST_FREQ_TERMS;
-			}
-			
-		}
-		return distance;
-	}
-	
 	public String getId() {
 		return id;
 	}
 	
+	public Map<String, Integer> getPositions() {
+		return this.positions;
+	}
 }
