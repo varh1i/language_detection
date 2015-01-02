@@ -5,8 +5,8 @@ package hu.bme.language_detection.model;
  */
 public class NGram {
 
-	String text;
-	Integer frequency;
+	private String text;
+	private Integer frequency;
 
 	public NGram(String text, Integer frequency){
 		this.text = text;

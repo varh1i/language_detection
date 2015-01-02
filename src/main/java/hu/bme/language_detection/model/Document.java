@@ -12,12 +12,10 @@ import java.util.Map;
  */
 public class Document {
 
-	private String text;
 	private Map<String, Integer> positions = new HashMap<String, Integer>();
 	
 	public Document(String text){
-		this.text = text;
-		List<NGram> mostFreq = LanguageAndDocumentProfiler.getMostFrequentTerms(Main.MAX_NGRAM_SIZE, Main.NUM_OF_MOST_FREQ_TERMS, this.text);
+		List<NGram> mostFreq = LanguageAndDocumentProfiler.getMostFrequentTerms(Main.MAX_NGRAM_SIZE, Main.NUM_OF_MOST_FREQ_TERMS, text);
 		this.positions = LanguageAndDocumentProfiler.createPositions(mostFreq);
 	}
 	

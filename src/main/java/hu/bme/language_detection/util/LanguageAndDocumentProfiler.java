@@ -1,6 +1,5 @@
 package hu.bme.language_detection.util;
 
-import hu.bme.language_detection.Main;
 import hu.bme.language_detection.model.Language;
 import hu.bme.language_detection.model.NGram;
 
@@ -59,8 +58,7 @@ public class LanguageAndDocumentProfiler {
 	}
 	
 	private static void createLanguage(String id, String text){
-        List<NGram> mostFreqList = getMostFrequentTerms(Main.MAX_NGRAM_SIZE, Main.NUM_OF_MOST_FREQ_TERMS, text);
-        languages.put(id, new Language(id, mostFreqList));
+        languages.put(id, new Language(id, text));
     }
 	
 	public static List<NGram> getMostFrequentTerms(int maxNGramSize, int numOfMostFrequent, String text){
@@ -77,15 +75,15 @@ public class LanguageAndDocumentProfiler {
     				if (mostFreqList.get(i).getFrequency() < occurence) {
     					mostFreqList.add(i, new NGram(key, occurence));
     					notAdded=false;
-    					if(mostFreqList.size()>numOfMostFrequent){
-    						mostFreqList.remove(numOfMostFrequent);
-    					}
     				} 
     			}
 				if(notAdded && mostFreqList.size()<numOfMostFrequent){
 					mostFreqList.add(new NGram(key, occurence));
 				}
 			}
+        }
+        while(mostFreqList.size()>numOfMostFrequent){
+        	mostFreqList.remove(mostFreqList.size()-1);
         }
         return mostFreqList;
 	}
